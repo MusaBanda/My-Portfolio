@@ -38,7 +38,7 @@ const Navbar = () => {
                 <ul className='absolute top-4 left-1/2 transform -translate-x-1/2 
                 flex gap-6 list-none bg-white px-12 py-3 rounded-full 
                 shadow-sm bg-opacity-80 border-2 border-gray-400' 
-                style={{ padding: '1rem', marginLeft:'5rem',  marginRight: '1rem', marginTop:'0rem', marginBottom:'0rem'}} >
+                style={{ padding: '1rem', border:'1px solid white',backgroundColor: 'white', marginLeft:'5rem',  marginRight: '1rem', marginTop:'0rem', marginBottom:'0rem'}} >
                 <li><a className='font-Ovo text-[40px] no-underline' style={{ padding: '1rem',color: '#FF5733',}}  href='#top'>Home</a></li>
                 <li><a className='font-Ovo text-[40px] no-underline' style={{ padding: '1rem',color: '#FF5733',}}  href='about'>About Me</a></li>
                 <li><a className='font-Ovo text-[40px] no-underline' style={{ padding: '1rem',color: '#FF5733',}}  href='#services'>Services</a></li>
