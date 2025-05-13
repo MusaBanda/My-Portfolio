@@ -43,7 +43,7 @@ const Contact = () => {
     >
       <div className="w-full max-w-5xl mx-auto">
         <h2 className={`text-[33px] ${ovo.className} font-bold mb-2 mt-6`}
-        style={{marginTop:'-10rem'}}>Connect with me</h2>
+        style={{marginTop:'-3rem'}}>Connect with me</h2>
         <h4 className={`text-[70px] ${ovo.className}`}
         style={{marginTop:'-0rem'}}>Get in touch</h4>
         <p className={`text-[30px] ${ovo.className} mb-12 -mt-8`}
@@ -69,7 +69,7 @@ const Contact = () => {
 
           <textarea
             placeholder="Enter your message" required
-            className="text-[30px] p-6 rounded-xl w-full h-[300px] resize-none bg-white" name='message'
+            className="text-[30px] p-6 rounded-xl w-full h-[360px] resize-none bg-white" name='message'
             style={{ borderRadius:'1rem', marginBottom:'6rem',}}
           ></textarea>
 
@@ -82,7 +82,7 @@ const Contact = () => {
             style={{borderRadius:'2rem', color:'white', background:'black', marginRight:'1rem', 
             width:'10rem', height:'5rem', marginBottom:'-10rem',}}>Reset</button>
           </div>
-          <p className='text-[30px] mt-4'>{result}</p>
+          <p className='text-[30px] mt-4' style={{margin:'5rem'}}>{result}</p>
         </form>
       </div>
     </div>

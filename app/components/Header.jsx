@@ -34,7 +34,7 @@ day and excited to grow.
 
       <div className='flex flex-col-2 items-center'>
         <a 
-          href="#contact" 
+          href="contact" 
           className={`text-[30px] no-underline text-bold ${roboto.className}`}
           onClick={handleContactClick}
           aria-label="Contact Us"

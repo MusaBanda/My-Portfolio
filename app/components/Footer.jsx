@@ -20,9 +20,9 @@ function footer() {
             <p style={{marginTop:'5rem'}}>© 2025 Mthimkhulu Musa. All rights reserved.</p>
             <ul className='list-none text-[50px] '
             style={{ display: 'flex', gap: '2rem', marginLeft:'-5rem',  marginRight: '1rem', marginBottom:'5rem'}}>
-                <li ><a target='_blank' href="">Github</a></li>
-                <li ><a target='_blank' href="">Instagram</a></li>
-                <li ><a target='_blank' href="">Facebook</a></li>
+                <li ><a target='_blank' href="https://github.com/MusaBanda">Github</a></li>
+                <li ><a target='_blank' href="https://instagram.com/@musa_banda_kamthimkhulu/">Instagram</a></li>
+                <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">Facebook</a></li>
             </ul>
         </div>
     </div>

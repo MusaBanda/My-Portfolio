@@ -21,12 +21,13 @@ export const ovo = Ovo({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth dark">
       <head>
         <title>Portfolio</title>
         <meta name="description" content="" />
       </head>
-      <body className={`${outfit.className} antialiased leading-8 overflow-x-hidden`}>
+      <body className={`${outfit.className} antialiased leading-8 overflow-x-hidden 
+      dark:bg-darkTheme `}>
         {children}
       </body>
     </html>

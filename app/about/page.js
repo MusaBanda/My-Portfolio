@@ -22,7 +22,7 @@ const About = () => {
       <div className="-mx-[0px] -my-[1px] w-full flex">
         <div className="w-64 sm:w-80 rounded-xl max-w-none">
           <Image 
-            src={assets.mypic} 
+            src={assets.about_pic} 
             alt="" 
             style={{ marginLeft: '9rem', marginRight: '5rem', marginTop: '11rem', borderRadius: '3rem'}}
             width={500} 
