@@ -1,5 +1,7 @@
-import { Outfit, Ovo, Roboto} from "next/font/google";
+import { Outfit, Ovo, Roboto, } from "next/font/google";
 import "./globals.css";
+
+
 
 export const roboto = Roboto({
   subsets: ["latin"],

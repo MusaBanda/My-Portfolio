@@ -36,7 +36,7 @@ const Contact = () => {
     <div
       className="text-center flex items-center justify-center min-h-screen px-4"
       style={{
-        background: 'linear-gradient(135deg, rgba(221, 236, 247, 0.41), rgba(240, 237, 226, 0.4), rgba(245, 177, 230, 0.4))',
+        background: 'linear-gradient(135deg, rgba(114, 193, 250, 0.41), rgba(240, 237, 226, 0.4), rgba(245, 177, 230, 0.4))',
         backgroundColor: 'white',
         boxShadow: '0px 4px 20px rgba(116, 74, 74, 0.1)',
       }}
