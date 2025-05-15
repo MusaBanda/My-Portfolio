@@ -24,22 +24,22 @@ const About = () => {
           <Image 
             src={assets.about_pic} 
             alt="" 
-            style={{ marginLeft: '9rem', marginRight: '5rem', marginTop: '11rem', borderRadius: '3rem'}}
+            style={{ marginLeft: '3rem', marginRight: '5rem', marginTop: '11rem', borderRadius: '3rem'}}
             width={250} 
             height={400} 
           />
         </div>
 
         <div className="flex flex-col">
-          <p className="sm:text-[18px] md:text-[25px] lg:text-[40px] " style={{ marginLeft: '5rem', marginRight: '5rem', marginBottom: '5rem'}}></p>
+          <p className="sm:text-[18px] md:text-[25px] lg:text-[40px] " style={{ marginLeft: '0rem', marginRight: '5rem', marginBottom: '5rem'}}></p>
 
-          <p className={`sm:text-[18px] md:text-[25px] lg:text-[40px] text-justify ${ovo.className}`} style={{ marginLeft: '8rem', marginRight: '27rem', marginBottom: '5rem' }}>
+          <p className={`sm:text-[18px] md:text-[25px] lg:text-[40px] text-justify ${ovo.className}`} style={{ marginLeft: '0rem', marginRight: '27rem', marginBottom: '5rem' }}>
             I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React. 
             I create clean, responsive websites, focusing on both function and design. I enjoy building interactive 
             digital experiences that people love using.
           </p>
 
-          <ul className="flex gap-6 overflow-x-auto list-none p-0 m-0" style={{ marginLeft: '5rem', marginRight: '5rem' }}>
+          <ul className="flex gap-6 overflow-x-auto list-none p-0 m-0" style={{ marginLeft: '-4em', marginRight: '5rem' }}>
             {infoList.map(({ icon, title, description }, index) => {
               const isHovered = hoveredIndex === index;
               return (
@@ -58,7 +58,7 @@ const About = () => {
                     transition: 'all 0.3s ease',
                   }}
                 >
-                  <Image src={icon} alt={title} className="mt-3" />
+                  <Image src={icon} alt={title} width={30} className="mt-3" />
                   <h3 className="sm:text-[11px] md:text-[18px] lg:text-[20px]  text-gray-700">{title}</h3>
                   <p className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600">{description}</p>
                 </li>
@@ -66,11 +66,11 @@ const About = () => {
             })}
           </ul>
 
-          <p4 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] text-justify ${ovo.className}`} style={{ marginLeft: '8rem', marginTop: '4rem' }}>
+          <p4 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] text-justify ${ovo.className}`} style={{ marginLeft: '0rem', marginTop: '4rem' }}>
             Tools I Use
           </p4>
 
-          <ul className={`flex items-center gap-3 sm:gap-5 ${ovo.className}`} style={{ marginLeft: '5rem' }}>
+          <ul className={`flex items-center gap-3 sm:gap-5 ${ovo.className}`} style={{ marginLeft: '-3rem' }}>
             {toolsData.map((tool, index) => {
               const isHovered = hoveredToolIndex === index;
               return (
@@ -79,7 +79,7 @@ const About = () => {
                   onMouseEnter={() => setHoveredToolIndex(index)}
                   onMouseLeave={() => setHoveredToolIndex(null)}
                   style={{
-                     padding: '-2rem', minWidth: '1px',                 
+                     padding: '1rem', minWidth: '1px',                 
                     border: '5px solid #ccc',borderRadius: '6rem',                   
                     marginLeft: '1rem', marginRight: '2rem',marginTop: '2rem',                    
                     flexShrink: 0,cursor: 'pointer',                    
@@ -89,7 +89,7 @@ const About = () => {
                   }}
                   className="flex items-center justify-center w-12 sm:w-14 aspect-square"
                 >
-                  <Image src={tool} alt="tool" className="w-5" />
+                  <Image src={tool} alt="tool" width={30} />
                 </li>
               );
             })}
