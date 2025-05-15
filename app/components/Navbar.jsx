@@ -56,7 +56,7 @@ const Navbar = () => {
                 style={{
                 padding: '1rem', color: 'black', marginTop:'1.5rem',
                 border: '2px solid #ccc', borderRadius: '2rem',
-                marginLeft: '0.5rem', marginRight: '4rem',
+                marginLeft: '0.5rem', marginRight: '1rem',
                 }} 
                 >CONTACT<Image src={assets.arrow_icon}
                     alt='' width={15} height={15} style={{ marginLeft:'1rem',}}/> </a>

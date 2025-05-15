@@ -26,8 +26,8 @@ const Header = () => {
       </div>
       
       <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>Hi I am Musa Dick Banda <Image src={assets.hand_icon}/></h3>
-      <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>Front end web developer based South Africa</h1>
-      <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>
+      <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}style={{marginLeft:'20rem', marginRight:'20rem'}}>Front end web developer based South Africa</h1>
+      <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`} style={{marginLeft:'20rem', marginRight:'20rem'}}>
 I'm a beginner front-end web developer, just starting out on my journey. I may not have experience yet, but I'm learning every 
 day and excited to grow.
       </p>
@@ -45,7 +45,7 @@ day and excited to grow.
             color: isContactClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', background:'#000', color: 'white'
           }}
-        > CONTACT ME <Image src={assets.phone_icon} width={30} height={30} 
+        > CONTACT ME <Image src={assets.phone_icon} width={15} height={15} 
             style={{
               marginLeft: '1rem', marginTop: '-1rem', marginBottom: '-1rem'
             }} 
@@ -67,7 +67,7 @@ day and excited to grow.
           MY RESUME
           <Image 
             src={assets.download_icon} 
-            width={25} height={20}
+            width={12.5} height={10}
             style={{
               marginLeft: '1rem', marginTop: '0rem', marginBottom: '-1rem',
             }} 
