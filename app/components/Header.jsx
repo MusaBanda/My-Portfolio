@@ -25,9 +25,9 @@ const Header = () => {
           style={{ marginLeft: '24rem', marginRight: '27rem', marginBottom: '-2rem', marginTop: '9rem' }} />
       </div>
       
-      <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}style={{marginBottom:'-1rem'}}>Hi I am Musa Dick Banda <Image src={assets.hand_icon}/></h3>
-      <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}style={{marginLeft:'40rem', marginRight:'40rem'}}>Front end web developer based South Africa</h1>
-      <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`} style={{marginLeft:'40rem', marginRight:'40rem', marginTop:'-1rem'}}>
+      <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>Hi I am Musa Dick Banda <Image src={assets.hand_icon}/></h3>
+      <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>Front end web developer based South Africa</h1>
+      <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>
 I'm a beginner front-end web developer, just starting out on my journey. I may not have experience yet, but I'm learning every 
 day and excited to grow.
       </p>
