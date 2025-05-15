@@ -25,5 +25,6 @@ export default {
             gridTamplateColums:{}
           },
         },
+        darkMode: 'selector',
     plugins: [],
 };

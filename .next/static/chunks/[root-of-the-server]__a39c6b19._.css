@@ -548,8 +548,8 @@
   height: 40rem;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-\[360px\] {
+  height: 360px;
 }
 
 .h-screen {
@@ -630,10 +630,6 @@
   align-items: center;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -668,11 +664,6 @@
   border-width: 2px;
 }
 
-.border-\[1px\] {
-  border-style: var(--tw-border-style);
-  border-width: 1px;
-}
-
 .border-t {
   border-top-style: var(--tw-border-style);
   border-top-width: 1px;
@@ -705,16 +696,8 @@
   --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
 }
 
-.object-contain {
-  object-fit: contain;
-}
-
 .object-cover {
   object-fit: cover;
-}
-
-.px-\[12\%\] {
-  padding-inline: 12%;
 }
 
 .text-center {
@@ -723,6 +706,10 @@
 
 .text-justify {
   text-align: justify;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[20px\] {
@@ -753,16 +740,20 @@
   font-size: 50px;
 }
 
-.text-\[60px\] {
-  font-size: 60px;
-}
-
 .text-\[70px\] {
   font-size: 70px;
 }
 
 .text-\[80px\] {
   font-size: 80px;
+}
+
+.text-\[90px\] {
+  font-size: 90px;
+}
+
+.text-\[px\] {
+  color: px;
 }
 
 .lowercase {
