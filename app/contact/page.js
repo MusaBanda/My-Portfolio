@@ -43,7 +43,7 @@ const Contact = () => {
     >
       <div className="w-full max-w-5xl mx-auto">
         <h3 className={`sm:text[18px] md:text[18px] lg:text-[30px] ${ovo.className} font-bold mb-2 mt-6`}
-        style={{marginTop:'-3rem'}}>Connect with me</h3>
+        style={{marginTop:'30rem'}}>Connect with me</h3>
         <h1 className={`sm:text[18px] md:text[30px] lg:text-[60px] ${ovo.className}`}
         style={{marginTop:'-1rem'}}>Get in touch</h1>
         <p className={`sm:text[18px] md:text[18px] lg:text-[30px] ${ovo.className} mb-12 -mt-8`}
@@ -52,18 +52,18 @@ const Contact = () => {
         </p>
 
         <form onSubmit={onSubmit} className="flex flex-col gap-6 px-4" 
-          style={{maxWidth:'700px', margin:'0 auto', maxHeight:'80rem',}}>
+          style={{maxWidth:'600px', margin:'0 auto', maxHeight:'60rem',}}>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
             <input type="text" placeholder="Enter your name" required
               className="text-[30px] p-4 rounded-xl w-full" name='name'
               style={{ borderRadius:'1rem', marginBottom:'3rem', marginRight:'1rem', 
-                marginTop:'5rem', height:'4rem', }}
+                marginTop:'5rem', height:'3rem', }}
             />
             <input
               type="email"  placeholder="Enter your email" required
               className="text-[30px] p-4 rounded-xl w-full" name='email'
               style={{ borderRadius:'1rem', marginBottom:'3rem', marginleft:'1rem', 
-                marginTop:'5rem', height:'4rem', }}
+                marginTop:'5rem', height:'3rem', }}
             />
           </div>
 
