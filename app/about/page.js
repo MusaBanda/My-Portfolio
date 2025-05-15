@@ -24,16 +24,16 @@ const About = () => {
           <Image 
             src={assets.about_pic} 
             alt="" 
-            style={{ marginLeft: '3rem', marginRight: '5rem', marginTop: '11rem', borderRadius: '3rem'}}
+            style={{ marginLeft: '3rem', marginRight: '5rem', marginTop: '7rem', borderRadius: '3rem'}}
             width={250} 
             height={400} 
           />
         </div>
 
         <div className="flex flex-col">
-          <p className="sm:text-[18px] md:text-[25px] lg:text-[40px] " style={{ marginLeft: '0rem', marginRight: '5rem', marginBottom: '5rem'}}></p>
+          <p className="sm:text-[18px] md:text-[25px] lg:text-[40px] " style={{ marginLeft: '0rem', marginRight: '5rem', marginBottom: '5rem', margintop: '7rem'}}></p>
 
-          <p className={`sm:text-[18px] md:text-[25px] lg:text-[40px] text-justify ${ovo.className}`} style={{ marginLeft: '0rem', marginRight: '27rem', marginBottom: '5rem' }}>
+          <p className={`sm:text-[18px] md:text-[25px] lg:text-[40px] text-justify ${ovo.className}`} style={{ marginLeft: '0rem', marginRight: '15rem', marginBottom: '5rem' }}>
             I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React. 
             I create clean, responsive websites, focusing on both function and design. I enjoy building interactive 
             digital experiences that people love using.
