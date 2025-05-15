@@ -21,13 +21,13 @@ const Header = () => {
   return (
     <div className='flex flex-col items-center justify-center h-screen text-center gap-4 px-5 lg:px-8 xl:px-[8%] bg-gradient-to-b from-[#f9f9f9] to-[#fff]'>
       <div>
-        <Image src={assets.mypic} width={300} height={300} alt='' className='rounded-full w-32'
+        <Image src={assets.mypic} width={160} height={160} alt='' className='rounded-full '
           style={{ marginLeft: '24rem', marginRight: '27rem', marginBottom: '-2rem', marginTop: '9rem' }} />
       </div>
       
-      <h3 className={`text-[50px] font-bold ${ovo.className}`}style={{marginBottom:'-1rem'}}>Hi I am Musa Dick Banda <Image src={assets.hand_icon}/></h3>
-      <h1 className={`text-[90px] font-bold ${ovo.className}`}style={{marginLeft:'40rem', marginRight:'40rem'}}>Front end web developer based South Africa</h1>
-      <p className={`text-[30px] font-bold ${ovo.className}`} style={{marginLeft:'40rem', marginRight:'40rem', marginTop:'-1rem'}}>
+      <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}style={{marginBottom:'-1rem'}}>Hi I am Musa Dick Banda <Image src={assets.hand_icon}/></h3>
+      <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}style={{marginLeft:'40rem', marginRight:'40rem'}}>Front end web developer based South Africa</h1>
+      <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`} style={{marginLeft:'40rem', marginRight:'40rem', marginTop:'-1rem'}}>
 I'm a beginner front-end web developer, just starting out on my journey. I may not have experience yet, but I'm learning every 
 day and excited to grow.
       </p>
@@ -35,7 +35,7 @@ day and excited to grow.
       <div className='flex flex-col-2 items-center'>
         <a 
           href="contact" 
-          className={`text-[30px] no-underline text-bold ${roboto.className}`}
+          className={`sm:text-[18px] md:text-[20px] lg:text-[30px]  no-underline text-bold ${roboto.className}`}
           onClick={handleContactClick}
           aria-label="Contact Us"
           style={{
@@ -45,7 +45,7 @@ day and excited to grow.
             color: isContactClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', background:'#000', color: 'white'
           }}
-        > CONTACT ME <Image src={assets.phone_icon} width={60} height={60} 
+        > CONTACT ME <Image src={assets.phone_icon} width={30} height={30} 
             style={{
               marginLeft: '1rem', marginTop: '-1rem', marginBottom: '-1rem'
             }} 
@@ -53,7 +53,7 @@ day and excited to grow.
         </a>
 
         <a 
-          href="/cv.pdf" download className={`text-[33px] no-underline ${roboto.className}`}
+          href="/cv.pdf" download className={`sm:text-[18px] md:text-[20px] lg:text-[30px]  no-underline ${roboto.className}`}
           onClick={handleResumeClick}
           aria-label="Download My Resume"
           style={{
@@ -67,7 +67,7 @@ day and excited to grow.
           MY RESUME
           <Image 
             src={assets.download_icon} 
-            width={50} height={40}
+            width={25} height={20}
             style={{
               marginLeft: '1rem', marginTop: '0rem', marginBottom: '-1rem',
             }} 

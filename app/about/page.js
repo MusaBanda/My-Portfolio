@@ -12,7 +12,7 @@ const About = () => {
   const [hoveredToolIndex, setHoveredToolIndex] = useState(null);
 
   return (
-    <div id="it" className={`px-5 py-4 ${ovo.className}`}>
+    <div id="it" className={`px-5 py-4 items-center justify-center ${ovo.className}`}>
       
       <div className="text-center mb-10">
         <h4 className={`text-[40px] ${ovo.className}`}>Introduction</h4>

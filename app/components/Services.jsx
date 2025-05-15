@@ -10,8 +10,8 @@ const Services = () => {
   const [hoveredToolIndex, setHoveredToolIndex] = useState(null);
     return (
         <div id="services" className="text-center mb-10 scroll-smooth">
-        <h4 className={`text-[40px] font-bold ${ovo.className}`}>What I offer</h4>
-        <h2 className={`text-[80px] ${ovo.className}`}>My Services</h2>
+        <h4 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] font-bold ${ovo.className}`}>What I offer</h4>
+        <h2 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>My Services</h2>
         <p></p>
 
         <div className='grid grid-cols-4 gap-4 my-10'>
@@ -33,12 +33,12 @@ const Services = () => {
                     transition: 'all 0.3s ease',
                     }}
                 >
-      <Image src={icon} alt='' width={40} height={40} />
-      <h3 className={`text-[30px] ${roboto.className}`}>{title}</h3>
-      <p className={`text-[22px] ${ovo.className}`}>{description}</p>
-      <a href={link} className={`items-center gap-2 text-[30px] mt-5 ${roboto.className}`}>
+      <Image src={icon} alt='' width={20} height={20} />
+      <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${roboto.className}`}>{title}</h3>
+      <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>{description}</p>
+      <a href={link} className={`items-center gap-2 sm:text-[18px] md:text-[20px] lg:text-[30px] mt-5 ${roboto.className}`}>
         read more
-        <Image src={assets.right_arrow} alt='' width={26} height={26} />
+        <Image src={assets.right_arrow} alt='' width={13} height={13} />
       </a>
     </div>
   );
