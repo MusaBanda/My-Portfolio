@@ -52,18 +52,18 @@ const Contact = () => {
         </p>
 
         <form onSubmit={onSubmit} className="flex flex-col gap-6 px-4" 
-          style={{maxWidth:'1000px', margin:'0 auto'}}>
+          style={{maxWidth:'700px', margin:'0 auto', maxHeight:'80rem',}}>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
             <input type="text" placeholder="Enter your name" required
               className="text-[30px] p-4 rounded-xl w-full" name='name'
               style={{ borderRadius:'1rem', marginBottom:'3rem', marginRight:'1rem', 
-                marginTop:'5rem', height:'7rem', }}
+                marginTop:'5rem', height:'4rem', }}
             />
             <input
               type="email"  placeholder="Enter your email" required
               className="text-[30px] p-4 rounded-xl w-full" name='email'
               style={{ borderRadius:'1rem', marginBottom:'3rem', marginleft:'1rem', 
-                marginTop:'5rem', height:'7rem', }}
+                marginTop:'5rem', height:'4rem', }}
             />
           </div>
 
