@@ -1225,17 +1225,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$
 ;
 function footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: " mt-20 bg-[#ffe6e6] fill w-full h-[40rem]",
+        className: " mt-20 bg-[#ffe6e6] fill w-full h-[20rem]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].logo_white,
+                        height: 100,
+                        width: 600,
                         alt: "",
                         className: "w-16 mx-auto mb-2",
                         style: {
-                            marginTop: '2rem'
+                            marginTop: '2rem',
+                            marginBottom: '-1rem'
                         }
                     }, void 0, false, {
                         fileName: "[project]/app/components/Footer.jsx",
@@ -1245,8 +1248,8 @@ function footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: " sm:text-[18px] md:text-[20px] lg:text-[30px]  w-max flex items-center gap-2 mx-auto mb-2   ",
                         style: {
-                            marginTop: '3rem',
-                            marginBottom: '0rem'
+                            marginTop: '2rem',
+                            marginBottom: '1rem'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1276,7 +1279,7 @@ function footer() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         style: {
-                            marginTop: '5rem'
+                            marginTop: '2rem'
                         },
                         children: "© 2025 Mthimkhulu Musa. All rights reserved."
                     }, void 0, false, {
@@ -1290,8 +1293,8 @@ function footer() {
                             display: 'flex',
                             gap: '2rem',
                             marginLeft: '-5rem',
-                            marginRight: '1rem',
-                            marginBottom: '5rem'
+                            marginRight: '0.5rem',
+                            marginBottom: '0rem'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1756,7 +1759,7 @@ const Navbar = ()=>{
                                 style: {
                                     marginLeft: '2.5rem',
                                     marginRight: '0.5rem',
-                                    marginTop: '1.5rem'
+                                    marginTop: '0.5rem'
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Navbar.jsx",
@@ -1769,7 +1772,8 @@ const Navbar = ()=>{
                                 style: {
                                     padding: '1rem',
                                     color: 'black',
-                                    marginTop: '1.5rem',
+                                    marginTop: '0.8rem',
+                                    marginBottom: '0.5rem',
                                     border: '2px solid #ccc',
                                     borderRadius: '2rem',
                                     marginLeft: '0.5rem',
