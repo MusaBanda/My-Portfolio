@@ -48,7 +48,7 @@ const About = () => {
                   onMouseEnter={() => setHoveredIndex(index)}
                   onMouseLeave={() => setHoveredIndex(null)}
                   style={{
-                    minWidth: '300px', padding: '3rem',
+                    minWidth: '150px', padding: '1rem',
                     border: '1px solid #ccc', borderRadius: '2rem',
                     marginLeft: '1rem', marginRight: '1rem',
                     flexShrink: 0, cursor: 'pointer',
@@ -58,9 +58,9 @@ const About = () => {
                     transition: 'all 0.3s ease',
                   }}
                 >
-                  <Image src={icon} alt={title} className="w-1 mt-3" />
-                  <h3 className="text-[25px] text-gray-700">{title}</h3>
-                  <p className="text-[20px] text-gray-600">{description}</p>
+                  <Image src={icon} alt={title} className="mt-3" />
+                  <h3 className="sm:text-[11px] md:text-[18px] lg:text-[20px]  text-gray-700">{title}</h3>
+                  <p className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600">{description}</p>
                 </li>
               );
             })}
@@ -79,8 +79,8 @@ const About = () => {
                   onMouseEnter={() => setHoveredToolIndex(index)}
                   onMouseLeave={() => setHoveredToolIndex(null)}
                   style={{
-                    minWidth: '1px', padding: '1rem',                  
-                    border: '5px solid #ccc',borderRadius: '5rem',                   
+                     padding: '-2rem', minWidth: '1px',                 
+                    border: '5px solid #ccc',borderRadius: '6rem',                   
                     marginLeft: '1rem', marginRight: '2rem',marginTop: '2rem',                    
                     flexShrink: 0,cursor: 'pointer',                    
                     transition: 'all 0.3s ease',
