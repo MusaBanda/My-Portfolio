@@ -43,7 +43,7 @@ const Contact = () => {
     >
       <div className="w-full max-w-5xl mx-auto">
         <h3 className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className} font-bold mb-2 mt-6`}
-        style={{marginTop:'0rem'}}>Connect with me</h3>
+        style={{marginTop:'3rem'}}>Connect with me</h3>
         <h1 className={`sm:text[18px] md:text[30px] font-bold lg:text-[60px] ${ovo.className}`}
         style={{marginTop:'1rem'}}>Get in touch</h1>
         <p className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className} mb-12 -mt-8`}
