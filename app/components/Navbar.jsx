@@ -33,12 +33,12 @@ const Navbar = () => {
             <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  
                 ${isScroll ? "bg-[#ffe6e6] bg-opacity-50 backgrop-blur-lg shadow-sm" : ""} `}>    
                 <h1 className={`sm:text-[30px] md:text-[60px] lg:text-[120px] font-bold ${roboto.className}`}
-                style={{ padding: '16px', color: 'black', marginLeft:'80px', marginRight: '0px', marginTop:'48px', marginBottom:'0px' }}>
+                style={{ padding: '16px', color: 'black', }}>
                 MusaBanda<span style={{ color: 'red' }}>.</span>
                 </h1>
                 <ul className='absolute top-4 left-1/2 transform -translate-x-1/2 flex gap-6 list-none bg-white px-12 py-3 rounded-full 
                 shadow-sm bg-opacity-80 border-2 border-gray-400' 
-                style={{ padding: '32px', border:'1px solid white', backgroundColor: 'white', marginLeft:'0px', marginRight: '16px', marginTop:'48px', marginBottom:'0px' }} >
+                style={{ padding: '32px', border:'1px solid white', backgroundColor: 'white',}} >
                 <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} style={{ padding: '16px',color: 'black' }}  href='#top'>Home</a></li>
                 <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} style={{ padding: '16px',color: 'black' }}  href='about'>About Me</a></li>
                 <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} style={{ padding: '16px',color: 'black' }}  href='#services'>Services</a></li>
@@ -48,17 +48,16 @@ const Navbar = () => {
                 <div className='flex items-center gap-4'>
 
                    <Image src={assets.moon_icon} alt='moon_icon' width={40} height={40} 
-                    className='cursor-pointer mr-14'
-                    style={{ marginLeft:'80px', marginRight: '16px', marginTop:'48px' }}  />
+                    className='cursor-pointer mr-14'/>
 
                 <a href='contact' className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline bg-[white] ${ovo.className}`}  
                 style={{
-                padding: '32px', color: 'black', marginTop:'48px',
+                padding: '32px', color: 'black', 
                 border: '2px solid #ccc', borderRadius: '32px',
-                marginLeft: '16px', marginRight: '128px',
+                
                 }} 
                 >CONTACT<Image src={assets.arrow_icon}
-                    alt='' width={15} height={15} style={{ marginLeft:'32px', marginTop: '0px' }}/> </a>
+                    alt='' width={15} height={15} /> </a>
 
                     <a href='' className='hidden block md:hidden ml-3' onClick={openMenu}><Image src={assets.menu_black} 
                     alt='' width={40} height={40} /></a>
