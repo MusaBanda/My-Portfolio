@@ -42,17 +42,17 @@ const Contact = () => {
       }}
     >
       <div className="w-full max-w-5xl mx-auto">
-        <h2 className={`text-[33px] ${ovo.className} font-bold mb-2 mt-6`}
-        style={{marginTop:'-3rem'}}>Connect with me</h2>
-        <h4 className={`text-[70px] ${ovo.className}`}
-        style={{marginTop:'-0rem'}}>Get in touch</h4>
-        <p className={`text-[30px] ${ovo.className} mb-12 -mt-8`}
-        style={{marginTop:'-2.5rem'}}>
+        <h3 className={`sm:text[18px] md:text[18px] lg:text-[30px] ${ovo.className} font-bold mb-2 mt-6`}
+        style={{marginTop:'-3rem'}}>Connect with me</h3>
+        <h1 className={`sm:text[18px] md:text[30px] lg:text-[60px] ${ovo.className}`}
+        style={{marginTop:'-1rem'}}>Get in touch</h1>
+        <p className={`sm:text[18px] md:text[18px] lg:text-[30px] ${ovo.className} mb-12 -mt-8`}
+        style={{marginTop:'-1rem'}}>
           I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
         </p>
 
         <form onSubmit={onSubmit} className="flex flex-col gap-6 px-4" 
-          style={{maxWidth:'1500px', margin:'0 auto'}}>
+          style={{maxWidth:'1000px', margin:'0 auto'}}>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
             <input type="text" placeholder="Enter your name" required
               className="text-[30px] p-4 rounded-xl w-full" name='name'
