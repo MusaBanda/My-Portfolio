@@ -308,10 +308,6 @@
   text-align: justify;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -350,10 +346,6 @@
 
 .text-\[90px\] {
   font-size: 90px;
-}
-
-.text-\[px\] {
-  color: px;
 }
 
 .lowercase {
