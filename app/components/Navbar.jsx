@@ -50,11 +50,11 @@ const Navbar = () => {
 
                    <Image src={assets.moon_icon} alt='moon_icon' width={40} height={40} 
                     className='cursor-pointer mr-14'
-                    style={{ marginLeft:'2.5rem',  marginRight: '0.5rem',  marginTop:'1.5rem',}}  />
+                    style={{ marginLeft:'2.5rem',  marginRight: '0.5rem',  marginTop:'0.5rem',}}  />
 
                     <a href='contact' className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline bg-[white] ${ovo.className}`}  
                 style={{
-                padding: '1rem', color: 'black', marginTop:'1.5rem',
+                padding: '1rem', color: 'black', marginTop:'0.8rem', marginBottom:'0.5rem',
                 border: '2px solid #ccc', borderRadius: '2rem',
                 marginLeft: '0.5rem', marginRight: '1rem',
                 }} 
