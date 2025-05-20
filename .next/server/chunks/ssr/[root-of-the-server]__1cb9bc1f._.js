@@ -127,7 +127,7 @@ function RootLayout({ children }) {
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 26,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -135,28 +135,28 @@ function RootLayout({ children }) {
                         content: ""
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 27,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 25,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden 
-      dark:bg-darkTheme `,
+      dark:bg-darkTheme dark:text-white`,
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.js",
-        lineNumber: 24,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -1410,10 +1410,10 @@ function footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].logo_white,
                         height: 100,
-                        width: 600,
                         alt: "",
                         className: "w-16 mx-auto mb-2",
                         style: {
+                            width: 'auto',
                             marginTop: '2rem',
                             marginBottom: '-1rem'
                         }
@@ -1591,9 +1591,9 @@ const Contact = ()=>{
                     className: "w-full max-w-5xl mx-auto",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: `sm:text[18px] md:text[18px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className} font-bold mb-2 mt-6`,
+                            className: `sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className} font-bold mb-2 mt-6`,
                             style: {
-                                marginTop: '-3rem'
+                                marginTop: '3rem'
                             },
                             children: "Connect with me"
                         }, void 0, false, {
@@ -1602,9 +1602,9 @@ const Contact = ()=>{
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: `sm:text[18px] md:text[30px] lg:text-[60px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                            className: `sm:text[18px] md:text[30px] font-bold lg:text-[60px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                             style: {
-                                marginTop: '-1rem'
+                                marginTop: '1rem'
                             },
                             children: "Get in touch"
                         }, void 0, false, {
@@ -1613,9 +1613,9 @@ const Contact = ()=>{
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: `sm:text[18px] md:text[18px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className} mb-12 -mt-8`,
+                            className: `sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className} mb-12 -mt-8`,
                             style: {
-                                marginTop: '-1rem'
+                                marginTop: '1rem'
                             },
                             children: "I am always open to discussing new projects, creative ideas or opportunities to be part of your visions."
                         }, void 0, false, {
@@ -1627,9 +1627,10 @@ const Contact = ()=>{
                             onSubmit: onSubmit,
                             className: "flex flex-col gap-6 px-4",
                             style: {
-                                maxWidth: '700px',
+                                maxWidth: '600px',
                                 margin: '0 auto',
-                                maxHeight: '80rem'
+                                maxHeight: '60rem',
+                                marginTop: '-3rem'
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1646,7 +1647,7 @@ const Contact = ()=>{
                                                 marginBottom: '3rem',
                                                 marginRight: '1rem',
                                                 marginTop: '5rem',
-                                                height: '4rem'
+                                                height: '3rem'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
@@ -1664,7 +1665,7 @@ const Contact = ()=>{
                                                 marginBottom: '3rem',
                                                 marginleft: '1rem',
                                                 marginTop: '5rem',
-                                                height: '4rem'
+                                                height: '3rem'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",

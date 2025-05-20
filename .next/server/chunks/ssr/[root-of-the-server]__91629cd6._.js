@@ -1225,17 +1225,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$
 ;
 function footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: " mt-20 bg-[#ffe6e6] fill w-full h-[40rem]",
+        className: " mt-20 bg-[#ffe6e6] fill w-full h-[20rem]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].logo_white,
+                        height: 100,
                         alt: "",
                         className: "w-16 mx-auto mb-2",
                         style: {
-                            marginTop: '2rem'
+                            width: 'auto',
+                            marginTop: '2rem',
+                            marginBottom: '-1rem'
                         }
                     }, void 0, false, {
                         fileName: "[project]/app/components/Footer.jsx",
@@ -1245,8 +1248,8 @@ function footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: " sm:text-[18px] md:text-[20px] lg:text-[30px]  w-max flex items-center gap-2 mx-auto mb-2   ",
                         style: {
-                            marginTop: '3rem',
-                            marginBottom: '0rem'
+                            marginTop: '2rem',
+                            marginBottom: '1rem'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1276,7 +1279,7 @@ function footer() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         style: {
-                            marginTop: '5rem'
+                            marginTop: '2rem'
                         },
                         children: "© 2025 Mthimkhulu Musa. All rights reserved."
                     }, void 0, false, {
@@ -1290,8 +1293,8 @@ function footer() {
                             display: 'flex',
                             gap: '2rem',
                             marginLeft: '-5rem',
-                            marginRight: '1rem',
-                            marginBottom: '5rem'
+                            marginRight: '0.5rem',
+                            marginBottom: '0rem'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1484,7 +1487,7 @@ function RootLayout({ children }) {
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 26,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1492,28 +1495,28 @@ function RootLayout({ children }) {
                         content: ""
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 27,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 25,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden 
-      dark:bg-darkTheme `,
+      dark:bg-darkTheme dark:text-white`,
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.js",
-        lineNumber: 24,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -1575,8 +1578,16 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$r
 ;
 ;
 const Services = ()=>{
-    const [hoveredIndex, setHoveredIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [hoveredToolIndex, setHoveredToolIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [columns, setColumns] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(1);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const handleResize = ()=>{
+            setColumns(window.innerWidth >= 1024 ? 4 : 1);
+        };
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return ()=>window.removeEventListener("resize", handleResize);
+    }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "services",
         className: "text-center mb-10 scroll-smooth",
@@ -1586,43 +1597,44 @@ const Services = ()=>{
                 children: "What I offer"
             }, void 0, false, {
                 fileName: "[project]/app/components/Services.jsx",
-                lineNumber: 13,
-                columnNumber: 9
+                lineNumber: 25,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                 children: "My Services"
             }, void 0, false, {
                 fileName: "[project]/app/components/Services.jsx",
-                lineNumber: 14,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {}, void 0, false, {
-                fileName: "[project]/app/components/Services.jsx",
-                lineNumber: 15,
-                columnNumber: 9
+                lineNumber: 26,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-4 gap-4 my-10",
+                style: {
+                    display: "grid",
+                    gridTemplateColumns: `repeat(${columns}, 1fr)`,
+                    gap: "1rem",
+                    marginTop: "2.5rem",
+                    marginBottom: "2.5rem"
+                },
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["serviceData"].map(({ icon, title, description, link }, index)=>{
                     const isHovered = hoveredToolIndex === index;
                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         onMouseEnter: ()=>setHoveredToolIndex(index),
                         onMouseLeave: ()=>setHoveredToolIndex(null),
                         style: {
-                            minWidth: '1px',
-                            padding: '3rem',
-                            border: '1px solid #ccc',
-                            borderRadius: '1rem',
-                            marginLeft: '1rem',
-                            marginRight: '1rem',
-                            marginBottom: '2rem',
+                            minWidth: "1px",
+                            padding: "3rem",
+                            border: "1px solid #ccc",
+                            borderRadius: "1rem",
+                            marginLeft: "1rem",
+                            marginRight: "1rem",
+                            marginBottom: "2rem",
                             flexShrink: 0,
-                            cursor: 'pointer',
-                            backgroundColor: isHovered ? '#ebf8ff' : 'white',
-                            boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
-                            transform: isHovered ? 'translateY(-5px)' : 'none',
-                            transition: 'all 0.3s ease'
+                            cursor: "pointer",
+                            backgroundColor: isHovered ? "#ebf8ff" : "white",
+                            boxShadow: isHovered ? "0 4px 12px rgba(0, 0, 0, 0.1)" : "none",
+                            transform: isHovered ? "translateY(-5px)" : "none",
+                            transition: "all 0.3s ease"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1632,24 +1644,24 @@ const Services = ()=>{
                                 height: 20
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Services.jsx",
-                                lineNumber: 36,
-                                columnNumber: 7
+                                lineNumber: 60,
+                                columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$roboto_e88f8a32$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__roboto$3e$__["roboto"].className}`,
                                 children: title
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Services.jsx",
-                                lineNumber: 37,
-                                columnNumber: 7
+                                lineNumber: 61,
+                                columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                 children: description
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Services.jsx",
-                                lineNumber: 38,
-                                columnNumber: 7
+                                lineNumber: 62,
+                                columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: link,
@@ -1663,32 +1675,32 @@ const Services = ()=>{
                                         height: 13
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Services.jsx",
-                                        lineNumber: 41,
-                                        columnNumber: 9
+                                        lineNumber: 68,
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Services.jsx",
-                                lineNumber: 39,
-                                columnNumber: 7
+                                lineNumber: 63,
+                                columnNumber: 15
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/app/components/Services.jsx",
-                        lineNumber: 21,
-                        columnNumber: 21
+                        lineNumber: 40,
+                        columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/app/components/Services.jsx",
-                lineNumber: 17,
-                columnNumber: 9
+                lineNumber: 28,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Services.jsx",
-        lineNumber: 12,
-        columnNumber: 9
+        lineNumber: 24,
+        columnNumber: 5
     }, this);
 };
 const __TURBOPACK__default__export__ = Services;
@@ -1754,6 +1766,9 @@ const Header = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                style: {
+                    marginBottom: '-1rem'
+                },
                 children: [
                     "Hi I am Musa Dick Banda ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1761,7 +1776,7 @@ const Header = ()=>{
                     }, void 0, false, {
                         fileName: "[project]/app/components/Header.jsx",
                         lineNumber: 28,
-                        columnNumber: 111
+                        columnNumber: 142
                     }, this)
                 ]
             }, void 0, true, {
@@ -1771,6 +1786,10 @@ const Header = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                style: {
+                    marginLeft: '20rem',
+                    marginRight: '20rem'
+                },
                 children: "Front end web developer based South Africa"
             }, void 0, false, {
                 fileName: "[project]/app/components/Header.jsx",
@@ -1779,6 +1798,11 @@ const Header = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                style: {
+                    marginLeft: '20rem',
+                    marginRight: '20rem',
+                    marginTop: '-1rem'
+                },
                 children: "I'm a beginner front-end web developer, just starting out on my journey. I may not have experience yet, but I'm learning every day and excited to grow."
             }, void 0, false, {
                 fileName: "[project]/app/components/Header.jsx",
@@ -1794,7 +1818,7 @@ const Header = ()=>{
                         onClick: handleContactClick,
                         "aria-label": "Contact Us",
                         style: {
-                            padding: '1.6rem',
+                            padding: '0.8rem',
                             cursor: 'pointer',
                             marginRight: '1rem',
                             border: '4px solid #000',
@@ -1809,12 +1833,12 @@ const Header = ()=>{
                             " CONTACT ME ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].phone_icon,
-                                width: 30,
-                                height: 30,
+                                width: 15,
+                                height: 15,
                                 style: {
                                     marginLeft: '1rem',
                                     marginTop: '-1rem',
-                                    marginBottom: '-1rem'
+                                    marginBottom: '-0.1rem'
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.jsx",
@@ -1834,7 +1858,7 @@ const Header = ()=>{
                         onClick: handleResumeClick,
                         "aria-label": "Download My Resume",
                         style: {
-                            padding: '1.5rem',
+                            padding: '0.86rem',
                             border: '4px solid #000',
                             marginBottom: '1rem',
                             borderRadius: '4rem',
@@ -1848,12 +1872,12 @@ const Header = ()=>{
                             "MY RESUME",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].download_icon,
-                                width: 25,
-                                height: 20,
+                                width: 12.5,
+                                height: 10,
                                 style: {
                                     marginLeft: '1rem',
                                     marginTop: '0rem',
-                                    marginBottom: '-1rem'
+                                    marginBottom: '-0rem'
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.jsx",
@@ -1894,33 +1918,47 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Navbar$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/Navbar.jsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Header$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/Header.jsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Services$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/Services.jsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 'use client';
 ;
 ;
 ;
 ;
 ;
+;
 function Home() {
+    const [isDarkMode, setIsDarkMode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (isDarkMode) {
+            document.documentElement.classList.add('dark');
+            localStorage.theme = 'dark';
+        } else {
+            document.documentElement.classList.remove('dark');
+            localStorage.theme = '';
+        }
+    }, [
+        isDarkMode
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Navbar$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 14,
+                lineNumber: 28,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Header$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 15,
+                lineNumber: 29,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Services$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 16,
+                lineNumber: 30,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.js",
-                lineNumber: 17,
+                lineNumber: 31,
                 columnNumber: 5
             }, this)
         ]

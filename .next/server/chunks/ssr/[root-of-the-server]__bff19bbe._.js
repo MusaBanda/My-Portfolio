@@ -1326,7 +1326,7 @@ function RootLayout({ children }) {
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 26,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1334,28 +1334,28 @@ function RootLayout({ children }) {
                         content: ""
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 27,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 25,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden 
-      dark:bg-darkTheme `,
+      dark:bg-darkTheme dark:text-white`,
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.js",
-        lineNumber: 24,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -1410,10 +1410,10 @@ function footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].logo_white,
                         height: 100,
-                        width: 600,
                         alt: "",
                         className: "w-16 mx-auto mb-2",
                         style: {
+                            width: 'auto',
                             marginTop: '2rem',
                             marginBottom: '-1rem'
                         }
@@ -1570,221 +1570,230 @@ const About = ()=>{
         className: `px-5 py-4 items-center justify-center ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-center mb-10",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                        className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
-                        children: "Introduction"
-                    }, void 0, false, {
-                        fileName: "[project]/app/about/page.js",
-                        lineNumber: 18,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
-                        children: "About Me"
-                    }, void 0, false, {
-                        fileName: "[project]/app/about/page.js",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 17,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "-mx-[0px] -my-[1px] w-full flex",
+                className: "min-h-screen flex flex-col",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-64 sm:w-80 rounded-xl max-w-none",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].about_pic,
-                            alt: "",
-                            style: {
-                                marginLeft: '3rem',
-                                marginRight: '5rem',
-                                marginTop: '7rem',
-                                borderRadius: '3rem'
-                            },
-                            width: 250,
-                            height: 400
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/app/about/page.js",
-                        lineNumber: 23,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col",
+                        className: "text-center mb-10",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "sm:text-[18px] md:text-[25px] lg:text-[40px] ",
-                                style: {
-                                    marginLeft: '0rem',
-                                    marginRight: '5rem',
-                                    marginBottom: '5rem',
-                                    margintop: '7rem'
-                                }
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                                children: "Introduction"
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 34,
-                                columnNumber: 11
+                                lineNumber: 19,
+                                columnNumber: 9
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: `sm:text-[18px] md:text-[25px] lg:text-[40px] text-justify ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
-                                style: {
-                                    marginLeft: '0rem',
-                                    marginRight: '15rem',
-                                    marginBottom: '5rem'
-                                },
-                                children: "I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React. I create clean, responsive websites, focusing on both function and design. I enjoy building interactive digital experiences that people love using."
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: `sm:text-[18px] md:text-[20px] lg:text-[30px] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                                children: "About Me"
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 36,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: "flex gap-6 overflow-x-auto list-none p-0 m-0",
-                                style: {
-                                    marginLeft: '-4em',
-                                    marginRight: '5rem'
-                                },
-                                children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["infoList"].map(({ icon, title, description }, index)=>{
-                                    const isHovered = hoveredIndex === index;
-                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        onMouseEnter: ()=>setHoveredIndex(index),
-                                        onMouseLeave: ()=>setHoveredIndex(null),
-                                        style: {
-                                            minWidth: '150px',
-                                            padding: '1rem',
-                                            border: '1px solid #ccc',
-                                            borderRadius: '2rem',
-                                            marginLeft: '1rem',
-                                            marginRight: '1rem',
-                                            flexShrink: 0,
-                                            cursor: 'pointer',
-                                            backgroundColor: isHovered ? '#ebf8ff' : 'white',
-                                            boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
-                                            transform: isHovered ? 'translateY(-5px)' : 'none',
-                                            transition: 'all 0.3s ease'
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                src: icon,
-                                                alt: title,
-                                                width: 30,
-                                                className: "mt-3"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/about/page.js",
-                                                lineNumber: 61,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "sm:text-[11px] md:text-[18px] lg:text-[20px]  text-gray-700",
-                                                children: title
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/about/page.js",
-                                                lineNumber: 62,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600",
-                                                children: description
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/about/page.js",
-                                                lineNumber: 63,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, index, true, {
-                                        fileName: "[project]/app/about/page.js",
-                                        lineNumber: 46,
-                                        columnNumber: 17
-                                    }, this);
-                                })
-                            }, void 0, false, {
-                                fileName: "[project]/app/about/page.js",
-                                lineNumber: 42,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p4", {
-                                className: `sm:text-[18px] md:text-[20px] lg:text-[30px] text-justify ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
-                                style: {
-                                    marginLeft: '0rem',
-                                    marginTop: '4rem'
-                                },
-                                children: "Tools I Use"
-                            }, void 0, false, {
-                                fileName: "[project]/app/about/page.js",
-                                lineNumber: 69,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: `flex items-center gap-3 sm:gap-5 ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
-                                style: {
-                                    marginLeft: '-3rem'
-                                },
-                                children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toolsData"].map((tool, index)=>{
-                                    const isHovered = hoveredToolIndex === index;
-                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        onMouseEnter: ()=>setHoveredToolIndex(index),
-                                        onMouseLeave: ()=>setHoveredToolIndex(null),
-                                        style: {
-                                            padding: '1rem',
-                                            minWidth: '1px',
-                                            border: '5px solid #ccc',
-                                            borderRadius: '6rem',
-                                            marginLeft: '1rem',
-                                            marginRight: '2rem',
-                                            marginTop: '2rem',
-                                            flexShrink: 0,
-                                            cursor: 'pointer',
-                                            transition: 'all 0.3s ease',
-                                            transform: isHovered ? 'translateY(-5px)' : 'none',
-                                            boxShadow: isHovered ? '0 4px 10px rgba(0,0,0,0.1)' : 'none'
-                                        },
-                                        className: "flex items-center justify-center w-12 sm:w-14 aspect-square",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            src: tool,
-                                            alt: "tool",
-                                            width: 30
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/about/page.js",
-                                            lineNumber: 92,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, index, false, {
-                                        fileName: "[project]/app/about/page.js",
-                                        lineNumber: 77,
-                                        columnNumber: 17
-                                    }, this);
-                                })
-                            }, void 0, false, {
-                                fileName: "[project]/app/about/page.js",
-                                lineNumber: 73,
-                                columnNumber: 11
+                                lineNumber: 20,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 33,
-                        columnNumber: 9
+                        lineNumber: 18,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "-mx-[0px] -my-[1px] w-full flex",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-64 sm:w-80 rounded-xl max-w-none",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].about_pic,
+                                    alt: "",
+                                    style: {
+                                        marginLeft: '3rem',
+                                        marginRight: '5rem',
+                                        marginTop: '7rem',
+                                        borderRadius: '3rem'
+                                    },
+                                    width: 250,
+                                    height: 400
+                                }, void 0, false, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 25,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 24,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "sm:text-[18px] md:text-[25px] lg:text-[40px] ",
+                                        style: {
+                                            marginLeft: '0rem',
+                                            marginRight: '5rem',
+                                            marginBottom: '5rem',
+                                            margintop: '7rem'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/about/page.js",
+                                        lineNumber: 35,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: `sm:text-[18px] md:text-[25px] lg:text-[40px] text-justify ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                                        style: {
+                                            marginLeft: '0rem',
+                                            marginRight: '15rem',
+                                            marginBottom: '5rem'
+                                        },
+                                        children: "I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React. I create clean, responsive websites, focusing on both function and design. I enjoy building interactive digital experiences that people love using."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/about/page.js",
+                                        lineNumber: 37,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "flex gap-6 overflow-x-auto list-none p-0 m-0",
+                                        style: {
+                                            marginLeft: '-4em',
+                                            marginRight: '5rem'
+                                        },
+                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["infoList"].map(({ icon, title, description }, index)=>{
+                                            const isHovered = hoveredIndex === index;
+                                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                onMouseEnter: ()=>setHoveredIndex(index),
+                                                onMouseLeave: ()=>setHoveredIndex(null),
+                                                style: {
+                                                    minWidth: '150px',
+                                                    padding: '1rem',
+                                                    border: '1px solid #ccc',
+                                                    borderRadius: '2rem',
+                                                    marginLeft: '1rem',
+                                                    marginRight: '1rem',
+                                                    flexShrink: 0,
+                                                    cursor: 'pointer',
+                                                    backgroundColor: isHovered ? '#ebf8ff' : 'white',
+                                                    boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
+                                                    transform: isHovered ? 'translateY(-5px)' : 'none',
+                                                    transition: 'all 0.3s ease'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: icon,
+                                                        alt: title,
+                                                        width: 30,
+                                                        className: "mt-3"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 62,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "sm:text-[11px] md:text-[18px] lg:text-[20px]  text-gray-700",
+                                                        children: title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 63,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600",
+                                                        children: description
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 64,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, index, true, {
+                                                fileName: "[project]/app/about/page.js",
+                                                lineNumber: 47,
+                                                columnNumber: 17
+                                            }, this);
+                                        })
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/about/page.js",
+                                        lineNumber: 43,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p4", {
+                                        className: `sm:text-[18px] md:text-[20px] lg:text-[30px] text-justify ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                                        style: {
+                                            marginLeft: '0rem',
+                                            marginTop: '4rem'
+                                        },
+                                        children: "Tools I Use"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/about/page.js",
+                                        lineNumber: 70,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: `flex items-center gap-3 sm:gap-5 ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
+                                        style: {
+                                            marginLeft: '-3rem'
+                                        },
+                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toolsData"].map((tool, index)=>{
+                                            const isHovered = hoveredToolIndex === index;
+                                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                onMouseEnter: ()=>setHoveredToolIndex(index),
+                                                onMouseLeave: ()=>setHoveredToolIndex(null),
+                                                style: {
+                                                    padding: '1rem',
+                                                    minWidth: '1px',
+                                                    border: '5px solid #ccc',
+                                                    borderRadius: '6rem',
+                                                    marginLeft: '1rem',
+                                                    marginRight: '2rem',
+                                                    marginTop: '2rem',
+                                                    flexShrink: 0,
+                                                    cursor: 'pointer',
+                                                    transition: 'all 0.3s ease',
+                                                    transform: isHovered ? 'translateY(-5px)' : 'none',
+                                                    boxShadow: isHovered ? '0 4px 10px rgba(0,0,0,0.1)' : 'none'
+                                                },
+                                                className: "flex items-center justify-center w-12 sm:w-14 aspect-square",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: tool,
+                                                    alt: "tool",
+                                                    width: 30
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 93,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, index, false, {
+                                                fileName: "[project]/app/about/page.js",
+                                                lineNumber: 78,
+                                                columnNumber: 17
+                                            }, this);
+                                        })
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/about/page.js",
+                                        lineNumber: 74,
+                                        columnNumber: 11
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 34,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/about/page.js",
+                        lineNumber: 23,
+                        columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 22,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 99,
+                lineNumber: 101,
                 columnNumber: 7
             }, this)
         ]
