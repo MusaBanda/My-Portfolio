@@ -40,9 +40,15 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import about_pic from './about_pic.jpg';
+import instagram from './instagram.jpg';
+import facebook from './facebook.jpg';
+import github from './github.jpg';
 
 export const assets = {
     about_pic,
+    facebook,
+    github,
+    instagram,
     phone_icon,
     user_image,
     mypic,
