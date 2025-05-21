@@ -69,7 +69,7 @@ const Header = () => {
       </p>
 
      { showForLargeScreen && <div className='flex flex-col-2 items-center'>
-        <a href="contact" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
+        <a href="https://wa.me/27694163922" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
           style={{
             padding: '0.8rem',
@@ -78,12 +78,12 @@ const Header = () => {
             border: '4px solid #000',
             borderRadius: '4rem',
             backgroundColor: isContactClicked ? 'orange' : 'transparent',
-            color: isContactClicked ? '#fff' : '#000',
+            color: isContactClicked ? '#000' : '#000',
             transition: 'all 0.3s ease',
             background: '#000',
             color: 'white',
           }}>
-          CONTACT ME
+          WHATSAPP ME
           <Image src={assets.phone_icon} width={15} height={15} 
             style={{
               marginLeft: '1rem',
@@ -117,7 +117,7 @@ const Header = () => {
 
       {showForSmallScreen &&<div className='grid drid-col-1 items-center'>
 
-        <a href="contact" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
+        <a href="https://wa.me/27694163922" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
           style={{
             padding: '0.8rem',
@@ -126,12 +126,12 @@ const Header = () => {
             border: '4px solid #000',
             borderRadius: '4rem',
             backgroundColor: isContactClicked ? 'orange' : 'transparent',
-            color: isContactClicked ? '#fff' : '#000',
+            color: isContactClicked ? 'black' : 'black',
             transition: 'all 0.3s ease',
             background: '#000',
             color: 'white',
           }}>
-          CONTACT ME
+          WHATSAPP ME
           <Image src={assets.phone_icon} width={15} height={15} 
             style={{
               marginLeft: '1rem',
