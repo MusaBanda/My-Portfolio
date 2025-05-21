@@ -48,8 +48,8 @@ const About = () => {
 
     <div id="it" className={`px-5 py-10 min-h-screen flex flex-col items-center justify-center text-center ${ovo.className}`}>
       <div className="mb-10">
-        <h4 className="sm:text-[18px] md:text-[20px] lg:text-[30px]">Introduction</h4>
-        <h2 className="sm:text-[18px] md:text-[20px] lg:text-[30px]">About Me</h2>
+        <h4 className="sm:text-[18px] md:text-[20px] lg:text-[30px] text-[white]">Introduction</h4>
+        <h2 className="sm:text-[18px] md:text-[20px] lg:text-[30px] text-[white]">About Me</h2>
       </div>
 
       <div className="w-64 sm:w-80 mb-10">
