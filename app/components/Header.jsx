@@ -77,8 +77,8 @@ const Header = () => {
             marginRight: '1rem',
             border: '4px solid #000',
             borderRadius: '4rem',
-            backgroundColor: isContactClicked ? 'orange' : 'transparent',
-            color: isContactClicked ? '#000' : '#000',
+            backgroundColor: isContactClicked ? 'orange' : 'black',
+            
             transition: 'all 0.3s ease',
             background: '#000',
             color: 'white',
@@ -119,15 +119,14 @@ const Header = () => {
 
         <a href="https://wa.me/27694163922" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
-          style={{
-            padding: '0.8rem',
+          style={{ padding: '0.8rem',
+           
             cursor: 'pointer',
             marginTop: '1rem',
             border: '4px solid #000',
             borderRadius: '4rem',
-            backgroundColor: isContactClicked ? 'orange' : 'transparent',
-            color: isContactClicked ? 'black' : 'black',
-            transition: 'all 0.3s ease',
+            backgroundColor: isContactClicked ? 'orange' : 'black',          
+            transition: 'all 0.1s ease',
             background: '#000',
             color: 'white',
           }}>
