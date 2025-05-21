@@ -28,22 +28,10 @@ const About = () => {
   <div style={{ position: 'relative', zIndex: 0, minHeight: '100vh' }}>
 
   {/* Background Video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100vw',
-          height: '100vh',
-          objectFit: 'cover',
-          zIndex: -1,
-          filter: 'brightness(0.5)', 
-        }}><source src="/my_vid.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+      <video autoPlay muted loop playsInline
+       style={{position: 'fixed',  top: 0,  left: 0, width: '100vw',  height: '100vh',
+       objectFit: 'cover', zIndex: -1,filter: 'brightness(0.5)', }}>
+        <source src="/my_vid.mp4" type="video/mp4" />
       </video>
 
     <div id="it" className={`px-5 py-10 min-h-screen flex flex-col items-center justify-center text-center ${ovo.className}`}>

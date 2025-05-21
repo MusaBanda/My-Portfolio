@@ -297,46 +297,6 @@
   background-color: #ffe6e6;
 }
 
-.bg-\[blac\] {
-  background-color: blac;
-}
-
-.bg-\[black\] {
-  background-color: #000;
-}
-
-.bg-\[blur\] {
-  background-color: blur;
-}
-
-.bg-\[blury\] {
-  background-color: blury;
-}
-
-.bg-\[gray\] {
-  background-color: gray;
-}
-
-.bg-\[l\] {
-  background-color: l;
-}
-
-.bg-\[light-gray\] {
-  background-color: light-gray;
-}
-
-.bg-\[light\] {
-  background-color: light;
-}
-
-.bg-\[w\] {
-  background-color: w;
-}
-
-.bg-\[wh\] {
-  background-color: wh;
-}
-
 .bg-\[white\] {
   background-color: #fff;
 }
@@ -414,6 +374,10 @@
 
 .text-\[90px\] {
   font-size: 90px;
+}
+
+.text-\[white\] {
+  color: #fff;
 }
 
 .lowercase {
