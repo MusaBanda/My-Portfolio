@@ -103,17 +103,17 @@ const Navbar = () => {
       </div>
 
       <ul className='list-none'    
-       style={{padding: '1rem', display: 'flex', marginLeft: '1rem',}} >
+       style={{padding: '1rem', display: 'flex', marginLeft: '-1.5rem',}} >
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='#top'>Home</a></li>
+          style={{ color: 'black', padding: '1rem' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem'}} href='about'>About Me</a></li>
+          style={{ color: 'black', padding: '1rem'}} href='about'>AboutMe</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='#services'>Services</a></li>
+          style={{ color: 'black', padding: '1rem' }} href='#services'>Services</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='work'>My Work</a></li>
+          style={{ color: 'black', padding: '1rem' }} href='work'>MyWork</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='contact'>Contact</a></li>
+          style={{ color: 'black', padding: '1rem' }} href='contact'>Contact</a></li>
         </ul>
         
       </nav>}
