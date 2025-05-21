@@ -25,7 +25,27 @@ const About = () => {
 
   return (
 
-  <div>
+  <div style={{ position: 'relative', zIndex: 0, minHeight: '100vh' }}>
+
+  {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          objectFit: 'cover',
+          zIndex: -1,
+          filter: 'brightness(0.5)', 
+        }}><source src="/my_vid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
     <div id="it" className={`px-5 py-10 min-h-screen flex flex-col items-center justify-center text-center ${ovo.className}`}>
       <div className="mb-10">
         <h4 className="sm:text-[18px] md:text-[20px] lg:text-[30px]">Introduction</h4>
@@ -39,7 +59,7 @@ const About = () => {
         </div>
 
       <p className="sm:text-[18px] md:text-[25px] lg:text-[40px] max-w-4xl text-justify mb-10"
-      style={{marginRight:'2rem', marginLeft:'2rem'}}>
+      style={{marginRight:'2rem', marginLeft:'2rem', color: 'white'}}>
         I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React.
         I create clean, responsive websites, focusing on both function and design. I enjoy building interactive
         digital experiences that people love using.
@@ -51,6 +71,8 @@ const About = () => {
           gap: "1rem",
           marginTop: "2.5rem",
           marginBottom: "2.5rem",
+          background: 'see-through',
+          color: 'white',
         }}>
         {infoList.map(({ icon, title, description }, index) => {
           const isHovered = hoveredIndex === index;
@@ -65,10 +87,11 @@ const About = () => {
                 padding: '1rem',
                 border: '1px solid #ccc',
                 borderRadius: '2rem',
-                backgroundColor: isHovered ? '#ebf8ff' : 'white',
+                backgroundColor: isHovered ? '#ebf8ff' : 'see-through',
                 boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
                 transform: isHovered ? 'translateY(-5px)' : 'none',
                 transition: 'all 0.3s ease',
+                
                
               }}
             >
@@ -82,7 +105,7 @@ const About = () => {
         })}
       </ul>
 
-      <h3 className="sm:text-[18px] md:text-[20px] lg:text-[30px] mb-6">Tools I Use</h3>
+      <h3 className="sm:text-[18px] md:text-[20px] lg:text-[30px] mb-6 text-[white]">Tools I Use</h3>
 
       <ul className="flex items-center justify-center flex-wrap gap-6 mb-16">
         {toolsData.map((tool, index) => {
