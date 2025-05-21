@@ -23,7 +23,7 @@ function footer() {
   }, []);
 
   return (
-    <div className=' mt-20 bg-[white] fill w-full h-[20rem]'>
+    <div className=' mt-20 bg-[#f5f5f5] fill w-full h-[20rem] border-t border-gray-400'>
         <div className='text-center'>
             < Image src={assets.logo_white}   alt='' className='w-16 mx-auto mb-2' 
             style={{width: 'auto', height:'5rem', marginTop:'2rem', marginBottom:'-1rem'}}/>

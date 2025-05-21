@@ -51,7 +51,7 @@ const Header = () => {
 
       <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}
         style={{ marginBottom: '-1rem' }}>
-        Hi I am Musa Dick Banda <Image src={assets.hand_icon} />
+        Hi I am Musa Dick Banda <Image src={assets.hand_icon} width={50} height={50} />
       </h3>
 
       <h1 
@@ -61,8 +61,8 @@ const Header = () => {
       </h1>
 
       <p
-        className={`sm:text-[18px] md:text-[20px] lg:text-[30px] text-justify block text-center ${ovo.className}`}
-        style={{ marginTop: '-1rem', marginLeft: '3rem', marginRight:'3rem' }}
+        className={`sm:text-[18px] md:text-[20px] lg:text-[30px]  block text-center ${ovo.className}`}
+        style={{ marginTop: '-1rem', marginLeft: '1rem', marginRight:'1rem' }}
       >
         I'm a beginner front-end web developer, just starting out on my journey. I may not have experience yet,
         but I'm learning every day and excited to grow.
