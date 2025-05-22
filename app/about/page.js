@@ -30,7 +30,7 @@ useEffect(() => {
 }, []);
 
   return (
-<div style={{ position: 'relative', zIndex: 0, minHeight: '100vh' }}>
+<div  style={{ position: 'relative', zIndex: 0, minHeight: '100vh' }}>
    {/* Background Video */}
       <video autoPlay muted loop playsInline
        style={{position: 'fixed',  top: 0,  left: 0, width: '100vw',  height: '100vh',
@@ -38,7 +38,7 @@ useEffect(() => {
         <source src="/my_vid.mp4" type="video/mp4" />
       </video>
 
-  {showForLargeScreen &&<div  className={`px-5 py-4 items-center justify-center  text-[white] ${ovo.className}`}>
+  {showForLargeScreen &&<div  className={`px-5 py-4 items-center justify-center min-h-screen   text-[white] ${ovo.className}`}>
 
     <div className="mb-10 text-center">
         <h4 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>Introduction</h4>
@@ -112,7 +112,7 @@ useEffect(() => {
     
   </div>}
 
-  {showForSmallScreen &&<div className='text-[white]'>
+  {showForSmallScreen &&<div className=' min-h-screen text-[white]'>
          <div className='text-center'>
           <h4 className="sm:text-[18px] md:text-[20px] lg:text-[30px]">Introduction</h4>
           <h2 className="sm:text-[18px] md:text-[20px] lg:text-[30px]">About Me</h2>
