@@ -781,7 +781,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.v("/_next/static/media/hand-icon.8ca6d51d.png");}}),
+__turbopack_context__.v("/_next/static/media/hand-icon.02679411.png");}}),
 "[project]/assets/hand-icon.png.mjs { IMAGE => \"[project]/assets/hand-icon.png (static in ecmascript)\" } [app-client] (structured image object, ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -794,9 +794,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$hand$2d$icon$2e$pn
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$hand$2d$icon$2e$png__$28$static__in__ecmascript$29$__["default"],
-    width: 56,
-    height: 57,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR42gEIAff+AAAAAAASEAwJKCIcGEtBNjMmJSQqISEhKAEBAQEAAAAAAAICAQB9ZVNhvp+DntazlMRqXlNiRkZGVRwZFxcuJiAgABcTDw+mhm+H6sGg1enAnc7Lq4++Qjo0N4VwXHDJqIu4ABIOCw2kiG+Z7MOh1O7Hpd7xzq7twqaMtNGylcuggWiQABQPDQykh22G68Kf1/HNren74MP+++DC//vhxf+qi3KbAD89PUuFbV163reX1fbVt/b95cn//ePH//vfw/+5mHyxACcnJzM7OThIW0k7UNm6ntf85Mn++t7A/+nAnvaCZE11AAICAgIMDAwLBAQDAkg4LD3Np4nL47aT7I5oTooXEAwRZPZ5m0VXph8AAAAASUVORK5CYII=",
+    width: 225,
+    height: 225,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAA00lEQVR42gHIADf/AP////79/OPRxNK0oNrJveLy+uX0+/7//wD////p2c64iWiveVS7j3HQ3+bJ4+/u5+IA+PTwxp+Fr3lTr3hSsHpVz7+z0cG1xqKJAPn4+Muoj694U694UrB5U7uNbcCUddrDswDj8/ve1s+1gl6zfFWxe1Sye1S3hGHr4NgA3PD61unxyKKHtH1WsntUtH1Wuotp8enkAOLy+9zv+uXWyrmGYbR9VrWAWtG0oPz7+gD////+///9+/rgyrrLp43cxbX59fP////AO441ZKjqbwAAAABJRU5ErkJggg==",
     blurWidth: 8,
     blurHeight: 8
 };
@@ -1638,7 +1638,7 @@ function footer() {
         }
     }["footer.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: " mt-20 bg-[#ffe6e6] fill w-full h-[20rem]",
+        className: " mt-20 bg-[#f5f5f5] fill w-full h-[20rem] border-t border-gray-400",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center",

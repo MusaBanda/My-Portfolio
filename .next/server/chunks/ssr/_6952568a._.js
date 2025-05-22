@@ -21,7 +21,11 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.js [app-rs
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-}}),
+const e = new Error(`Could not parse module '[project]/app/about/page.js'
+
+Identifier cannot follow number`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 "[project]/app/about/page.js [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
 
 var { g: global, __dirname } = __turbopack_context__;
