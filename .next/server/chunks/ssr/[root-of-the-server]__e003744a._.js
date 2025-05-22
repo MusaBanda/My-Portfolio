@@ -1270,13 +1270,13 @@ const infoList = [
         icon: assets.edu_icon,
         iconDark: assets.edu_icon_dark,
         title: 'Education',
-        description: 'B.Tech in Computer Science'
+        description: 'BA in I/O psycholody (panding)'
     },
     {
         icon: assets.project_icon,
         iconDark: assets.project_icon_dark,
         title: 'Projects',
-        description: 'Built more than 5 projects'
+        description: 'this portfolio was my first'
     }
 ];
 const toolsData = [
@@ -2467,7 +2467,7 @@ const Header = ()=>{
                 className: "flex flex-col-2 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "contact",
+                        href: "https://wa.me/27694163922",
                         className: `sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$roboto_e88f8a32$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__roboto$3e$__["roboto"].className}`,
                         onClick: handleContactClick,
@@ -2478,14 +2478,13 @@ const Header = ()=>{
                             marginRight: '1rem',
                             border: '4px solid #000',
                             borderRadius: '4rem',
-                            backgroundColor: isContactClicked ? 'orange' : 'transparent',
-                            color: isContactClicked ? '#fff' : '#000',
+                            backgroundColor: isContactClicked ? 'orange' : 'black',
                             transition: 'all 0.3s ease',
                             background: '#000',
                             color: 'white'
                         },
                         children: [
-                            "CONTACT ME",
+                            "WHATSAPP ME",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].phone_icon,
                                 width: 15,
@@ -2556,7 +2555,7 @@ const Header = ()=>{
                 className: "grid drid-col-1 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "contact",
+                        href: "https://wa.me/27694163922",
                         className: `sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$roboto_e88f8a32$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__roboto$3e$__["roboto"].className}`,
                         onClick: handleContactClick,
@@ -2567,14 +2566,13 @@ const Header = ()=>{
                             marginTop: '1rem',
                             border: '4px solid #000',
                             borderRadius: '4rem',
-                            backgroundColor: isContactClicked ? 'orange' : 'transparent',
-                            color: isContactClicked ? '#fff' : '#000',
-                            transition: 'all 0.3s ease',
+                            backgroundColor: isContactClicked ? 'orange' : 'black',
+                            transition: 'all 0.1s ease',
                             background: '#000',
                             color: 'white'
                         },
                         children: [
-                            "CONTACT ME",
+                            "WHATSAPP ME",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].phone_icon,
                                 width: 15,
@@ -2586,7 +2584,7 @@ const Header = ()=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.jsx",
-                                lineNumber: 135,
+                                lineNumber: 134,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2626,13 +2624,13 @@ const Header = ()=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.jsx",
-                                lineNumber: 157,
+                                lineNumber: 156,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Header.jsx",
-                        lineNumber: 142,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
