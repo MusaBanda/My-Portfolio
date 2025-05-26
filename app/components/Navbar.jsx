@@ -83,14 +83,12 @@ const Navbar = () => {
           <Image src={assets.moon_icon}  alt='moon_icon' width={40}  height={40} className='cursor-pointer mr-14' 
             style={{ marginLeft: '2.5rem', marginRight: '0.5rem', marginTop: '0.5rem' }} />
 
-          <a  href='contact'  className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline 
-          bg-[white] ${ovo.className}`} 
- 
+          <a  href='mailto:mosa.banda@hotmail.com'  
+          className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline bg-[white] ${ovo.className}`} 
             style={{padding: '1rem', color: 'black', marginTop: '0.8rem', marginBottom: '0.5rem',
-             border: '2px solid #ccc', borderRadius: '2rem', marginLeft: '0.5rem',
-                marginRight: '1rem'    }} > 
-        
-            CONTACT
+              border: '2px solid #ccc', borderRadius: '2rem', marginLeft: '0.5rem',
+              marginRight: '1rem'    }} > 
+          Email Me
             <Image src={assets.arrow_icon}  alt='' width={15} height={15}
               style={{ marginLeft: '1rem' }}  /> </a>
         </div>
@@ -98,12 +96,17 @@ const Navbar = () => {
 
       {showForSmallScreen &&<nav className='text-center justify-center' style={{ marginTop: '2rem', marginBottom: '-7rem' }}>
 
-      <div >
-        <h1 > MusaBanda<span style={{ color: 'red' }}>.</span></h1>
+      <div  
+      style={{ display: 'flex', justifyContent: 'space-between',  alignItems: 'center'}}>
+        <h1 style={{marginLeft:'1rem'}}> MusaBanda<span style={{ color: 'red' }}>.</span></h1>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}> 
+          <Image src={assets.moon_icon}  alt='moon_icon' width={25}  height={25} className='cursor-pointer mr-14' />
+        <a style={{ color: 'black', marginRight: '1rem', border: '2px solid #ccc',borderRadius: '2rem', padding: '0.5rem',}}
+        href='mailto:mosa.banda@hotmail.com'>Email Me</a></div>
       </div>
 
-      <ul className='list-none'    
-       style={{padding: '1rem', display: 'flex', marginLeft: '1rem',}} >
+      <ul className='list-none items-center text-center justify-center'    
+       style={{padding: '1rem', display: 'flex',}} >
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
           style={{ color: 'black', padding: '0.5rem' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 

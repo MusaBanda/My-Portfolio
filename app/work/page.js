@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 const Work = () => {
   return (
-  <div id="work" className='bg-[#F5F5F5]'>
+  <div >
     <div className="min-h-screen flex flex-col">
       <div>
         <h1 className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className}`}

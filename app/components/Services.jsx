@@ -42,7 +42,7 @@ const Services = () => {
               onMouseEnter={() => setHoveredToolIndex(index)}
               onMouseLeave={() => setHoveredToolIndex(null)}
               style={{
-                minWidth: "1px",
+                minWidth: "1px", 
                 padding: "3rem",
                 border: "1px solid #ccc",
                 borderRadius: "1rem",
@@ -51,7 +51,7 @@ const Services = () => {
                 marginBottom: "2rem",
                 flexShrink: 0,
                 cursor: "pointer",
-                backgroundColor: isHovered ? "#ebf8ff" : "white",
+                backgroundColor: isHovered ? "#ebf8ff" : "transparent",
                 boxShadow: isHovered ? "0 4px 12px rgba(0, 0, 0, 0.1)" : "none",
                 transform: isHovered ? "translateY(-5px)" : "none",
                 transition: "all 0.3s ease",
