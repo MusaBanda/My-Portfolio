@@ -102,7 +102,7 @@ const Navbar = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}> 
           <Image src={assets.moon_icon}  alt='moon_icon' width={25}  height={25} className='cursor-pointer mr-14' />
         <a style={{ color: 'black', marginRight: '1rem', border: '2px solid #ccc',borderRadius: '2rem', padding: '0.5rem',}}
-        href='mailto:mosa.banda@hotmail.com'>Email Me</a></div>
+        href='mailto:mosa.banda@hotmail.com' className={`no-underline ${ovo.className}`}>Email Me</a></div>
       </div>
 
       <ul className='list-none items-center text-center justify-center'    

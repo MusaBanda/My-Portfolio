@@ -132,7 +132,7 @@ function RootLayout({ children }) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         name: "description",
-                        content: ""
+                        content: "Welcome to my portfolio website, where creativity meets technology."
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
                         lineNumber: 26,
@@ -145,8 +145,8 @@ function RootLayout({ children }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-                className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden 
-      dark:bg-darkTheme dark:text-white`,
+                className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden
+      dark:bg-[#11001F] dark:text-[white]`,
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.js",
@@ -1447,13 +1447,13 @@ const infoList = [
         icon: assets.edu_icon,
         iconDark: assets.edu_icon_dark,
         title: 'Education',
-        description: 'B.Tech in Computer Science'
+        description: 'BA in I/O psycholody (panding)'
     },
     {
         icon: assets.project_icon,
         iconDark: assets.project_icon_dark,
         title: 'Projects',
-        description: 'Built more than 5 projects'
+        description: 'this portfolio was my first'
     }
 ];
 const toolsData = [
@@ -1497,7 +1497,7 @@ function footer() {
         return ()=>window.removeEventListener("resize", handleResize);
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: " mt-20 bg-[#f5f5f5] fill w-full h-[20rem] border-t border-gray-400",
+        className: " mt-20  fill w-full h-[20rem] border-t border-gray-400   bg-[#f5f5f5] text-[black] dark:bg-[#f5f5f5] dark:text-[whete]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center",
@@ -1514,7 +1514,7 @@ function footer() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/app/components/Footer.jsx",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1530,20 +1530,20 @@ function footer() {
                                 className: "w-6"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 34,
+                                lineNumber: 35,
                                 columnNumber: 19
                             }, this),
                             "mosa.banda@hotmail.com"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Footer.jsx",
-                        lineNumber: 31,
+                        lineNumber: 32,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Footer.jsx",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1556,7 +1556,7 @@ function footer() {
                         children: "© 2025 Mthimkhulu Musa. All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/app/components/Footer.jsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 13
                     }, this),
                     showForLargeScreen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1582,17 +1582,17 @@ function footer() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
-                                        lineNumber: 44,
+                                        lineNumber: 45,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.jsx",
-                                    lineNumber: 43,
+                                    lineNumber: 44,
                                     columnNumber: 22
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 43,
+                                lineNumber: 44,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1608,17 +1608,17 @@ function footer() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
-                                        lineNumber: 46,
+                                        lineNumber: 47,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.jsx",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 22
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1634,23 +1634,23 @@ function footer() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
-                                        lineNumber: 48,
+                                        lineNumber: 49,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.jsx",
-                                    lineNumber: 47,
+                                    lineNumber: 48,
                                     columnNumber: 22
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Footer.jsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 35
                     }, this),
                     showForSmallScreen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1675,17 +1675,17 @@ function footer() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.jsx",
-                                    lineNumber: 54,
+                                    lineNumber: 55,
                                     columnNumber: 22
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1701,17 +1701,17 @@ function footer() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
-                                        lineNumber: 57,
+                                        lineNumber: 58,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 57,
                                     columnNumber: 22
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1727,29 +1727,29 @@ function footer() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 60,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Footer.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 22
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.jsx",
-                                lineNumber: 58,
+                                lineNumber: 59,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Footer.jsx",
-                        lineNumber: 51,
+                        lineNumber: 52,
                         columnNumber: 37
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Footer.jsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 9
             }, this)
         ]
@@ -1818,11 +1818,6 @@ const Contact = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "text-center flex items-center justify-center min-h-screen px-4",
-                style: {
-                    background: 'linear-gradient(135deg, rgba(114, 193, 250, 0.41), rgba(240, 237, 226, 0.4), rgba(245, 177, 230, 0.4))',
-                    backgroundColor: 'white',
-                    boxShadow: '0px 4px 20px rgba(116, 74, 74, 0.1)'
-                },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "w-full max-w-5xl mx-auto",
                     children: [
@@ -1834,7 +1829,7 @@ const Contact = ()=>{
                             children: "Connect with me"
                         }, void 0, false, {
                             fileName: "[project]/app/contact/page.js",
-                            lineNumber: 65,
+                            lineNumber: 59,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1845,7 +1840,7 @@ const Contact = ()=>{
                             children: "Get in touch"
                         }, void 0, false, {
                             fileName: "[project]/app/contact/page.js",
-                            lineNumber: 67,
+                            lineNumber: 61,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1858,7 +1853,7 @@ const Contact = ()=>{
                             children: "I am always open to discussing new projects, creative ideas or opportunities to be part of your visions."
                         }, void 0, false, {
                             fileName: "[project]/app/contact/page.js",
-                            lineNumber: 69,
+                            lineNumber: 63,
                             columnNumber: 9
                         }, this),
                         showForSmallScreen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1889,7 +1884,7 @@ const Contact = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 77,
+                                            lineNumber: 71,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1907,13 +1902,13 @@ const Contact = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 82,
+                                            lineNumber: 76,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 76,
+                                    lineNumber: 70,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1927,7 +1922,7 @@ const Contact = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 90,
+                                    lineNumber: 84,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1948,7 +1943,7 @@ const Contact = ()=>{
                                             children: "Send"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 97,
+                                            lineNumber: 91,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1966,13 +1961,13 @@ const Contact = ()=>{
                                             children: "Reset"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 101,
+                                            lineNumber: 95,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 96,
+                                    lineNumber: 90,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1983,13 +1978,13 @@ const Contact = ()=>{
                                     children: result
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 105,
+                                    lineNumber: 99,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/page.js",
-                            lineNumber: 74,
+                            lineNumber: 68,
                             columnNumber: 32
                         }, this),
                         showForLargeScreen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2020,7 +2015,7 @@ const Contact = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 111,
+                                            lineNumber: 105,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2038,13 +2033,13 @@ const Contact = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 116,
+                                            lineNumber: 110,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 110,
+                                    lineNumber: 104,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2058,7 +2053,7 @@ const Contact = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 124,
+                                    lineNumber: 118,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2079,7 +2074,7 @@ const Contact = ()=>{
                                             children: "Send"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 131,
+                                            lineNumber: 125,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2097,13 +2092,13 @@ const Contact = ()=>{
                                             children: "Reset"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 135,
+                                            lineNumber: 129,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 130,
+                                    lineNumber: 124,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2114,19 +2109,19 @@ const Contact = ()=>{
                                     children: result
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 139,
+                                    lineNumber: 133,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/contact/page.js",
-                            lineNumber: 108,
+                            lineNumber: 102,
                             columnNumber: 34
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/contact/page.js",
-                    lineNumber: 64,
+                    lineNumber: 58,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
@@ -2136,7 +2131,7 @@ const Contact = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/contact/page.js",
-                lineNumber: 143,
+                lineNumber: 137,
                 columnNumber: 5
             }, this)
         ]

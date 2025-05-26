@@ -380,6 +380,14 @@
   font-size: 90px;
 }
 
+.text-\[black\] {
+  color: #000;
+}
+
+.text-\[red\] {
+  color: red;
+}
+
 .text-\[white\] {
   color: #fff;
 }
@@ -436,6 +444,30 @@
 .duration-500 {
   --tw-duration: .5s;
   transition-duration: .5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-\[\#11001F\] {
+    background-color: #11001f;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-\[\#f5f5f5\] {
+    background-color: #f5f5f5;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:text-\[whete\] {
+    color: whete;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:text-\[white\] {
+    color: #fff;
+  }
 }
 
 * {

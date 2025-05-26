@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { assets } from "@/assets/assets";
-import { roboto, ovo } from "../layout";
+import { roboto, ovo,} from "../layout";
 import Services from './Services';
 
 const Header = () => {
@@ -44,7 +44,7 @@ const Header = () => {
       style={{marginBottom: '10rem' }} >
       <div>
         <Image
-          src={assets.mypic} width={160} height={160} alt=''className='rounded-full'
+          src={assets.mypic} width={160} height={160} alt='' className='rounded-full'
           style={{ marginBottom: '-2rem', marginTop: '9rem',}}
         />
       </div>

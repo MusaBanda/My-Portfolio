@@ -1,6 +1,10 @@
-import { Outfit, Ovo, Roboto, } from "next/font/google";
+import { Outfit, Ovo, Roboto,Dancing_Script } from "next/font/google";
 import "./globals.css";
 
+export const s = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export const roboto = Roboto({
   subsets: ["latin"],

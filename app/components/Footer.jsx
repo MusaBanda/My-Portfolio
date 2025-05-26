@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import assets from '@/assets/assets'
+import { s } from '@/app/layout' 
 
 function footer() {
 
@@ -26,11 +27,10 @@ function footer() {
     <div className=' mt-20 bg-[#f5f5f5] fill w-full h-[20rem] border-t border-gray-400
     '>
         <div className='text-center'>
-            < Image src={assets.logo_white}   alt='' className='w-16 mx-auto mb-2' 
-            style={{width: 'auto', height:'5rem', marginTop:'2rem', marginBottom:'-1rem'}}/>
+            <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${s.className}`}>MUSABANDA<span className='text-[red]'>.</span></h1>
 
             <div className=' sm:text-[18px] md:text-[20px] lg:text-[30px]  w-max flex items-center gap-2 mx-auto mb-2
-            'style={{marginTop:'2rem', marginBottom:'1rem'}}>
+            'style={{marginTop:'2rem', marginBottom:'1rem', gap:'0.5rem', }}>
             
                   < Image src={assets.mail_icon} alt='' className='w-6' />
                   mosa.banda@hotmail.com
