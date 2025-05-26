@@ -3,8 +3,11 @@ import { assets } from '@/assets/assets';
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
 import { ovo, roboto } from '../layout';
+import { useTheme } from "next-themes";
 
 const Navbar = () => {
+
+  const { theme, setTheme } = useTheme();
 
   // State to track scroll position
   const [isScroll, setIsScroll] = useState(false);
@@ -56,7 +59,7 @@ const Navbar = () => {
         
         <h1 
           className={`sm:text-[30px] md:text-[60px] lg:text-[120px] font-bold ${roboto.className}`}
-          style={{ color: 'black', marginLeft: '2.5rem', marginTop: '1rem' }}
+          style={{ marginLeft: '2.5rem', marginTop: '1rem' }}
         >
           MusaBanda<span style={{ color: 'red' }}>.</span>
         </h1>
@@ -80,7 +83,8 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-          <Image src={assets.moon_icon}  alt='moon_icon' width={40}  height={40} className='cursor-pointer mr-14' 
+          <Image src={assets.moon_icon}  alt='' width={40}  height={40} className='cursor-pointer mr-14' 
+           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             style={{ marginLeft: '2.5rem', marginRight: '0.5rem', marginTop: '0.5rem' }} />
 
           <a  href='mailto:mosa.banda@hotmail.com'  
@@ -100,23 +104,24 @@ const Navbar = () => {
       style={{ display: 'flex', justifyContent: 'space-between',  alignItems: 'center'}}>
         <h1 style={{marginLeft:'1rem'}}> MusaBanda<span style={{ color: 'red' }}>.</span></h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}> 
-          <Image src={assets.moon_icon}  alt='moon_icon' width={25}  height={25} className='cursor-pointer mr-14' />
-        <a style={{ color: 'black', marginRight: '1rem', border: '2px solid #ccc',borderRadius: '2rem', padding: '0.5rem',}}
-        href='mailto:mosa.banda@hotmail.com' className={`no-underline ${ovo.className}`}>Email Me</a></div>
+          <Image src={assets.moon_icon}  alt='moon_icon' width={25}  height={25} className='cursor-pointer mr-14'
+           onClick={() => setTheme(theme === "dark" ? "light" : "dark")} />
+        <a style={{ color:'black', marginRight: '1rem', border: '2px solid #ccc',borderRadius: '2rem', padding: '0.5rem',}}
+        href='mailto:mosa.banda@hotmail.com' className={`no-underline bg-[white] ${ovo.className}`}>Email Me</a></div>
       </div>
 
       <ul className='list-none items-center text-center justify-center'    
        style={{padding: '1rem', display: 'flex',}} >
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='#top'>Home</a></li>
+          style={{ padding: '0.5rem' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem'}} href='about'>About Me</a></li>
+          style={{ padding: '0.5rem'}} href='about'>About Me</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='#services'>Services</a></li>
+          style={{ padding: '0.5rem' }} href='#services'>Services</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='work'>My Work</a></li>
+          style={{ padding: '0.5rem' }} href='work'>My Work</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ color: 'black', padding: '0.5rem' }} href='contact'>Contact</a></li>
+          style={{ padding: '0.5rem' }} href='contact'>Contact</a></li>
         </ul>
         
       </nav>}

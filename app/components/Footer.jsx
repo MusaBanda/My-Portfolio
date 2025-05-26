@@ -4,7 +4,7 @@ import Image from 'next/image'
 import assets from '@/assets/assets'
 import { s } from '@/app/layout' 
 
-function footer() {
+function Footer() {
 
   // State to manage visibility based on screen size
   const [showForLargeScreen, setShowForLargeScreen] = useState(true);
@@ -24,7 +24,7 @@ function footer() {
   }, []);
 
   return (
-    <div className=' mt-20 bg-[#f5f5f5] fill w-full h-[20rem] border-t border-gray-400
+    <div className=' mt-20 bg-#f5f5f5 fill w-full h-[20rem] border-t border-gray-400 dark:bg-darktheme
     '>
         <div className='text-center'>
             <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${s.className}`}>MUSABANDA<span className='text-[red]'>.</span></h1>
@@ -64,4 +64,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer

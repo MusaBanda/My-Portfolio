@@ -1270,13 +1270,13 @@ const infoList = [
         icon: assets.edu_icon,
         iconDark: assets.edu_icon_dark,
         title: 'Education',
-        description: 'BA in I/O psycholody (panding)'
+        description: 'BA in I/O psycholody (Panding)'
     },
     {
         icon: assets.project_icon,
         iconDark: assets.project_icon_dark,
         title: 'Projects',
-        description: 'this portfolio was my first'
+        description: 'This portfolio was is my first project'
     }
 ];
 const toolsData = [
@@ -1431,7 +1431,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$o
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
-        className: "scroll-smooth dark",
+        className: "scroll-smooth",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
                 children: [
@@ -1439,7 +1439,7 @@ function RootLayout({ children }) {
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 29,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1447,28 +1447,27 @@ function RootLayout({ children }) {
                         content: ""
                     }, void 0, false, {
                         fileName: "[project]/app/layout.js",
-                        lineNumber: 30,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 28,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-                className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden 
-      dark:bg-darkTheme dark:text-white`,
+                className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$outfit_a47586d3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className} antialiased leading-8 overflow-x-hidden `,
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.js",
-                lineNumber: 32,
+                lineNumber: 31,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.js",
-        lineNumber: 27,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
@@ -2023,7 +2022,7 @@ const Navbar = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].moon_icon,
-                                alt: "moon_icon",
+                                alt: "",
                                 width: 40,
                                 height: 40,
                                 className: "cursor-pointer mr-14",
@@ -2062,14 +2061,14 @@ const Navbar = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Navbar.jsx",
-                                        lineNumber: 92,
+                                        lineNumber: 93,
                                         columnNumber: 13
                                     }, this),
                                     " "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 86,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2111,13 +2110,13 @@ const Navbar = ()=>{
                                         children: "."
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Navbar.jsx",
-                                        lineNumber: 101,
+                                        lineNumber: 102,
                                         columnNumber: 51
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 101,
+                                lineNumber: 102,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2135,7 +2134,7 @@ const Navbar = ()=>{
                                         className: "cursor-pointer mr-14"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Navbar.jsx",
-                                        lineNumber: 103,
+                                        lineNumber: 104,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2151,19 +2150,19 @@ const Navbar = ()=>{
                                         children: "Email Me"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Navbar.jsx",
-                                        lineNumber: 104,
+                                        lineNumber: 105,
                                         columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 102,
+                                lineNumber: 103,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Navbar.jsx",
-                        lineNumber: 99,
+                        lineNumber: 100,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2184,12 +2183,12 @@ const Navbar = ()=>{
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
-                                    lineNumber: 110,
+                                    lineNumber: 111,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 110,
+                                lineNumber: 111,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2203,12 +2202,12 @@ const Navbar = ()=>{
                                     children: "About Me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
-                                    lineNumber: 112,
+                                    lineNumber: 113,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 112,
+                                lineNumber: 113,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2222,12 +2221,12 @@ const Navbar = ()=>{
                                     children: "Services"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
-                                    lineNumber: 114,
+                                    lineNumber: 115,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 114,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2241,12 +2240,12 @@ const Navbar = ()=>{
                                     children: "My Work"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
-                                    lineNumber: 116,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 116,
+                                lineNumber: 117,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2260,24 +2259,24 @@ const Navbar = ()=>{
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 119,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Navbar.jsx",
-                                lineNumber: 118,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Navbar.jsx",
-                        lineNumber: 108,
+                        lineNumber: 109,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Navbar.jsx",
-                lineNumber: 97,
+                lineNumber: 98,
                 columnNumber: 29
             }, this)
         ]
