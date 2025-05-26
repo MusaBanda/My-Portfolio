@@ -3,53 +3,11 @@
 import React, { useState, useEffect } from 'react'
 import { ovo } from '../layout'
 import Footer from '../components/Footer'
+import {hooks}from '../hooks/hooks'
 
 const Contact = () => {
 
-// forms
-  const [result, setResult] = useState("");
-  const onSubmit = async (event) => {
-
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-
-    formData.append("access_key", "0fea1281-eb8f-410b-bab2-6572702adba7");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
-
-
-// Check if the response is ok
-    const data = await response.json();
-
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
-
-  // show only on large screens
-  const [showForLargeScreen, setShowForLargeScreen] = useState(true);
-    const [showForSmallScreen, setShowForSmallScreen] = useState(false);
-  
-    useEffect(() => {
-      const handleResize = () => {
-        const isLarge = window.innerWidth >= 1024;
-        setShowForLargeScreen(isLarge);
-        setShowForSmallScreen(!isLarge);
-      };
-  
-      window.addEventListener("resize", handleResize);
-      handleResize(); // Call once on mount
-  
-      return () => window.removeEventListener("resize", handleResize);
-    }, []);
+const { showForLargeScreen, showForSmallScreen, onSubmit, result} = hooks();
 
   return (
   <div>

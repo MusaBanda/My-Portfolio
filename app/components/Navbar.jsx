@@ -4,50 +4,13 @@ import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
 import { ovo, roboto } from '../layout';
 import { useTheme } from "next-themes";
+import { hooks } from '../hooks/hooks';
+
 
 const Navbar = () => {
 
   const { theme, setTheme } = useTheme();
-
-  // State to track scroll position
-  const [isScroll, setIsScroll] = useState(false);
- 
-  const sideMenuRref = useRef();
-
-  const openMenu = () => {
-    sideMenuRref.current.style.transform = 'translateX(-16rem)';
-  };
-
-  const closeMenu = () => {
-    sideMenuRref.current.style.transform = 'translateX(16rem)';
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (scrollY > 50) {
-        setIsScroll(true);
-      } else {
-        setIsScroll(false);
-      }
-    });
-  }, []);
-
-// show or hide menu based on screen size
-  const [showForLargeScreen, setShowForLargeScreen] = useState(true);
-  const [showForSmallScreen, setShowForSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      const isLarge = window.innerWidth >= 1024;
-      setShowForLargeScreen(isLarge);
-      setShowForSmallScreen(!isLarge);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  const { isScroll, showForLargeScreen, showForSmallScreen } = hooks();
 
 
   return (
@@ -55,10 +18,10 @@ const Navbar = () => {
      
 
       {showForLargeScreen &&<nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  
-        ${isScroll ? "bg-[#f5f5f5] bg-opacity-50 backgrop-blur-lg shadow-sm" : ""}`}>
+        ${isScroll ? "bg-[#f5f5f5] dark-theme" : ""}`}>
         
         <h1 
-          className={`sm:text-[30px] md:text-[60px] lg:text-[120px] font-bold ${roboto.className}`}
+          className={`sm:text-[30px] md:text-[60px] lg:text-[120px] font-bold ${roboto.className} ${isScroll ? "text-[black]" : ""}`}
           style={{ marginLeft: '2.5rem', marginTop: '1rem' }}
         >
           MusaBanda<span style={{ color: 'red' }}>.</span>

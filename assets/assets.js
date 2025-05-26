@@ -1,5 +1,5 @@
 
-import phone_icon from './phone_icon.jpg';
+import phone_icon from './phone_icon.png';
 import mypic from './mypic.jpg';
 import logo_white from './logo_white.jpg';  
 import user_image from './user-image.png';
@@ -19,7 +19,6 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
 import moon_icon from './moon_icon.png';
@@ -42,6 +41,7 @@ import about_pic from './about_pic.jpg';
 import instagram from './instagram.png';
 import facebook from './facebook.png';
 import github from './github.png';
+import download_icon from './download_icon.png';
 
 export const assets = {
     about_pic,

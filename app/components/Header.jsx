@@ -3,41 +3,12 @@ import Image from 'next/image';
 import { assets } from "@/assets/assets";
 import { roboto, ovo,} from "../layout";
 import Services from './Services';
+import { hooks } from '../hooks/hooks';
 
 const Header = () => {
 
-// show for large and small screen
-  const [showForLargeScreen, setShowForLargeScreen] = useState(true);
-  const [showForSmallScreen, setShowForSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      const isLarge = window.innerWidth >= 1024;
-      setShowForLargeScreen(isLarge);
-      setShowForSmallScreen(!isLarge);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize(); // Call once on mount
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-// State variables to handle button click effects
-  const [isContactClicked, setIsContactClicked] = useState(false);
-  const [isResumeClicked, setIsResumeClicked] = useState(false);
-
-  const handleContactClick = () => {
-    setIsContactClicked(true);
-    setTimeout(() => setIsContactClicked(false), 300); 
-  };
-
-  const handleResumeClick = () => {
-    setIsResumeClicked(true);
-    setTimeout(() => setIsResumeClicked(false), 300); 
-  };
-
-
+  const { showForLargeScreen, showForSmallScreen, isContactClicked, isResumeClicked,
+    handleContactClick, handleResumeClick } = hooks();
   
   return (
     <div className='flex flex-col items-center justify-center h-screen max-w-md mx-auto'
@@ -70,18 +41,18 @@ const Header = () => {
 
      { showForLargeScreen && <div className='flex flex-col-2 items-center'>
         <a href="https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!" 
-        className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
+        className={`text-[15px] no-underline text-bold 
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
           style={{  padding: '0.8rem',cursor: 'pointer', marginRight: '1rem', border: '4px solid #000',
             borderRadius: '4rem', transition: 'all 0.3s ease',  background: '#000',
-             backgroundColor: isContactClicked ? 'orange' : 'black',   color: 'white', 
+             backgroundColor: isContactClicked ? 'orange' : 'green',   color: 'white', 
           }}>
           WHATSAPP ME
-          <Image src={assets.phone_icon} width={15} height={15} 
-            style={{ marginLeft: '1rem', marginTop: '-1rem', marginBottom: '-0.1rem',   
+          <Image src={assets.phone_icon} width={25} height={25} alt=''
+            style={{ marginLeft: '1rem', marginTop: '-1rem', marginBottom: '-0.3rem',   
             }}/></a>
 
-        <a href="/cv.pdf" download className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline
+        <a href="/cv.pdf" download className={`text-[15px] no-underline
           ${roboto.className}`} onClick={handleResumeClick}aria-label="Download My Resume"
           style={{padding: '0.86rem', border: '4px solid #000', marginBottom: '1rem',
             borderRadius: '4rem', marginTop: '1rem',cursor: 'pointer',  
@@ -89,8 +60,8 @@ const Header = () => {
             color: isResumeClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', }}>
           MY RESUME
-          <Image src={assets.download_icon}  width={12.5} height={10} 
-            style={{ marginLeft: '1rem', marginTop: '0rem',  marginBottom: '-0rem', 
+          <Image src={assets.download_icon}  width={25} height={20} alt=''
+            style={{ marginLeft: '1rem', marginTop: '0rem',  marginBottom: '-0.3rem', 
             }}/></a>
       </div>}
 
@@ -101,9 +72,9 @@ const Header = () => {
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
           style={{ padding: '0.8rem', cursor: 'pointer',  marginTop: '1rem', border: '4px solid #000',
            borderRadius: '4rem',transition: 'all 0.1s ease', background: '#000', color: 'white',
-            backgroundColor: isContactClicked ? 'orange' : 'black', }}>
+            backgroundColor: isContactClicked ? 'orange' : 'green', }}>
           WHATSAPP ME
-          <Image src={assets.phone_icon} width={15} height={15} 
+          <Image src={assets.phone_icon} width={15} height={15} alt=''
             style={{marginLeft: '1rem', marginTop: '-1rem',marginBottom: '-0.1rem',}}/></a>
 
         <a href="/cv.pdf" download className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline
@@ -114,7 +85,7 @@ const Header = () => {
             color: isResumeClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', }} >
           MY RESUME
-          <Image src={assets.download_icon}  width={12.5} height={10} 
+          <Image src={assets.download_icon}  width={12.5} height={10} alt=''
             style={{marginLeft: '1rem', marginTop: '0rem',marginBottom: '-0rem',}}/></a></div>}
     </div>
   );

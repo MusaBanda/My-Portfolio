@@ -5,6 +5,7 @@ import { ovo } from "../layout";
 import Footer from '../components/Footer'
 
 const Work = () => {
+  
   return (
   <div >
     <div className="min-h-screen flex flex-col">

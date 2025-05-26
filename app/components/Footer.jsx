@@ -3,28 +3,15 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import assets from '@/assets/assets'
 import { s } from '@/app/layout' 
+import { hooks } from '../hooks/hooks'
+
 
 function Footer() {
 
-  // State to manage visibility based on screen size
-  const [showForLargeScreen, setShowForLargeScreen] = useState(true);
-  const [showForSmallScreen, setShowForSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      const isLarge = window.innerWidth >= 1024;
-      setShowForLargeScreen(isLarge);
-      setShowForSmallScreen(!isLarge);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize(); // Call once on mount
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+const { showForLargeScreen, showForSmallScreen } = hooks();
 
   return (
-    <div className=' mt-20 bg-#f5f5f5 fill w-full h-[20rem] border-t border-gray-400 dark:bg-darktheme
+    <div className=' mt-20 fill w-full h-[20rem] border-t border-gray-400 text-[black bg-#f5f5f5
     '>
         <div className='text-center'>
             <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${s.className}`}>MUSABANDA<span className='text-[red]'>.</span></h1>
@@ -53,11 +40,11 @@ function Footer() {
              items-center justify-between'
             style={{ display: 'flex', marginLeft:'1rem',  marginRight: '4rem', marginBottom:'0rem'}}>
                 <li ><a target='_blank' href="https://github.com/MusaBanda">
-                <Image src={assets.github} alt style={{width: 'auto', height:'2rem'}} /></a></li>
+                <Image src={assets.github} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
                 <li ><a target='_blank' href="https://instagram.com/@musa_banda_kamthimkhulu/">
-                <Image src={assets.instagram} alt style={{width: 'auto', height:'2rem'}} /></a></li>
+                <Image src={assets.instagram} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
                 <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">
-                <Image src={assets.facebook} alt style={{width: 'auto', height:'2rem'}} /></a></li>
+                <Image src={assets.facebook} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
             </ul>}
         </div>
     </div>

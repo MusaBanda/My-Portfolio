@@ -4,21 +4,12 @@ import assets from "@/assets/assets";
 import Image from "next/image";
 import React from "react";  
 import { ovo, roboto } from "../layout";
+import { hooks } from "../hooks/hooks";
+
 
 const Services = () => {
-  const [hoveredToolIndex, setHoveredToolIndex] = useState(null);
-  const [columns, setColumns] = useState(1);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setColumns(window.innerWidth >= 1024 ? 4 : 1);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize(); 
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  
+const { hoveredToolIndex, setHoveredToolIndex, columns, setColumns } = hooks();
 
   return (
     <div id="services" className="text-center mb-10 scroll-smooth" style={{ maxWidth: '100%' }}>
@@ -41,16 +32,9 @@ const Services = () => {
               key={index}
               onMouseEnter={() => setHoveredToolIndex(index)}
               onMouseLeave={() => setHoveredToolIndex(null)}
-              style={{
-                minWidth: "1px", 
-                padding: "3rem",
-                border: "1px solid #ccc",
-                borderRadius: "1rem",
-                marginLeft: "1rem",
-                marginRight: "1rem",
-                marginBottom: "2rem",
-                flexShrink: 0,
-                cursor: "pointer",
+              style={{minWidth: "1px", padding: "3rem", border: "1px solid #ccc",
+                 borderRadius: "1rem", marginLeft: "1rem", marginRight: "1rem",
+                 marginBottom: "2rem", flexShrink: 0, cursor: "pointer",
                 backgroundColor: isHovered ? "#ebf8ff" : "transparent",
                 boxShadow: isHovered ? "0 4px 12px rgba(0, 0, 0, 0.1)" : "none",
                 transform: isHovered ? "translateY(-5px)" : "none",
