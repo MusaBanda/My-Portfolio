@@ -76,15 +76,15 @@ const Navbar = () => {
       <ul className='list-none items-center text-center justify-center'    
        style={{padding: '1rem', display: 'flex',}} >
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem' }} href='#top'>Home</a></li>
+          style={{ padding: '0.5rem', color: 'red' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem'}} href='about'>About Me</a></li>
+          style={{ padding: '0.5rem', color: 'red'}} href='about'>About Me</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem' }} href='#services'>Services</a></li>
+          style={{ padding: '0.5rem', color: 'red' }} href='#services'>Services</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem' }} href='work'>My Work</a></li>
+          style={{ padding: '0.5rem', color: 'red' }} href='work'>My Work</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem' }} href='contact'>Contact</a></li>
+          style={{ padding: '0.5rem', color: 'red' }} href='contact'>Contact</a></li>
         </ul>
         
       </nav>}

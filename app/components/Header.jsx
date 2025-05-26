@@ -74,8 +74,8 @@ const Header = () => {
            borderRadius: '4rem',transition: 'all 0.1s ease', background: '#000', color: 'white',
             backgroundColor: isContactClicked ? 'orange' : 'green', }}>
           WHATSAPP ME
-          <Image src={assets.phone_icon} width={15} height={15} alt=''
-            style={{marginLeft: '1rem', marginTop: '-1rem',marginBottom: '-0.1rem',}}/></a>
+          <Image src={assets.phone_icon} width={20} height={20} alt=''
+            style={{marginLeft: '1rem', marginTop: '-1rem',marginBottom: '-0.3rem',}}/></a>
 
         <a href="/cv.pdf" download className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline
           ${roboto.className}`} onClick={handleResumeClick}aria-label="Download My Resume"
@@ -85,8 +85,8 @@ const Header = () => {
             color: isResumeClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', }} >
           MY RESUME
-          <Image src={assets.download_icon}  width={12.5} height={10} alt=''
-            style={{marginLeft: '1rem', marginTop: '0rem',marginBottom: '-0rem',}}/></a></div>}
+          <Image src={assets.download_icon}  width={25} height={20} alt=''
+            style={{marginLeft: '1rem', marginTop: '0rem',marginBottom: '-0.3rem',}}/></a></div>}
     </div>
   );
 };
