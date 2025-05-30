@@ -36,7 +36,7 @@ const Navbar = () => {
           <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} 
           style={{ padding: '1rem', color: 'black' }} href='#top'>Home</a></li>
           <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} 
-          style={{ padding: '1rem', color: 'black' }} href='about'>About Me</a></li>
+          style={{ padding: '1rem', color: 'black' }} href='test'>About Me</a></li>
           <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} 
           style={{ padding: '1rem', color: 'black' }} href='#services'>Services</a></li>
           <li><a className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline ${ovo.className}`} 

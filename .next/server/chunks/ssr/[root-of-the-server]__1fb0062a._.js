@@ -1976,7 +1976,7 @@ const Navbar = ()=>{
                                         padding: '1rem',
                                         color: 'black'
                                     },
-                                    href: "about",
+                                    href: "test",
                                     children: "About Me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
@@ -2212,7 +2212,8 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: `text-[13px] no-underline ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                     style: {
-                                        padding: '0.5rem'
+                                        padding: '0.5rem',
+                                        color: 'red'
                                     },
                                     href: "#top",
                                     children: "Home"
@@ -2230,7 +2231,8 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: `text-[13px] no-underline ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                     style: {
-                                        padding: '0.5rem'
+                                        padding: '0.5rem',
+                                        color: 'red'
                                     },
                                     href: "about",
                                     children: "About Me"
@@ -2248,7 +2250,8 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: `text-[13px] no-underline ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                     style: {
-                                        padding: '0.5rem'
+                                        padding: '0.5rem',
+                                        color: 'red'
                                     },
                                     href: "#services",
                                     children: "Services"
@@ -2266,7 +2269,8 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: `text-[13px] no-underline ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                     style: {
-                                        padding: '0.5rem'
+                                        padding: '0.5rem',
+                                        color: 'red'
                                     },
                                     href: "work",
                                     children: "My Work"
@@ -2284,7 +2288,8 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     className: `text-[13px] no-underline ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                     style: {
-                                        padding: '0.5rem'
+                                        padding: '0.5rem',
+                                        color: 'red'
                                     },
                                     href: "contact",
                                     children: "Contact"
@@ -2678,13 +2683,13 @@ const Header = ()=>{
                             "WHATSAPP ME",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].phone_icon,
-                                width: 15,
-                                height: 15,
+                                width: 20,
+                                height: 20,
                                 alt: "",
                                 style: {
                                     marginLeft: '1rem',
                                     marginTop: '-1rem',
-                                    marginBottom: '-0.1rem'
+                                    marginBottom: '-0.3rem'
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.jsx",
@@ -2719,13 +2724,13 @@ const Header = ()=>{
                             "MY RESUME",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].download_icon,
-                                width: 12.5,
-                                height: 10,
+                                width: 25,
+                                height: 20,
                                 alt: "",
                                 style: {
                                     marginLeft: '1rem',
                                     marginTop: '0rem',
-                                    marginBottom: '-0rem'
+                                    marginBottom: '-0.3rem'
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.jsx",
