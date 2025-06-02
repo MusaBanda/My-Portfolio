@@ -88,12 +88,14 @@ export const hooks = () => {
         };
 
 // classes for small and large screen
-  const [smallscreen, setsmallscreen] = useState(window.innerWidth < 768);
+const [smallscreen, setsmallscreen] = useState(false); // safe default
 
 useEffect(() => {
   const handleResize = () => {
     setsmallscreen(window.innerWidth < 768);
   };
+
+  handleResize(); // run once on mount
 
   window.addEventListener("resize", handleResize);
   return () => window.removeEventListener("resize", handleResize);

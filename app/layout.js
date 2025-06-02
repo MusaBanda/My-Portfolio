@@ -24,7 +24,7 @@ export const ovo = Ovo({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="dark">
       <head>
         <title>Portfolio</title>
         <meta name="description" content="" />
