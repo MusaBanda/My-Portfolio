@@ -7,12 +7,15 @@ import assets, { infoList, toolsData } from '@/assets/assets';
 import Image from 'next/image';
 import { hooks } from '../hooks/hooks';
 import { ovo } from "../layout";
+import Footer from "../components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Test = () => {
   const slider = useRef(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
+   const [hoveredToolIndex, setHoveredToolIndex] = useState(null);
+  
    const { smallscreen } = hooks();
 
 useEffect(() => {
@@ -85,28 +88,28 @@ const descriptions = [
 
 
   return (
-
+<div>
     <div>
-     <video autoPlay muted loop playsInline
-   style={{position: 'fixed',  top: 0,  left: 0, width: '100vw',  height: '100vh',
-   objectFit: 'cover', zIndex: -1,filter: 'brightness(0.5)', }}>
-   <source src="/my_vid.mp4" type="video/mp4" />
-     </video>
+    <video autoPlay muted loop playsInline
+       style={{position: 'fixed',  top: 0,  left: 0, width: '100vw',  height: '100vh',
+       objectFit: 'cover', zIndex: -1,filter: 'brightness(0.5)', }}>
+        <source src="/my_vid.mp4" type="video/mp4" />
+    </video>
       <div className="min-h-screen flex justify-center items-center">
         <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
             style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
-          <p className="flex flex-col items-center text-center text-[red] gap-[50]" >SCROLL DOWN FOR THE ANIMATION 
+          <p className="flex flex-col items-center text-center gap-[50]" >STEP INSIDE AND GET TO KNOW ME 
           <img style={{alignItems:"center"}} src="/scroll.gif" alt="" height={100}/></p>          
         </div>
         <h2 className={`text-center font-bold leading-none ${ovo.className}`}
-          style={{marginTop: "60rem",fontSize: "clamp(2rem, 8vw, 6rem)"}}>
+          style={{marginTop: "80rem",fontSize: "clamp(2rem, 8vw, 6rem)"}}>
           <span className='target'>Introduction</span>
           <span className='target'>About Me</span>
         </h2>
       </div>
 
       <div className="flex justify-center px-4 sm:px-6 lg:px-8 mb-[100vh] grid grid-col-1"
-        style={{ marginTop: "50%" }} >
+        style={{ marginTop: "30%" }} >
         <div>
         <p className={`text-center ${ovo.className}`}>
           I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React.
@@ -126,7 +129,8 @@ const descriptions = [
                   style={{ minWidth: '250px', padding: '1rem',border: '1px solid #ccc', borderRadius: '2rem',
                       backgroundColor: isHovered ? '#ebf8ff' : 'transparent', transition: 'all 0.3s ease',
                       boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
-                      transform: isHovered ? 'translateY(-5px)' : 'none', }}>
+                      transform: isHovered ? 'translateY(-5px)' : 'none',
+                      color: isHovered ? 'black':'' }}>
                          
         <div className="flex flex-col items-center">
           <Image src={icon} alt={title} width={30} className="mb-2" />
@@ -164,7 +168,32 @@ const descriptions = [
           ))}
         </div>
       </div>
+      
     </div>
+    <div style={{marginBottom:'20rem'}}> 
+       <h3 className="sm:text-[18px] md:text-[20px] lg:text-[30px] text-center"
+        style={{marginBottom:'10rem'}}>Tools I Use</h3>
+      
+              <ul className="flex items-center justify-center grid grid-cols-3">
+                {toolsData.map((tool, index) => {
+                  const isHovered = hoveredToolIndex === index;
+                  return (
+                    <li
+                      key={index}
+                      onMouseEnter={() => setHoveredToolIndex(index)}
+                      onMouseLeave={() => setHoveredToolIndex(null)}
+                      className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full cursor-pointer"
+                      style={{
+                        padding: '1rem', border: '5px solid #ccc', transition: 'all 0.3s ease',
+                        transform: isHovered ? 'translateY(-5px)' : 'none', marginRight: '2.5rem',
+                        boxShadow: isHovered ? '0 4px 10px rgba(0,0,0,0.1)' : 'none',
+                    }} >
+                      <Image src={tool} alt="tool" width={30} />
+                  </li>   );  })}
+              </ul>
+    </div>
+    <Footer/>
+</div>
   );
 };
 
