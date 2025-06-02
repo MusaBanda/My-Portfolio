@@ -86,6 +86,18 @@ export const hooks = () => {
           }
         };
 
+// classes for small and large screen
+  const [smallscreen, setsmallscreen] = useState(window.innerWidth < 768);
+
+useEffect(() => {
+  const handleResize = () => {
+    setsmallscreen(window.innerWidth < 768);
+  };
+
+  window.addEventListener("resize", handleResize);
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+
 
  
 
@@ -98,5 +110,6 @@ export const hooks = () => {
     hoveredToolIndex, setHoveredToolIndex,
     columns, setColumns,
     onSubmit, result, setResult, 
+    smallscreen
   };
 };

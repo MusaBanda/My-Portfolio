@@ -3,15 +3,17 @@ import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from "split-type";
-import Lenis from "@studio-freight/lenis";
 import assets, { infoList, toolsData } from '@/assets/assets';
 import Image from 'next/image';
+import { hooks } from '../hooks/hooks';
+import { ovo } from "../layout";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Test = () => {
   const slider = useRef(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
+   const { smallscreen } = hooks();
 
 useEffect(() => {
   const split = new SplitType(".target");
@@ -76,57 +78,53 @@ useEffect(() => {
 
   return (
     <div>
-      {/* Hero Section */}
       <div className="min-h-screen flex justify-center items-center">
-        <div
-          className="absolute top-0 w-screen h-screen flex justify-center items-center"
-          style={{ marginTop: "-70%" }}
-        >
-          SCROLL DOWN FOR THE ANIMATION
+        <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
+            style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
+          <p className="flex flex-col items-center" >SCROLL DOWN FOR THE ANIMATION 
+          <img src="/scroll.webp" alt="" height={80}/></p>          
         </div>
         <h2
           className="text-center font-bold leading-none"
-          style={{
-            marginTop: "100%",
-            fontSize: "clamp(2rem, 8vw, 6rem)"
-          }}
-        >
-          <span className="target uppercase block">MOSA</span>
-          <span className="target uppercase block">BANDA</span>
+          style={{marginTop: "60rem",fontSize: "clamp(2rem, 8vw, 6rem)"}}>
+          <span className={`target ${ovo.className}`}>Introduction</span>
+          <span className={`target ${ovo.className}`}>About Me</span>
         </h2>
       </div>
 
       {/* Info List Section */}
-      <div
-        className="flex justify-center px-4 sm:px-6 lg:px-8 mb-[100vh]"
-        style={{ marginTop: "50%" }}
-      >
-       <ul
-                className="flex gap-6 overflow-x-auto list-none p-0 m-0 mb-10" 
-                 style={{display: "grid", gap: "1rem", marginRight: "2.5rem",marginBottom: "2.5rem",}}>
-       
-                 {infoList.map(({ icon, title, description }, index) => {
-                   const isHovered = hoveredIndex === index;
-                   return (
-                     <li
-                       key={index}
-                       onMouseEnter={() => setHoveredIndex(index)}
-                       onMouseLeave={() => setHoveredIndex(null)}
-                       className="flex-shrink-0 cursor-pointer"
-                       style={{ minWidth: '250px', padding: '1rem',border: '1px solid #ccc', borderRadius: '2rem',
-                         backgroundColor: isHovered ? '#ebf8ff' : 'transparent', transition: 'all 0.3s ease',
-                         boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
-                         transform: isHovered ? 'translateY(-5px)' : 'none',
-                     }}>
-                         
-                     <div className="flex flex-col items-center">
-                         <Image src={icon} alt={title} width={30} className="mb-2" />
-                         <h3 className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-700">{title}</h3>
-                         <p className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600">{description}</p>
-                     </div>
-                     </li>  );   })}
-               </ul>
+      
+      <div className="flex justify-center px-4 sm:px-6 lg:px-8 mb-[100vh] grid grid-col-1"
+        style={{ marginTop: "50%" }} >
+        <div>
+        <p className={`text-center ${ovo.className}`}>
+          I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React.
+          I create clean, responsive websites, focusing on both function and design. I enjoy building interactive
+          digital experiences that people love using.
+        </p>
       </div>
+       <ul className="flex gap-6 overflow-x-auto list-none p-0 m-0 mb-10" 
+          style={{display: "grid", gap: "1rem", marginRight: "2.5rem",marginBottom: "-30rem",}}>
+          {infoList.map(({ icon, title, description }, index) => {
+              const isHovered = hoveredIndex === index;
+              return (
+                <li key={index}
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                  className="flex-shrink-0 cursor-pointer"
+                  style={{ minWidth: '250px', padding: '1rem',border: '1px solid #ccc', borderRadius: '2rem',
+                      backgroundColor: isHovered ? '#ebf8ff' : 'transparent', transition: 'all 0.3s ease',
+                      boxShadow: isHovered ? '0 4px 12px rgba(0, 0, 0, 0.1)' : 'none',
+                      transform: isHovered ? 'translateY(-5px)' : 'none', }}>
+                         
+        <div className="flex flex-col items-center">
+          <Image src={icon} alt={title} width={30} className="mb-2" />
+          <h3 className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-700">{title}</h3>
+          <p className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600">{description}</p>
+        </div></li>  );   })}
+        </ul>
+      </div>
+      
 
       {/* Horizontal Scroll Section */}
       <div
