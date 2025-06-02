@@ -81,8 +81,8 @@ useEffect(() => {
       <div className="min-h-screen flex justify-center items-center">
         <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
             style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
-          <p className="flex flex-col items-center" >SCROLL DOWN FOR THE ANIMATION 
-          <img src="/scroll.webp" alt="" height={80}/></p>          
+          <p className="flex flex-col items-center text-center" >SCROLL DOWN FOR THE ANIMATION 
+          <img style={{alignItems:"center"}} src="/scroll.webp" alt="" height={80}/></p>          
         </div>
         <h2
           className="text-center font-bold leading-none"
