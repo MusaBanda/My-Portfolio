@@ -3,6 +3,14 @@ import { useState, useEffect } from 'react';
   
 export const hooks = () => {
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const width = window.innerWidth;
+      console.log(width);
+    }
+  }, []);
+
+
 // State to track scroll position
   const [isScroll, setIsScroll] = useState(false);
 
