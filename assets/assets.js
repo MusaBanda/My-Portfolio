@@ -1,7 +1,7 @@
 
 import phone_icon from './phone_icon.png';
 import mypic from './mypic.jpg';
-import logo_white from './logo_white.jpg';  
+import logo_white from './logo_white.png';  
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';

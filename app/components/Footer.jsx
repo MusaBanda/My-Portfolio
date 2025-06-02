@@ -26,6 +26,8 @@ const { showForLargeScreen, showForSmallScreen } = hooks();
         <div className='sm:text-[18px] md:text-[20px] lg:text-[30px] text-center sm:flex items-center justify-between border-t border-gray-400
         mx-[10%] mt-12 py-6'>
             <p style={{marginTop:'2rem'}}>© 2025 Mthimkhulu Musa. All rights reserved.</p>
+        <div>
+            <p style={{display:'flex', marginLeft:'-2rem'}}>Connect with me : </p>
            {showForLargeScreen && <ul className='list-none sm:text-[18px] md:text-[20px] lg:text-[30px] '
             style={{ display: 'flex', gap: '2rem', marginLeft:'-5rem',  marginRight: '0.5rem', marginBottom:'0rem'}}>
                 <li ><a target='_blank' href="https://github.com/MusaBanda">
@@ -46,6 +48,7 @@ const { showForLargeScreen, showForSmallScreen } = hooks();
                 <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">
                 <Image src={assets.facebook} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
             </ul>}
+        </div>
         </div>
     </div>
   )

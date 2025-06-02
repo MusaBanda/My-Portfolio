@@ -38,6 +38,7 @@ const { hoveredToolIndex, setHoveredToolIndex, columns, setColumns } = hooks();
                 backgroundColor: isHovered ? "#ebf8ff" : "transparent",
                 boxShadow: isHovered ? "0 4px 12px rgba(0, 0, 0, 0.1)" : "none",
                 transform: isHovered ? "translateY(-5px)" : "none",
+                color: isHovered ? 'black' : '',
                 transition: "all 0.3s ease",
               }}
             >
