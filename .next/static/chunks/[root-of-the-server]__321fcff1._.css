@@ -745,6 +745,10 @@
   flex-shrink: 0;
 }
 
+.flex-grow, .grow {
+  flex-grow: 1;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -815,24 +819,8 @@
   justify-content: center;
 }
 
-.gap-\[7\] {
-  gap: 7px;
-}
-
-.gap-\[20\] {
-  gap: 20px;
-}
-
-.gap-\[50\] {
+.gap-\[50\], .gap-\[50px\] {
   gap: 50px;
-}
-
-.gap-\[80\] {
-  gap: 80px;
-}
-
-.gap-\[90\] {
-  gap: 90px;
 }
 
 .overflow-hidden {
@@ -913,6 +901,10 @@
   font-size: 0;
 }
 
+.text-\[0vw\] {
+  font-size: 0;
+}
+
 .text-\[1\.2vw\] {
   font-size: 1.2vw;
 }
@@ -945,12 +937,24 @@
   font-size: 30px;
 }
 
+.text-\[30vh\] {
+  font-size: 30vh;
+}
+
+.text-\[30vw\] {
+  font-size: 30vw;
+}
+
 .text-\[33px\] {
   font-size: 33px;
 }
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[40vw\] {
+  font-size: 40vw;
 }
 
 .text-\[50px\] {
@@ -974,8 +978,32 @@
   line-height: 1;
 }
 
+.text-\[0v\] {
+  color: 0v;
+}
+
+.text-\[3\] {
+  color: 3;
+}
+
+.text-\[30\] {
+  color: 30;
+}
+
+.text-\[30v\] {
+  color: 30v;
+}
+
+.text-\[40v\] {
+  color: 40v;
+}
+
 .text-\[black\] {
   color: #000;
+}
+
+.text-\[bold\] {
+  color: bold;
 }
 
 .text-\[red\] {

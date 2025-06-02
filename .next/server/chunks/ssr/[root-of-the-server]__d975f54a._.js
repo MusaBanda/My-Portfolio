@@ -1668,6 +1668,13 @@ const Test = ()=>{
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScrollTrigger"].getAll().forEach((t)=>t.kill());
         };
     }, []);
+    const descriptions = [
+        "I attended Khutlo Tharo High School, where I worked hard and excelled academically. I was proud to be the top student in my class and ranked among the top three students in the entire school. One of my biggest achievements was being recognized as a top achiever in Math Literacy, which motivated me to keep pushing myself and aiming high in everything I do.",
+        "In my spare time, I also enjoy working on cars. I’ve always been fascinated by how engines and mechanical systems work, so fixing cars has become a hands-on hobby for me. Whether it's doing basic maintenance or solving tricky issues, I find it satisfying to take something that's not working and bring it back to life. It’s a great way to learn, stay productive, and challenge myself.",
+        "I’m currently a student at NWU, where I actively participate in events like Miss and Mister Ebukhosini. Being involved in these events allows me to connect with my peers and showcase my talents beyond academics. I’m also proud to be a member of the Arts and Culture community at my residence, where I contribute to creative projects and help promote cultural activities. These experiences have helped me grow both personally and socially during my time at university.",
+        "In my spare time, I also love to draw. I’ve been passionate about art for as long as I can remember, and I even studied Visual Arts in high school. It gave me the chance to explore different styles and techniques, and drawing has remained one of my favorite ways to express myself creatively.",
+        "My workspace is a reflection of my creativity and focus. I like to keep it clean and organized, with just the essentials around me—my sketchbook, drawing tools, and laptop. Natural light and a calm environment help me stay inspired, whether I’m sketching new ideas or working on a digital project. It’s a space where I feel comfortable and motivated to create."
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
@@ -1690,13 +1697,13 @@ const Test = ()=>{
                     type: "video/mp4"
                 }, void 0, false, {
                     fileName: "[project]/app/test/page.js",
-                    lineNumber: 84,
+                    lineNumber: 93,
                     columnNumber: 4
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 81,
-                columnNumber: 2
+                lineNumber: 90,
+                columnNumber: 6
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "min-h-screen flex justify-center items-center",
@@ -1721,18 +1728,18 @@ const Test = ()=>{
                                     height: 100
                                 }, void 0, false, {
                                     fileName: "[project]/app/test/page.js",
-                                    lineNumber: 90,
+                                    lineNumber: 99,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/test/page.js",
-                            lineNumber: 89,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 87,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1747,7 +1754,7 @@ const Test = ()=>{
                                 children: "Introduction"
                             }, void 0, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 94,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1755,19 +1762,19 @@ const Test = ()=>{
                                 children: "About Me"
                             }, void 0, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 95,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 92,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 86,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1782,12 +1789,12 @@ const Test = ()=>{
                             children: "I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React. I create clean, responsive websites, focusing on both function and design. I enjoy building interactive digital experiences that people love using."
                         }, void 0, false, {
                             fileName: "[project]/app/test/page.js",
-                            lineNumber: 104,
+                            lineNumber: 111,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 103,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1824,7 +1831,7 @@ const Test = ()=>{
                                             className: "mb-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 125,
+                                            lineNumber: 132,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1832,7 +1839,7 @@ const Test = ()=>{
                                             children: title
                                         }, void 0, false, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 126,
+                                            lineNumber: 133,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1841,30 +1848,30 @@ const Test = ()=>{
                                             children: description
                                         }, void 0, false, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 127,
+                                            lineNumber: 134,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/test/page.js",
-                                    lineNumber: 124,
+                                    lineNumber: 131,
                                     columnNumber: 9
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 115,
+                                lineNumber: 122,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 110,
+                        lineNumber: 117,
                         columnNumber: 8
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 101,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1898,39 +1905,53 @@ const Test = ()=>{
                                 position: "relative",
                                 flexShrink: 0
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "img",
-                                style: {
-                                    width: "100%",
-                                    height: "100%",
-                                    position: "absolute",
-                                    top: 0,
-                                    left: 0
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/app/test/page.js",
-                                lineNumber: 152,
-                                columnNumber: 13
-                            }, this)
-                        }, i, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "img",
+                                    style: {
+                                        width: "100%",
+                                        height: "100%",
+                                        position: "absolute",
+                                        opacity: '50%'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/app/test/page.js",
+                                    lineNumber: 157,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "flex justify-center text-center font-bold ",
+                                    style: {
+                                        position: "absolute",
+                                        color: "black",
+                                        top: '40%'
+                                    },
+                                    children: descriptions[i]
+                                }, void 0, false, {
+                                    fileName: "[project]/app/test/page.js",
+                                    lineNumber: 159,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, i, true, {
                             fileName: "[project]/app/test/page.js",
-                            lineNumber: 145,
-                            columnNumber: 13
+                            lineNumber: 150,
+                            columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/test/page.js",
-                    lineNumber: 139,
+                    lineNumber: 144,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 134,
+                lineNumber: 139,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/test/page.js",
-        lineNumber: 80,
+        lineNumber: 89,
         columnNumber: 5
     }, this);
 };
