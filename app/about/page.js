@@ -16,11 +16,6 @@ const [showForSmallScreen, setShowForSmallScreen] = useState(false);
 const [isClient, setIsClient] = useState(false);
 
 useEffect(() => {
-  const width = window.innerWidth; // ✅ safe now
-  console.log(width);
-}, []);
-
-useEffect(() => {
   const handleResize = () => {
     const isLarge = window.innerWidth >= 1024;
     setShowForLargeScreen(isLarge);

@@ -16,13 +16,6 @@ const Test = () => {
    const { smallscreen } = hooks();
 
 useEffect(() => {
-    if (typeof window !== "undefined") {
-      const width = window.innerWidth;
-      console.log(width);
-    }
-  }, []);
-
-useEffect(() => {
   const split = new SplitType(".target");
   split.words.forEach((word) => {
     gsap.set(word, { perspective: 2000 });
