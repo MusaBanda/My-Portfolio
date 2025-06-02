@@ -1398,7 +1398,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$them
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
-        className: "scroll-smooth  dark",
+        className: "",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
                 children: [
@@ -1550,6 +1550,15 @@ const hooks = ()=>{
             setResult(data.message);
         }
     };
+    // classes for small and large screen
+    const [smallscreen, setsmallscreen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(window.innerWidth < 768);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const handleResize = ()=>{
+            setsmallscreen(window.innerWidth < 768);
+        };
+        window.addEventListener("resize", handleResize);
+        return ()=>window.removeEventListener("resize", handleResize);
+    }, []);
     return {
         isScroll,
         showForLargeScreen,
@@ -1564,7 +1573,8 @@ const hooks = ()=>{
         setColumns,
         onSubmit,
         result,
-        setResult
+        setResult,
+        smallscreen
     };
 };
 }}),
@@ -2234,7 +2244,7 @@ const Navbar = ()=>{
                                         padding: '0.5rem',
                                         color: 'red'
                                     },
-                                    href: "about",
+                                    href: "test",
                                     children: "About Me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",

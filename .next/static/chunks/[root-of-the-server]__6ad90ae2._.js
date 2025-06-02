@@ -1530,7 +1530,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$them
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
-        className: "scroll-smooth  dark",
+        className: "",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
                 children: [
@@ -1706,6 +1706,21 @@ const hooks = ()=>{
             setResult(data.message);
         }
     };
+    // classes for small and large screen
+    const [smallscreen, setsmallscreen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(window.innerWidth < 768);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "hooks.useEffect": ()=>{
+            const handleResize = {
+                "hooks.useEffect.handleResize": ()=>{
+                    setsmallscreen(window.innerWidth < 768);
+                }
+            }["hooks.useEffect.handleResize"];
+            window.addEventListener("resize", handleResize);
+            return ({
+                "hooks.useEffect": ()=>window.removeEventListener("resize", handleResize)
+            })["hooks.useEffect"];
+        }
+    }["hooks.useEffect"], []);
     return {
         isScroll,
         showForLargeScreen,
@@ -1720,10 +1735,11 @@ const hooks = ()=>{
         setColumns,
         onSubmit,
         result,
-        setResult
+        setResult,
+        smallscreen
     };
 };
-_s(hooks, "9MeJf/dmkCvk25jtZxpQnAF6GPY=");
+_s(hooks, "+f2lTLgTwZVJuqbWqdQJBlC9GbU=");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
@@ -2402,7 +2418,7 @@ const Navbar = ()=>{
                                         padding: '0.5rem',
                                         color: 'red'
                                     },
-                                    href: "about",
+                                    href: "test",
                                     children: "About Me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Navbar.jsx",
