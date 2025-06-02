@@ -13,73 +13,66 @@ const Test = () => {
   const slider = useRef(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  useEffect(() => {
-    const split = new SplitType(".target");
-    split.words.forEach((word) => {
-      gsap.set(word, { perspective: 2000 });
-      gsap.fromTo(
-        word.children,
-        {
-          willChange: "opacity, transform",
-          opacity: 0,
-          y: (i, _, arr) => -40 * Math.abs(i - arr.length / 2),
-          z: () => gsap.utils.random(-1500, -600),
-          rotationX: () => gsap.utils.random(-500, -200),
-        },
-        {
-          ease: "power1",
-          opacity: 1,
-          y: 0,
-          z: 0,
-          rotationX: 0,
-          stagger: { each: 0.06, from: "center" },
-          scrollTrigger: {
-            trigger: word,
-            start: "top bottom",
-            end: "top top+=15px",
-            scrub: true,
-          },
-        }
-      );
-    });
-
-    const lenis = new Lenis({ lerp: 0.2, smooth: true });
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-    lenis.on("scroll", ScrollTrigger.update);
-
-    const images = document.querySelectorAll(".img");
-    images.forEach((img, i) => {
-      img.style.backgroundImage = `url(/parallax/p${i + 1}.jpg)`;
-      img.style.backgroundSize = "cover";
-      img.style.backgroundPosition = "center";
-      img.style.backgroundRepeat = "no-repeat";
-    });
-
-    const totalScrollWidth = images.length * 520;
-    const horizontalSection = document.querySelector("#horizontal");
-
-    gsap.to(slider.current, {
-      x: () => `-${totalScrollWidth - window.innerWidth}`,
-      ease: "none",
-      scrollTrigger: {
-        trigger: horizontalSection,
-        start: "top top",
-        end: () => `+=${totalScrollWidth}`,
-        scrub: true,
-        pin: true,
-        anticipatePin: 1,
+useEffect(() => {
+  const split = new SplitType(".target");
+  split.words.forEach((word) => {
+    gsap.set(word, { perspective: 2000 });
+    gsap.fromTo(
+      word.children,
+      {
+        willChange: "opacity, transform",
+        opacity: 0,
+        y: (i, _, arr) => -40 * Math.abs(i - arr.length / 2),
+        z: () => gsap.utils.random(-1500, -600),
+        rotationX: () => gsap.utils.random(-500, -200),
       },
-    });
+      {
+        ease: "power1",
+        opacity: 1,
+        y: 0,
+        z: 0,
+        rotationX: 0,
+        stagger: { each: 0.06, from: "center" },
+        scrollTrigger: {
+          trigger: word,
+          start: "top bottom",
+          end: "top top+=15px",
+          scrub: true,
+        },
+      }
+    );
+  });
 
-    return () => {
-      lenis.destroy();
-      ScrollTrigger.getAll().forEach((t) => t.kill());
-    };
-  }, []);
+  const images = document.querySelectorAll(".img");
+  images.forEach((img, i) => {
+    img.style.backgroundImage = `url(/parallax/p${i + 1}.jpg)`;
+    img.style.backgroundSize = "cover";
+    img.style.backgroundPosition = "center";
+    img.style.backgroundRepeat = "no-repeat";
+  });
+
+  const totalScrollWidth = images.length * 520;
+  const horizontalSection = document.querySelector("#horizontal");
+
+  gsap.to(slider.current, {
+    x: () => `-${totalScrollWidth - window.innerWidth}`,
+    ease: "none",
+    force3D: true,
+    scrollTrigger: {
+      trigger: horizontalSection,
+      start: "top top",
+      end: () => `+=${totalScrollWidth}`,
+      scrub: 0.3,
+      pin: true,
+      anticipatePin: 1,
+    },
+  });
+
+  return () => {
+    ScrollTrigger.getAll().forEach(t => t.kill());
+  };
+}, []);
+
 
   return (
     <div>
