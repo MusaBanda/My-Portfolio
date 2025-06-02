@@ -78,7 +78,7 @@ const Navbar = () => {
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
           style={{ padding: '0.5rem', color: 'red' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem', color: 'red'}} href='about'>About Me</a></li>
+          style={{ padding: '0.5rem', color: 'red'}} href='test'>About Me</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
           style={{ padding: '0.5rem', color: 'red' }} href='#services'>Services</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
