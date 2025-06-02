@@ -78,17 +78,21 @@ useEffect(() => {
 
   return (
     <div>
+ <video autoPlay muted loop playsInline
+   style={{position: 'fixed',  top: 0,  left: 0, width: '100vw',  height: '100vh',
+   objectFit: 'cover', zIndex: -1,filter: 'brightness(0.5)', }}>
+   <source src="/my_vid.mp4" type="video/mp4" />
+</video>
       <div className="min-h-screen flex justify-center items-center">
         <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
             style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
-          <p className="flex flex-col items-center text-center" >SCROLL DOWN FOR THE ANIMATION 
-          <img style={{alignItems:"center"}} src="/scroll.webp" alt="" height={80}/></p>          
+          <p className="flex flex-col items-center text-center text-[red] gap-[50]" >SCROLL DOWN FOR THE ANIMATION 
+          <img style={{alignItems:"center"}} src="/scroll.gif" alt="" height={100}/></p>          
         </div>
-        <h2
-          className="text-center font-bold leading-none"
+        <h2 className={`text-center font-bold leading-none ${ovo.className}`}
           style={{marginTop: "60rem",fontSize: "clamp(2rem, 8vw, 6rem)"}}>
-          <span className={`target ${ovo.className}`}>Introduction</span>
-          <span className={`target ${ovo.className}`}>About Me</span>
+          <span className='target'>Introduction</span>
+          <span className='target'>About Me</span>
         </h2>
       </div>
 
@@ -119,8 +123,8 @@ useEffect(() => {
                          
         <div className="flex flex-col items-center">
           <Image src={icon} alt={title} width={30} className="mb-2" />
-          <h3 className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-700">{title}</h3>
-          <p className="sm:text-[11px] md:text-[18px] lg:text-[20px] text-gray-600">{description}</p>
+          <h3 className={` ${ovo.className}`}>{title}</h3>
+          <p c className={` ${ovo.className}`}>{description}</p>
         </div></li>  );   })}
         </ul>
       </div>
@@ -134,41 +138,19 @@ useEffect(() => {
       >
         <div
           ref={slider}
-          style={{
-            display: "flex",
-            height: "100vh",
-            alignItems: "center",
-            position: "absolute",
-            top: 0,
-            left: 0,
-            willChange: "transform",
-          }}
-        >
+          style={{ display: "flex",height: "100vh", alignItems: "center", position: "absolute",
+           top: 0,left: 0, willChange: "transform",
+          }} >
           {[...Array(5)].map((_, i) => (
             <div
               key={i}
-              style={{
-                height: "70vh",
-                width: "clamp(250px, 80vw, 480px)",
-                margin: "0 2rem",
-                borderRadius: "12px",
-                overflow: "hidden",
-                backgroundColor: "#fff",
-                boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
-                position: "relative",
-                flexShrink: 0,
-              }}
-            >
-              <div
-                className="img"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                }}
-              />
+              style={{ height: "70vh", width: "clamp(250px, 80vw, 480px)", margin: "0 2rem",
+               borderRadius: "12px", overflow: "hidden", backgroundColor: "#fff",
+               boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
+               position: "relative",flexShrink: 0,
+              }} >
+            <div  className="img"
+              style={{ width: "100%",height: "100%",position: "absolute", top: 0, left: 0,}} />
             </div>
           ))}
         </div>
