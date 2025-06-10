@@ -22,4 +22,4 @@ HTML & CSS (with inline styles)
 Git & GitHub
 
 Live Demo
-Check it out here: https://my-portfolio-git-main-musabandas-projects.vercel.app/
+Check it out here: https://my-portfolio-five-theta-88.vercel.app/
