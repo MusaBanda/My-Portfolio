@@ -27,6 +27,33 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
+"[project]/assets/back.png (static in ecmascript)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v("/_next/static/media/back.b4a3f658.png");}}),
+"[project]/assets/back.png.mjs { IMAGE => \"[project]/assets/back.png (static in ecmascript)\" } [app-client] (structured image object, ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$back$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/assets/back.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$back$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 512,
+    height: 512,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAeElEQVR42oWPzQnEIBSEnwtqDd5twauwB63BLrYSu9gacghCzmkh59QQCEgSvjTgYWDezLw/6b1/WmvfGONirT0AHA1PIN77TURupdQF4Gh4QhpBa33mnCfn3E4NXo+RdJVS/rXWX0ppDiGsxpgTbxwYrhgeOXrzATFGX6/snMOiAAAAAElFTkSuQmCC",
+    blurWidth: 8,
+    blurHeight: 8
+};
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
 "[project]/assets/mypic.jpg (static in ecmascript)": ((__turbopack_context__) => {
 
 var { g: global, __dirname } = __turbopack_context__;
@@ -1175,11 +1202,7 @@ __turbopack_context__.s({
     "workData": (()=>workData)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$phone_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$phone_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/phone_icon.png.mjs { IMAGE => "[project]/assets/phone_icon.png (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
-(()=>{
-    const e = new Error("Cannot find module './back.png'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
+var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$back$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$back$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/back.png.mjs { IMAGE => "[project]/assets/back.png (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$mypic$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$mypic$2e$jpg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/mypic.jpg.mjs { IMAGE => "[project]/assets/mypic.jpg (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$logo_white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$logo_white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/logo_white.png.mjs { IMAGE => "[project]/assets/logo_white.png (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$user$2d$image$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$user$2d$image$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/user-image.png.mjs { IMAGE => "[project]/assets/user-image.png (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
@@ -1267,7 +1290,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$download_icon$2e$p
 ;
 ;
 const assets = {
-    back,
+    back: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$back$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$back$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
     about_pic: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$about_pic$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$about_pic$2e$jpg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
     facebook: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$facebook$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$facebook$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
     github: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$github$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$github$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -3066,4 +3089,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }}),
 }]);
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__1196dc29._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__bc2bbb5a._.js.map

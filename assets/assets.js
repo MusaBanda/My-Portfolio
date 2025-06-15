@@ -1,5 +1,6 @@
 
 import phone_icon from './phone_icon.png';
+import back from './back.png';
 import mypic from './mypic.jpg';
 import logo_white from './logo_white.png';  
 import user_image from './user-image.png';
@@ -44,6 +45,7 @@ import github from './github.png';
 import download_icon from './download_icon.png';
 
 export const assets = {
+    back,
     about_pic,
     facebook,
     github,

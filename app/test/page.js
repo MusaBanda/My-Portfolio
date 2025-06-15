@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from "split-type";
-import assets, { infoList, toolsData } from '@/assets/assets';
+import assets, { infoList, toolsData, } from '@/assets/assets';
 import Image from 'next/image';
 import { hooks } from '../hooks/hooks';
 import { ovo } from "../layout";
@@ -96,6 +96,7 @@ const descriptions = [
         <source src="/my_vid.mp4" type="video/mp4" />
     </video>
       <div className="min-h-screen flex justify-center items-center">
+        <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><img src={assets.back} alt="Back" /></a>
         <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
             style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
           <p className="flex flex-col items-center text-center gap-[50]" >STEP INSIDE AND GET TO KNOW ME 

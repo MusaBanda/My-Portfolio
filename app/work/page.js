@@ -2,13 +2,15 @@
 
 import React from "react";
 import { ovo } from "../layout";
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import assets from '@/assets/assets';
 
 const Work = () => {
   
   return (
   <div >
     <div className="min-h-screen flex flex-col">
+      <a href="/" style={{ position: 'absolute', top: '1rem', right: '1rem' }}><img src={assets.back} alt="Back" /></a>
       <div>
         <h1 className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className}`}
          style={{ marginLeft: '2rem' }}>
@@ -19,10 +21,10 @@ const Work = () => {
          style={{ marginTop: '3rem' }}>My work</h2>
         <p className={`sm:text[18px] md:text[18px] lg:text-[30px] text-center ${ovo.className}`}
         style={{ marginRight: '1rem', marginLeft: '2rem' }}>
-          I have worked on several projects, including personal and collaborative ones.
-          My portfolio showcases my skills in front-end development, with a focus on creating
-          responsive and user-friendly interfaces. I am always eager to learn and take on new challenges.
-          I am currently looking for opportunities to work on exciting projects and expand my skill set.
+          This is my very first portfolio and project. It marks the beginning of my journey in front-end 
+          development, where I’m learning to create responsive and user-friendly interfaces. I’m passionate
+          about improving my skills, eager to learn, and excited to take on new challenges and opportunities 
+          in the world of web development.
         </p>
       </div>
       

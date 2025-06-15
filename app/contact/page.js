@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { ovo } from '../layout'
 import Footer from '../components/Footer'
 import {hooks}from '../hooks/hooks'
+import assets from '@/assets/assets';
 
 const Contact = () => {
 
@@ -11,8 +12,8 @@ const { showForLargeScreen, showForSmallScreen, onSubmit, result} = hooks();
 
   return (
   <div>
-    <div
-      className="text-center flex items-center justify-center min-h-screen px-4">
+    <div className="text-center flex items-center justify-center min-h-screen px-4">
+      <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><img src={assets.back} alt="Back" /></a>
       <div className="w-full max-w-5xl mx-auto">
         <h3 className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className} font-bold mb-2 mt-6`}
         style={{marginTop:'3rem'}}>Connect with me</h3>
@@ -42,7 +43,7 @@ const { showForLargeScreen, showForSmallScreen, onSubmit, result} = hooks();
           <textarea
             placeholder="Enter your message" required
             className="text-[30px] p-6 rounded-xl w-full h-[360px] resize-none bg-white" name='message'
-            style={{ borderRadius:'0.5rem', marginBottom:'1rem', border:'2px solid #000',}}
+            style={{ borderRadius:'0.5rem', marginBottom:'1rem', border:'2px solid gray',}}
           ></textarea>
 
           <div className="flex gap-6 justify-center mt-4">
@@ -74,7 +75,7 @@ const { showForLargeScreen, showForSmallScreen, onSubmit, result} = hooks();
           </div>
 
           <textarea  style={{maxWidth:'600px', margin:'0 auto', maxHeight:'60rem', marginTop:'1rem',
-                             borderRadius:'0.5rem', marginBottom:'1rem', border:'2px solid #000'}}
+                             borderRadius:'0.5rem', marginBottom:'1rem', border:'2px solid gray'}}
             placeholder="Enter your message" required
             className="text-[30px] p-6 rounded-xl w-full h-[360px] resize-none bg-white" name='message'
            
