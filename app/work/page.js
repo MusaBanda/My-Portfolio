@@ -1,16 +1,17 @@
 "use client";
-
+import Img from 'next/image';
 import React from "react";
 import { ovo } from "../layout";
 import Footer from '../components/Footer';
 import assets from '@/assets/assets';
+import next from "next";
 
 const Work = () => {
   
   return (
   <div >
     <div className="min-h-screen flex flex-col">
-      <a href="/" style={{ position: 'absolute', top: '1rem', right: '1rem' }}><img src={assets.back} alt="Back" /></a>
+      <a href="/" style={{ position: 'absolute', top: '1rem', right: '1rem' }}><Img src={assets.back} alt="Back" width={50} height={50} /></a>
       <div>
         <h1 className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className}`}
          style={{ marginLeft: '2rem' }}>

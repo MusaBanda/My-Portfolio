@@ -247,7 +247,7 @@ const __TURBOPACK__default__export__ = {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.v("/_next/static/media/back.b4a3f658.png");}}),
+__turbopack_context__.v("/_next/static/media/back.a5488271.png");}}),
 "[project]/assets/back.png.mjs { IMAGE => \"[project]/assets/back.png (static in ecmascript)\" } [app-ssr] (structured image object, ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -262,7 +262,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$back$2e$png__$28$static__in__ecmascript$29$__["default"],
     width: 512,
     height: 512,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAeElEQVR42oWPzQnEIBSEnwtqDd5twauwB63BLrYSu9gacghCzmkh59QQCEgSvjTgYWDezLw/6b1/WmvfGONirT0AHA1PIN77TURupdQF4Gh4QhpBa33mnCfn3E4NXo+RdJVS/rXWX0ppDiGsxpgTbxwYrhgeOXrzATFGX6/snMOiAAAAAElFTkSuQmCC",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAsklEQVR42oXPsQqCUACFYXHzMWrxFaxAcGitJ6jJnqiW3qCxhiaFi4NhRRbYUDpd1BQrEoJrkXiKhggX9w/+c7gcBa9nsSJTkwg7gwnmlskrn+jnh5IX4Dn9GSpiNHMlakClB6gehWQFELWLq8cvhZPTKZGSOfonG62jjdp6j54TQSIpZC0jnHAdM/W2QCe0MEwCtB0PzaWPweYOYZKxH+h+wCgJv6DxD8qJejlRObLq5hsmALbsshAN3QAAAABJRU5ErkJggg==",
     blurWidth: 8,
     blurHeight: 8
 };
@@ -1937,6 +1937,7 @@ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$layout$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/app/layout.js [app-ssr] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__ = __turbopack_context__.i("[next]/internal/font/google/ovo_82d8004f.js [app-ssr] (ecmascript) <export default as ovo>");
@@ -1944,6 +1945,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$hooks$2f$hooks$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/hooks/hooks.jsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/assets/assets.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -1964,9 +1966,11 @@ const Contact = ()=>{
                             top: '1rem',
                             left: '1rem'
                         },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].back,
-                            alt: "Back"
+                            alt: "Back",
+                            width: 50,
+                            height: 50
                         }, void 0, false, {
                             fileName: "[project]/app/contact/page.js",
                             lineNumber: 16,

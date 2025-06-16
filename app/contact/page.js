@@ -1,5 +1,5 @@
 'use client';
-
+import Img from 'next/image';
 import React, { useState, useEffect } from 'react'
 import { ovo } from '../layout'
 import Footer from '../components/Footer'
@@ -13,7 +13,7 @@ const { showForLargeScreen, showForSmallScreen, onSubmit, result} = hooks();
   return (
   <div>
     <div className="text-center flex items-center justify-center min-h-screen px-4">
-      <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><img src={assets.back} alt="Back" /></a>
+      <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><Img src={assets.back} alt="Back" width={50} height={50} /></a>
       <div className="w-full max-w-5xl mx-auto">
         <h3 className={`sm:text[18px] md:text[18px] lg:text-[30px] font-bold ${ovo.className} font-bold mb-2 mt-6`}
         style={{marginTop:'3rem'}}>Connect with me</h3>

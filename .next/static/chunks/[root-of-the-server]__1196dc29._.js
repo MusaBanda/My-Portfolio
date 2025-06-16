@@ -2283,6 +2283,7 @@ const Navbar = ()=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                target: "_blank",
                                 href: "mailto:mosa.banda@hotmail.com",
                                 className: `sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline bg-[white] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                 style: {
@@ -2392,6 +2393,7 @@ const Navbar = ()=>{
                                             borderRadius: '2rem',
                                             padding: '0.5rem'
                                         },
+                                        target: "_blank",
                                         href: "mailto:mosa.banda@hotmail.com",
                                         className: `no-underline bg-[white] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                         children: "Email Me"
@@ -2802,6 +2804,7 @@ const Header = ()=>{
                 className: "flex flex-col-2 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        target: "_blank",
                         href: "https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!",
                         className: `text-[15px] no-underline text-bold 
          ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$roboto_e88f8a32$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__roboto$3e$__["roboto"].className}`,
@@ -2892,6 +2895,7 @@ const Header = ()=>{
                 className: "grid drid-col-1 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        target: "_blank",
                         href: "https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!",
                         className: `sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$roboto_e88f8a32$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__roboto$3e$__["roboto"].className}`,

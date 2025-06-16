@@ -1046,6 +1046,11 @@ __turbopack_context__.s({
     "workData": (()=>workData)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$phone_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$phone_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/phone_icon.png.mjs { IMAGE => "[project]/assets/phone_icon.png (static in ecmascript)" } [app-ssr] (structured image object, ecmascript)');
+(()=>{
+    const e = new Error("Cannot find module './back.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$mypic$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$mypic$2e$jpg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/mypic.jpg.mjs { IMAGE => "[project]/assets/mypic.jpg (static in ecmascript)" } [app-ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$logo_white$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$logo_white$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/logo_white.png.mjs { IMAGE => "[project]/assets/logo_white.png (static in ecmascript)" } [app-ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$user$2d$image$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$user$2d$image$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/user-image.png.mjs { IMAGE => "[project]/assets/user-image.png (static in ecmascript)" } [app-ssr] (structured image object, ecmascript)');
@@ -1131,7 +1136,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$download_icon$2e$p
 ;
 ;
 ;
+;
 const assets = {
+    back,
     about_pic: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$about_pic$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$about_pic$2e$jpg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
     facebook: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$facebook$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$facebook$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
     github: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$github$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$github$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -1931,6 +1938,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$
 ;
 ;
 ;
+;
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScrollTrigger"]);
 const Test = ()=>{
     const slider = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -2024,17 +2032,39 @@ const Test = ()=>{
                             type: "video/mp4"
                         }, void 0, false, {
                             fileName: "[project]/app/test/page.js",
-                            lineNumber: 96,
+                            lineNumber: 97,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 93,
+                        lineNumber: 94,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "min-h-screen flex justify-center items-center",
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "/",
+                                style: {
+                                    position: 'absolute',
+                                    top: '1rem',
+                                    left: '1rem'
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].back,
+                                    alt: "Back",
+                                    width: 50,
+                                    height: 50
+                                }, void 0, false, {
+                                    fileName: "[project]/app/test/page.js",
+                                    lineNumber: 100,
+                                    columnNumber: 81
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/test/page.js",
+                                lineNumber: 100,
+                                columnNumber: 9
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute top-0 w-screen h-screen flex justify-center items-center ",
                                 style: smallscreen ? {
@@ -2055,18 +2085,18 @@ const Test = ()=>{
                                             height: 100
                                         }, void 0, false, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 102,
+                                            lineNumber: 104,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/test/page.js",
-                                    lineNumber: 101,
+                                    lineNumber: 103,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 99,
+                                lineNumber: 101,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2081,7 +2111,7 @@ const Test = ()=>{
                                         children: "Introduction"
                                     }, void 0, false, {
                                         fileName: "[project]/app/test/page.js",
-                                        lineNumber: 106,
+                                        lineNumber: 108,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2089,19 +2119,19 @@ const Test = ()=>{
                                         children: "About Me"
                                     }, void 0, false, {
                                         fileName: "[project]/app/test/page.js",
-                                        lineNumber: 107,
+                                        lineNumber: 109,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 104,
+                                lineNumber: 106,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 98,
+                        lineNumber: 99,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2116,12 +2146,12 @@ const Test = ()=>{
                                     children: "I'm a front-end web developer from South Africa, skilled in HTML, CSS, JavaScript, and React. I create clean, responsive websites, focusing on both function and design. I enjoy building interactive digital experiences that people love using."
                                 }, void 0, false, {
                                     fileName: "[project]/app/test/page.js",
-                                    lineNumber: 114,
+                                    lineNumber: 116,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 113,
+                                lineNumber: 115,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2159,7 +2189,7 @@ const Test = ()=>{
                                                     className: "mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/test/page.js",
-                                                    lineNumber: 136,
+                                                    lineNumber: 138,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2167,7 +2197,7 @@ const Test = ()=>{
                                                     children: title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/test/page.js",
-                                                    lineNumber: 137,
+                                                    lineNumber: 139,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2176,30 +2206,30 @@ const Test = ()=>{
                                                     children: description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/test/page.js",
-                                                    lineNumber: 138,
+                                                    lineNumber: 140,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 135,
+                                            lineNumber: 137,
                                             columnNumber: 9
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/app/test/page.js",
-                                        lineNumber: 125,
+                                        lineNumber: 127,
                                         columnNumber: 17
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 120,
+                                lineNumber: 122,
                                 columnNumber: 8
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 111,
+                        lineNumber: 113,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2244,7 +2274,7 @@ const Test = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 161,
+                                            lineNumber: 163,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2257,29 +2287,29 @@ const Test = ()=>{
                                             children: descriptions[i]
                                         }, void 0, false, {
                                             fileName: "[project]/app/test/page.js",
-                                            lineNumber: 163,
+                                            lineNumber: 165,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/app/test/page.js",
-                                    lineNumber: 154,
+                                    lineNumber: 156,
                                     columnNumber: 11
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/test/page.js",
-                            lineNumber: 148,
+                            lineNumber: 150,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 143,
+                        lineNumber: 145,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 92,
+                lineNumber: 93,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2295,7 +2325,7 @@ const Test = ()=>{
                         children: "Tools I Use"
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 174,
+                        lineNumber: 176,
                         columnNumber: 8
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2320,35 +2350,35 @@ const Test = ()=>{
                                     width: 30
                                 }, void 0, false, {
                                     fileName: "[project]/app/test/page.js",
-                                    lineNumber: 191,
+                                    lineNumber: 193,
                                     columnNumber: 23
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/app/test/page.js",
-                                lineNumber: 181,
+                                lineNumber: 183,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/test/page.js",
-                        lineNumber: 177,
+                        lineNumber: 179,
                         columnNumber: 15
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 173,
+                lineNumber: 175,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/test/page.js",
-                lineNumber: 195,
+                lineNumber: 197,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/test/page.js",
-        lineNumber: 91,
+        lineNumber: 92,
         columnNumber: 1
     }, this);
 };

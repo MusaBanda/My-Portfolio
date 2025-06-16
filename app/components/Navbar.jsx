@@ -50,7 +50,7 @@ const Navbar = () => {
            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             style={{ marginLeft: '2.5rem', marginRight: '0.5rem', marginTop: '0.5rem' }} />
 
-          <a  href='mailto:mosa.banda@hotmail.com'  
+          <a target='_blank' href='mailto:mosa.banda@hotmail.com'  
           className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline bg-[white] ${ovo.className}`} 
             style={{padding: '1rem', color: 'black', marginTop: '0.8rem', marginBottom: '0.5rem',
               border: '2px solid #ccc', borderRadius: '2rem', marginLeft: '0.5rem',
@@ -70,7 +70,7 @@ const Navbar = () => {
           <Image src={assets.moon_icon}  alt='moon_icon' width={25}  height={25} className='cursor-pointer mr-14'
            onClick={() => setTheme(theme === "dark" ? "light" : "dark")} />
         <a style={{ color:'black', marginRight: '1rem', border: '2px solid #ccc',borderRadius: '2rem', padding: '0.5rem',}}
-        href='mailto:mosa.banda@hotmail.com' className={`no-underline bg-[white] ${ovo.className}`}>Email Me</a></div>
+       target='_blank' href='mailto:mosa.banda@hotmail.com' className={`no-underline bg-[white] ${ovo.className}`}>Email Me</a></div>
       </div>
 
       <ul className='list-none items-center text-center justify-center'    

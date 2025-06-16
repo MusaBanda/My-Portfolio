@@ -40,7 +40,7 @@ const Header = () => {
       </p>
 
      { showForLargeScreen && <div className='flex flex-col-2 items-center'>
-        <a href="https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!" 
+        <a target='_blank' href="https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!" 
         className={`text-[15px] no-underline text-bold 
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
           style={{  padding: '0.8rem',cursor: 'pointer', marginRight: '1rem', border: '4px solid #000',
@@ -68,7 +68,7 @@ const Header = () => {
 
       {showForSmallScreen &&<div className='grid drid-col-1 items-center'>
 
-        <a href="https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
+        <a target='_blank' href="https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!" className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline text-bold 
          ${roboto.className}`} onClick={handleContactClick}aria-label="Contact Us"
           style={{ padding: '0.8rem', cursor: 'pointer',  marginTop: '1rem', border: '4px solid #000',
            borderRadius: '4rem',transition: 'all 0.1s ease', background: '#000', color: 'white',
