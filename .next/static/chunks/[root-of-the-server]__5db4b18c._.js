@@ -1198,8 +1198,7 @@ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__),
     "infoList": (()=>infoList),
     "serviceData": (()=>serviceData),
-    "toolsData": (()=>toolsData),
-    "workData": (()=>workData)
+    "toolsData": (()=>toolsData)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$phone_icon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$phone_icon$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/phone_icon.png.mjs { IMAGE => "[project]/assets/phone_icon.png (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$back$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$back$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/assets/back.png.mjs { IMAGE => "[project]/assets/back.png (static in ecmascript)" } [app-client] (structured image object, ecmascript)');
@@ -1335,28 +1334,6 @@ const assets = {
     right_arrow_bold: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$right$2d$arrow$2d$bold$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$right$2d$arrow$2d$bold$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
     right_arrow_bold_dark: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$right$2d$arrow$2d$bold$2d$dark$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$assets$2f$right$2d$arrow$2d$bold$2d$dark$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"]
 };
-const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png'
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png'
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png'
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png'
-    }
-];
 const serviceData = [
     {
         icon: assets.web_icon,

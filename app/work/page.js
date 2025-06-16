@@ -31,32 +31,32 @@ const Work = () => {
           in the world of web development.
         </p>
       </div>
-      <div className={ smallscreen ? "" : "flex flex-col-3 items-center justify-center"}>
+      <div style={{ display: 'flex', flexDirection: smallscreen ? 'column' : 'row', alignItems: 'center', justifyContent: 'center' }}>
 
-        <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '1rem', height:"16rem"}}>
-          <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '0rem' }}>
-            <img src="/work/mywork (1).png" alt='My Work' style={{ width: '100%', maxWidth: '200px' }} />
+        <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '1rem', height:"16rem", width:'13rem' }}>
+          <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '0rem',   }}>
+            <img src="/work/mywork (1).png" alt='My Work' style={{  width: '100%',height:'100px' }} />
           </div>
           <div style={{ width: '100%', maxWidth: '200px' }}>
-            <p className={ovo.className}>This is a mini project where I created a simple website using HTML and CSS</p>
+            <p className={`text-center justify-center ml-[10] mr-[10]6 ${ovo.className}`}>This is a mini project where I created a simple website using HTML and CSS</p>
           </div>
         </div>
 
          <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '1rem', height:"19rem" }}>
           <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '0rem' }}>
-            <img src="/work/mywork (2).png" alt='My Work' style={{ width: '100%', maxWidth: '300px' }} />
+            <img src="/work/mywork (2).png" alt='My Work' style={{ width: '100%', maxWidth: '200px' }} />
           </div>
           <div  style={{ width: '100%', maxWidth: '200px' }}>
-            <p className={ovo.className}>This is a mini project where I created a login page using HTML and CSS</p>
+            <p className={`text-center justify-center ml-[60] ${ovo.className}`}>This is a mini project where I created a login page using HTML and CSS</p>
           </div>
         </div>
 
-         <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '1rem', height:"16rem"}}>
+         <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '1rem', height:"16rem", width:'13rem'}}>
           <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '0rem' }}>
-            <img src="/work/mywork (3).png" alt='My Work' style={{ width: '100%', maxWidth: '200px' }} />
+            <img src="/work/mywork (3).png" alt='My Work' style={{ width: '100%', height:'100px'}} />
           </div>
           <div  style={{ width: '100%', maxWidth: '200px' }}>
-            <p className={ovo.className}>This is a mini project where I created a calculator using HTML, CSS, and JavaScript</p>
+            <p className={`text-center justify-center ml-[10] mr-[10] ${ovo.className}`}>This is a mini project where I created a calculator using HTML, CSS, and JavaScript</p>
           </div>
         </div>
 

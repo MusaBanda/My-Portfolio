@@ -125,8 +125,20 @@
   margin-block: -1px;
 }
 
+.mr-\[10\] {
+  margin-right: 10px;
+}
+
 .mb-\[100vh\] {
   margin-bottom: 100vh;
+}
+
+.ml-\[10\] {
+  margin-left: 10px;
+}
+
+.ml-\[60\] {
+  margin-left: 60px;
 }
 
 .block {

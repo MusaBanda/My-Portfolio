@@ -2002,14 +2002,20 @@ const Work = ()=>{
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: smallscreen ? "" : "flex flex-col-3 items-center justify-center",
+                        style: {
+                            display: 'flex',
+                            flexDirection: smallscreen ? 'column' : 'row',
+                            alignItems: 'center',
+                            justifyContent: 'center'
+                        },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     border: '1px solid #ccc',
                                     margin: '2rem',
                                     padding: '1rem',
-                                    height: "16rem"
+                                    height: "16rem",
+                                    width: '13rem'
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2023,7 +2029,7 @@ const Work = ()=>{
                                             alt: "My Work",
                                             style: {
                                                 width: '100%',
-                                                maxWidth: '200px'
+                                                height: '100px'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.js",
@@ -2041,7 +2047,7 @@ const Work = ()=>{
                                             maxWidth: '200px'
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className,
+                                            className: `text-center justify-center ml-[10] mr-[10]6 ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                             children: "This is a mini project where I created a simple website using HTML and CSS"
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.js",
@@ -2078,7 +2084,7 @@ const Work = ()=>{
                                             alt: "My Work",
                                             style: {
                                                 width: '100%',
-                                                maxWidth: '300px'
+                                                maxWidth: '200px'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.js",
@@ -2096,7 +2102,7 @@ const Work = ()=>{
                                             maxWidth: '200px'
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className,
+                                            className: `text-center justify-center ml-[60] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                             children: "This is a mini project where I created a login page using HTML and CSS"
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.js",
@@ -2119,7 +2125,8 @@ const Work = ()=>{
                                     border: '1px solid #ccc',
                                     margin: '2rem',
                                     padding: '1rem',
-                                    height: "16rem"
+                                    height: "16rem",
+                                    width: '13rem'
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2133,7 +2140,7 @@ const Work = ()=>{
                                             alt: "My Work",
                                             style: {
                                                 width: '100%',
-                                                maxWidth: '200px'
+                                                height: '100px'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.js",
@@ -2151,7 +2158,7 @@ const Work = ()=>{
                                             maxWidth: '200px'
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className,
+                                            className: `text-center justify-center ml-[10] mr-[10] ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$ovo_82d8004f$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ovo$3e$__["ovo"].className}`,
                                             children: "This is a mini project where I created a calculator using HTML, CSS, and JavaScript"
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.js",
