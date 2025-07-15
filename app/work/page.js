@@ -65,6 +65,11 @@ const Work = () => {
       <div className='text-center mt-10 mb-10'>
         <h1>These are some of my mini projects I completed for the FNB App Academy. To see more of my work, 
           <a target='_blank' href="https://github.com/MusaBanda?tab=repositories"> click here.</a></h1>
+        <div>
+          <video  style={{height:'50vh'}} autoPlay muted loop playsInline> 
+            <source src='/work.mp4' type='video/mp4'/>
+          </video>
+        </div>
       </div>
       
     </div>
