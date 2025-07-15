@@ -1458,7 +1458,7 @@ const infoList = [
         icon: assets.edu_icon,
         iconDark: assets.edu_icon_dark,
         title: 'Education',
-        description: 'BA in I/O psycholody (Panding)'
+        description: 'BA in I/O psychology (Pending)'
     },
     {
         icon: assets.project_icon,
