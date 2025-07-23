@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Services from "./components/Services";
 import { useState, useEffect } from "react";
-
+import Balls from "./components/Balls";
 
 
 
@@ -27,6 +27,9 @@ export default function Home() {
     <>
     <Navbar />
     <Header />
+    <div style={{ height: '50vh', width: '100vw', position: 'relative', overflow: 'hidden', marginTop: '-30vh' }}>
+    <Balls />
+    </div>
     <Services />
     <Footer />
     </>

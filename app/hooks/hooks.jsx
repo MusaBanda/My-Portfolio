@@ -101,7 +101,20 @@ useEffect(() => {
   return () => window.removeEventListener("resize", handleResize);
 }, []);
 
+// Loading state
+const [loading, setLoading] = useState(true);
+useEffect(() => {
+    const handleLoad = () => {
+      setTimeout(() => setLoading(false), 1000); // delay to ensure everything is visible
+    };
 
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad);
+      return () => window.removeEventListener("load", handleLoad);
+    }
+  }, []);
  
 
   
@@ -113,6 +126,7 @@ useEffect(() => {
     hoveredToolIndex, setHoveredToolIndex,
     columns, setColumns,
     onSubmit, result, setResult, 
-    smallscreen
+    smallscreen,
+    loading, setLoading,
   };
 };
