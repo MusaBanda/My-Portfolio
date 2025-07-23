@@ -10,17 +10,6 @@ import Beams from './Beams';
 const Work = () => {
   const { smallscreen, loading } = hooks();
 
-    if (loading){
-    return (
-      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column',
-        justifyContent: 'center', alignItems: 'center', }}>
-        <div><img src="/loading.gif" alt="Loading..." style={{ width: '50vw', height: '70vh' }} /></div>
-        <div><p style={{ fontSize: '4vh', marginTop: '-25vh' }}>Loading...</p></div>
-      </div>
-      
-    );
-  }
-
   return (
     <div style={{ position: 'relative' }}>
       <div
