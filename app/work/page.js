@@ -74,8 +74,8 @@ const Work = () => {
             <div style={{ border: '1px solid #ccc', margin: '2rem', padding: '0' }}>
               <img src="/work/mywork (2).png" alt='My Work' style={{ width: '100%', maxWidth: '200px' }} />
             </div>
-            <div style={{ width: '100%', maxWidth: '200px' }}>
-              <p className={`text-center ${ovo.className}`}>Login page using HTML and CSS</p>
+            <div style={{ width: '100%', maxWidth: '250px' }}>
+              <p className={`text-center ${ovo.className}`}>Login page using HTML,CSS and php mySQL</p>
             </div>
           </div>
 
@@ -95,7 +95,7 @@ const Work = () => {
             <a target='_blank' href="https://github.com/MusaBanda?tab=repositories"> Click here</a> to see more.
           </h1>
           <div>
-            <video style={{ height: '50vh', width: '100%' }} autoPlay muted loop playsInline>
+            <video style={{ height: '50vh', width: '100%', marginBottom: '3vh' }} autoPlay muted loop playsInline>
               <source src='/work.mp4' type='video/mp4' />
             </video>
           </div>

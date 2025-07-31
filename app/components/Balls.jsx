@@ -1,4 +1,4 @@
-import MetaBalls from '../hooks/MetaBalls';
+import MetaBalls from '../hooks/Balls';
 
 const Balls = () => {
   return (

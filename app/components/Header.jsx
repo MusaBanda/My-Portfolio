@@ -4,6 +4,7 @@ import { assets } from "@/assets/assets";
 import { roboto, ovo,} from "../layout";
 import Services from './Services';
 import { hooks } from '../hooks/hooks';
+import TextType from '../hooks/TypeText';
 
 const Header = () => {
 
@@ -22,13 +23,15 @@ const Header = () => {
 
       <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}
         style={{ marginBottom: '-1rem' }}>
-        Hi I am Musa Dick Banda <Image src={assets.hand_icon} width={50} height={50} />
+        <TextType text={["Hi I am Musa Dick Banda"]} typingSpeed={85} pauseDuration={2} 
+        showCursor={true} cursorCharacter="|"/> <Image src={assets.hand_icon} width={50} height={50} />
       </h3>
 
-      <h1 
+     <h1 
         className={`sm:text-[18px] md:text-[20px] lg:text-[30px] block text-center ${ovo.className}`}
          style={{ marginLeft: '0rem', }}>
-        Front end web developer based South Africa
+        <TextType  text={["Front end web developer based South Africa"]} typingSpeed={85} deletingSpeed={75} pauseDuration={2} 
+        showCursor={true} loop={true} cursorCharacter="|"/>
       </h1>
 
       <p
