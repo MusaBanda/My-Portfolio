@@ -102,24 +102,29 @@ useEffect(() => {
 }, []);
 
 // Loading state
-const [loading, setLoading] = useState(true);
-useEffect(() => {
-    const handleLoad = () => {
-      setTimeout(() => setLoading(false), 1000); // delay to ensure everything is visible
-    };
+function usePageLoaded() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const handleLoad = () => setLoaded(true);
 
     if (document.readyState === "complete") {
-      handleLoad();
+      setLoaded(true);
     } else {
       window.addEventListener("load", handleLoad);
       return () => window.removeEventListener("load", handleLoad);
     }
   }, []);
+
+  return loaded;
+}
+const isLoaded = usePageLoaded();
  
 
   
   return {
     isScroll,
+    isLoaded,
     showForLargeScreen, showForSmallScreen,
     isContactClicked, isResumeClicked,   
     handleContactClick, handleResumeClick,
@@ -127,6 +132,6 @@ useEffect(() => {
     columns, setColumns,
     onSubmit, result, setResult, 
     smallscreen,
-    loading, setLoading,
+    
   };
 };

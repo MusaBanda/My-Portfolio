@@ -17,8 +17,8 @@ const Navbar = () => {
     <div  className='w-full'>
      
 
-      {showForLargeScreen &&<nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  
-        ${isScroll ? "bg-[#f5f5f5] dark-theme" : ""}`}>
+      {showForLargeScreen &&<nav className={`w-full h-[15vh] fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  
+        ${isScroll ? "bg-[#f5f5f5] dark-theme h-[15vh]" : ""}`}>
         
         <h1 
           className={`sm:text-[30px] md:text-[60px] lg:text-[120px] font-bold ${roboto.className} ${isScroll ? "text-[black]" : ""}`}

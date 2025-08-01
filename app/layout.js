@@ -1,5 +1,8 @@
-import { Outfit, Ovo, Roboto, Dancing_Script } from "next/font/google";
+"use client";
+
 import "./globals.css";
+import {hooks} from "./hooks/hooks";
+import { Outfit, Ovo, Roboto, Dancing_Script } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 
 export const s = Dancing_Script({
@@ -23,18 +26,32 @@ export const ovo = Ovo({
 });
 
 export default function RootLayout({ children }) {
+
+  const { isLoaded } = hooks();
+
   return (
     <html lang="en">
       <head>
         <title>Portfolio</title>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="My personal portfolio showcasing my work and projects."
+        />
       </head>
       <body
-        className={`${outfit.className} antialiased leading-8 overflow-x-hidden `}
+        className={`${outfit.className} antialiased leading-8 overflow-x-hidden`}
       >
         <ThemeProvider attribute="class">
-          {children}
-         </ThemeProvider>
+          {!isLoaded ? (
+            <div
+              style={{ height: "100vh", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center",
+                fontSize: "24px",fontFamily: outfit.className,}}>
+              Loading...
+            </div>
+          ) : (
+            children
+          )}
+        </ThemeProvider>
       </body>
     </html>
   );

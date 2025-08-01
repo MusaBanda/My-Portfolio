@@ -4,15 +4,19 @@ import Image from 'next/image'
 import assets from '@/assets/assets'
 import { s } from '@/app/layout' 
 import { hooks } from '../hooks/hooks'
+import { useTheme } from 'next-themes'
 
 
 function Footer() {
 
 const { showForLargeScreen, showForSmallScreen } = hooks();
 
+const { theme } = useTheme();
+const isLight = theme === 'light';
+const bgcolor = isLight ? '#f5f5f5' : '';
+
   return (
-    <div className=' mt-20 fill w-full h-[20rem] border-t border-gray-400 text-[black bg-#f5f5f5
-    '>
+    <div className=' mt-20 fill w-full h-[20rem] border-t border-gray-400'  style={{ backgroundColor: bgcolor }}>
         <div className='text-center'>
             <h1 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${s.className}`}>MUSABANDA<span className='text-[red]'>.</span></h1>
 

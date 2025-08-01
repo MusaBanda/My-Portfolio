@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { assets } from "@/assets/assets";
 import { roboto, ovo,} from "../layout";
-import Services from './Services';
+import { useTheme } from 'next-themes';
 import { hooks } from '../hooks/hooks';
 import TextType from '../hooks/TypeText';
 
@@ -10,6 +10,10 @@ const Header = () => {
 
   const { showForLargeScreen, showForSmallScreen, isContactClicked, isResumeClicked,
     handleContactClick, handleResumeClick } = hooks();
+
+  const { theme } = useTheme();
+  const isLight = theme === 'light';
+  const textColor = isLight ? '#1a1a1a' : '#ffffff';
   
   return (
     <div className='flex flex-col items-center justify-center h-screen max-w-md mx-auto'
@@ -23,7 +27,7 @@ const Header = () => {
 
       <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}
         style={{ marginBottom: '-1rem' }}>
-        <TextType text={["Hi I am Musa Dick Banda"]} typingSpeed={85} pauseDuration={2} 
+        <TextType text={["Hi I am Musa Dick Banda"]} typingSpeed={85} pauseDuration={2} textColors={[textColor]}
         showCursor={true} cursorCharacter="|"/> <Image src={assets.hand_icon} width={50} height={50} />
       </h3>
 
@@ -31,7 +35,7 @@ const Header = () => {
         className={`sm:text-[18px] md:text-[20px] lg:text-[30px] block text-center ${ovo.className}`}
          style={{ marginLeft: '0rem', }}>
         <TextType  text={["Front end web developer based South Africa"]} typingSpeed={85} deletingSpeed={75} pauseDuration={2} 
-        showCursor={true} loop={true} cursorCharacter="|"/>
+        showCursor={true} loop={true} cursorCharacter="|" textColors={[textColor]}/>
       </h1>
 
       <p
