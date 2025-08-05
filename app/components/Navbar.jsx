@@ -46,7 +46,7 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-          <Image src={assets.moon_icon}  alt='' width={40}  height={40} className='cursor-pointer mr-14' 
+          <Image src={assets.moon_icon}  alt='dark_mode_icon' width={40}  height={40} className='cursor-pointer mr-14' 
            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             style={{ marginLeft: '2.5rem', marginRight: '0.5rem', marginTop: '0.5rem' }} />
 
@@ -56,7 +56,7 @@ const Navbar = () => {
               border: '2px solid #ccc', borderRadius: '2rem', marginLeft: '0.5rem',
               marginRight: '1rem'    }} > 
           Email Me
-            <Image src={assets.arrow_icon}  alt='' width={15} height={15}
+            <Image src={assets.arrow_icon}  alt='arrow_icon' width={15} height={15}
               style={{ marginLeft: '1rem' }}  /> </a>
         </div>
       </nav>}

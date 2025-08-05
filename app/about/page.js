@@ -97,7 +97,7 @@ const descriptions = [
         <source src="/my_vid.mp4" type="video/mp4" />
     </video>
       <div className="min-h-screen flex justify-center items-center">
-        <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><Img src={assets.back} alt="Back" width={50} height={50} /></a>
+        <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><Img src={assets.back} alt="Back button" width={50} height={50} /></a>
         <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
             style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
           <p className="flex flex-col items-center text-center gap-[50]" >STEP INSIDE AND GET TO KNOW ME 
@@ -190,7 +190,7 @@ const descriptions = [
                         transform: isHovered ? 'translateY(-5px)' : 'none', marginRight: '2.5rem',
                         boxShadow: isHovered ? '0 4px 10px rgba(0,0,0,0.1)' : 'none',
                     }} >
-                      <Image src={tool} alt="tool" width={30} />
+                      <Image src={tool} alt="tools" width={30} />
                   </li>   );  })}
               </ul>
     </div>

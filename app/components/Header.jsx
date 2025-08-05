@@ -20,7 +20,7 @@ const Header = () => {
       style={{marginBottom: '10rem' }} >
       <div>
         <Image
-          src={assets.mypic} width={160} height={160} alt='' className='rounded-full'
+          src={assets.mypic} width={160} height={160} alt='my_picture' className='rounded-full'
           style={{ marginBottom: '-2rem', marginTop: '9rem',}}
         />
       </div>
@@ -28,7 +28,7 @@ const Header = () => {
       <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}
         style={{ marginBottom: '-1rem' }}>
         <TextType text={["Hi I am Musa Dick Banda"]} typingSpeed={85} pauseDuration={2} textColors={[textColor]}
-        showCursor={true} cursorCharacter="|"/> <Image src={assets.hand_icon} width={50} height={50} />
+        showCursor={true} cursorCharacter="|"/> <Image src={assets.hand_icon} alt='hand_icon' width={50} height={50} />
       </h3>
 
      <h1 
@@ -55,7 +55,7 @@ const Header = () => {
              backgroundColor: isContactClicked ? 'orange' : 'green',   color: 'white', 
           }}>
           WHATSAPP ME
-          <Image src={assets.phone_icon} width={25} height={25} alt=''
+          <Image src={assets.phone_icon} width={25} height={25} alt='phone_icon'
             style={{ marginLeft: '1rem', marginTop: '-1rem', marginBottom: '-0.3rem',   
             }}/></a>
 
@@ -67,7 +67,7 @@ const Header = () => {
             color: isResumeClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', }}>
           MY RESUME
-          <Image src={assets.download_icon}  width={25} height={20} alt=''
+          <Image src={assets.download_icon}  width={25} height={20} alt='download_icon'
             style={{ marginLeft: '1rem', marginTop: '0rem',  marginBottom: '-0.3rem', 
             }}/></a>
       </div>}
@@ -81,7 +81,7 @@ const Header = () => {
            borderRadius: '4rem',transition: 'all 0.1s ease', background: '#000', color: 'white',
             backgroundColor: isContactClicked ? 'orange' : 'green', }}>
           WHATSAPP ME
-          <Image src={assets.phone_icon} width={20} height={20} alt=''
+          <Image src={assets.phone_icon} width={20} height={20} alt='phone_icon'
             style={{marginLeft: '1rem', marginTop: '-1rem',marginBottom: '-0.3rem',}}/></a>
 
         <a href="/cv.pdf" download className={`sm:text-[18px] md:text-[20px] lg:text-[30px] no-underline
@@ -92,7 +92,7 @@ const Header = () => {
             color: isResumeClicked ? '#fff' : '#000',
             transition: 'all 0.3s ease', }} >
           MY RESUME
-          <Image src={assets.download_icon}  width={25} height={20} alt=''
+          <Image src={assets.download_icon}  width={25} height={20} alt='download_icon'
             style={{marginLeft: '1rem', marginTop: '0rem',marginBottom: '-0.3rem',}}/></a></div>}
     </div>
   );

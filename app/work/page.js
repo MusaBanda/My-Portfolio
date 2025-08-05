@@ -35,12 +35,12 @@ const Work = () => {
         />
       </div>
 
-      <div style={{ position: 'relative', zIndex: 1 }} className="min-h-screen flex flex-col">
+      <div style={{ position: 'relative', zIndex: 1}} className="min-h-screen flex flex-col">
         <a href="/" style={{ position: 'absolute', top: '1rem', right: '1rem' }}>
           <Img src={assets.back} alt="Back" width={50} height={50} />
         </a>
 
-        <div>
+        <div  style={{ color: 'white' }}>
           <h1 className={`font-bold ${ovo.className}`} style={{ marginLeft: '2rem', fontSize: smallscreen ? '18px' : '30px' }}>
             My Portfolio
           </h1>
@@ -54,7 +54,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div style={{
+        <div style={{ color: 'white',
           display: 'flex',
           flexDirection: smallscreen ? 'column' : 'row',
           alignItems: 'center',
@@ -89,7 +89,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className='text-center mt-10 mb-10'>
+        <div className='text-center mt-10 mb-10 text-[white]'>
           <h1>
             These are some of my mini projects I completed for the FNB App Academy.
             <a target='_blank' href="https://github.com/MusaBanda?tab=repositories"> Click here</a> to see more.
@@ -100,7 +100,6 @@ const Work = () => {
             </video>
           </div>
         </div>
-
         <Footer />
       </div>
     </div>

@@ -13,7 +13,7 @@ const { showForLargeScreen, showForSmallScreen } = hooks();
 
 const { theme } = useTheme();
 const isLight = theme === 'light';
-const bgcolor = isLight ? '#f5f5f5' : '';
+const bgcolor = isLight ? '#f5f5f5' : 'transparent';
 
   return (
     <div className=' mt-20 fill w-full h-[20rem] border-t border-gray-400'  style={{ backgroundColor: bgcolor }}>
@@ -23,7 +23,7 @@ const bgcolor = isLight ? '#f5f5f5' : '';
             <div className=' sm:text-[18px] md:text-[20px] lg:text-[30px]  w-max flex items-center gap-2 mx-auto mb-2
             'style={{marginTop:'2rem', marginBottom:'1rem', gap:'0.5rem', }}>
             
-                  < Image src={assets.mail_icon} alt='' className='w-6' />
+                  < Image src={assets.mail_icon} alt='email_icon' className='w-6' />
                   mosa.banda@hotmail.com
             </div>
         </div>
@@ -35,22 +35,22 @@ const bgcolor = isLight ? '#f5f5f5' : '';
            {showForLargeScreen && <ul className='list-none sm:text-[18px] md:text-[20px] lg:text-[30px] '
             style={{ display: 'flex', gap: '2rem', marginLeft:'-5rem',  marginRight: '0.5rem', marginBottom:'0rem'}}>
                 <li ><a target='_blank' href="https://github.com/MusaBanda">
-                <Image src={assets.github} alt style={{width: 'auto', height:'3rem'}} /></a></li>
+                <Image src={assets.github} alt='github_icon' style={{width: 'auto', height:'3rem'}} /></a></li>
                 <li ><a target='_blank' href="https://instagram.com/@musa_banda_kamthimkhulu/">
-                <Image src={assets.instagram} alt style={{width: 'auto', height:'3rem'}} /></a></li>
+                <Image src={assets.instagram} alt='instagram_icon' style={{width: 'auto', height:'3rem'}} /></a></li>
                 <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">
-                <Image src={assets.facebook} alt style={{width: 'auto', height:'3rem'}} /></a></li>
+                <Image src={assets.facebook} alt='facebook_icon' style={{width: 'auto', height:'3rem'}} /></a></li>
             </ul>}
 
              {showForSmallScreen && <ul className='list-none sm:text-[18px] md:text-[20px] lg:text-[30px] 
              items-center justify-between'
             style={{ display: 'flex', marginLeft:'1rem',  marginRight: '4rem', marginBottom:'0rem'}}>
                 <li ><a target='_blank' href="https://github.com/MusaBanda">
-                <Image src={assets.github} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
+                <Image src={assets.github} alt='github_icon' style={{width: 'auto', height:'2rem'}} /></a></li>
                 <li ><a target='_blank' href="https://instagram.com/@musa_banda_kamthimkhulu/">
-                <Image src={assets.instagram} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
+                <Image src={assets.instagram} alt='instagram_icon' style={{width: 'auto', height:'2rem'}} /></a></li>
                 <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">
-                <Image src={assets.facebook} alt='' style={{width: 'auto', height:'2rem'}} /></a></li>
+                <Image src={assets.facebook} alt='facebook_icon' style={{width: 'auto', height:'2rem'}} /></a></li>
             </ul>}
         </div>
         </div>

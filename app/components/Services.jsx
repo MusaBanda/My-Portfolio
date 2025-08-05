@@ -42,7 +42,7 @@ const { hoveredToolIndex, setHoveredToolIndex, columns, setColumns } = hooks();
                 transition: "all 0.3s ease",
               }}
             >
-              <Image src={icon} alt="" width={20} height={20} />
+              <Image src={icon} alt="icon" width={20} height={20} />
               <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${roboto.className}`}>{title}</h3>
               <p className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}>{description}</p>
               <a
@@ -50,7 +50,7 @@ const { hoveredToolIndex, setHoveredToolIndex, columns, setColumns } = hooks();
                 className={`items-center gap-2 sm:text-[18px] md:text-[20px] lg:text-[30px] mt-5 ${roboto.className}`}
               >
                 read more
-                <Image src={assets.right_arrow} alt="" width={13} height={13} />
+                <Image src={assets.right_arrow} alt="arrow_icon" width={13} height={13} />
               </a>
             </div>
           );
