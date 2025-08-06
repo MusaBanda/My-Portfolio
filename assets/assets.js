@@ -93,10 +93,10 @@ export const assets = {
 
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: 'https://www.simplilearn.com/what-is-web-designing-article' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web development', description: 'Web development is the process of building, programming...', link: 'https://en.wikipedia.org/wiki/Web_development' },
+    { icon: assets.mobile_icon, title: 'App development', description: 'App development involves creating software for devices...', link: 'https://en.wikipedia.org/wiki/Mobile_app' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: 'https://en.wikipedia.org/wiki/UI_design' },
+    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: 'https://en.wikipedia.org/wiki/Graphic_design' },
 ]
 
 export const infoList = [
