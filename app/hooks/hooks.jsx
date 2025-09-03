@@ -62,7 +62,7 @@ export const hooks = () => {
         return () => window.removeEventListener("resize", handleResize);
       }, []);
 
- // forms
+ // forms on submit
         const [result, setResult] = useState("");
         const onSubmit = async (event) => {
       

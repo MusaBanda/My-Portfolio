@@ -61,7 +61,7 @@ const Navbar = () => {
         </div>
       </nav>}
 
-      {showForSmallScreen &&<nav className='text-center justify-center' style={{ marginTop: '2rem', marginBottom: '-7rem' }}>
+      {showForSmallScreen &&<nav className='text-center justify-center' style={{ marginTop: '2rem', marginBottom: '-10rem' }}>
 
       <div  
       style={{ display: 'flex', justifyContent: 'space-between',  alignItems: 'center'}}>
@@ -74,17 +74,17 @@ const Navbar = () => {
       </div>
 
       <ul className='list-none items-center text-center justify-center'    
-       style={{padding: '1rem', display: 'flex',}} >
+       style={{padding: '1rem', display: 'flex',gap:'1rem'}} >
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem', color: 'red' }} href='#top'>Home</a></li>
+          style={{ color: 'red' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem', color: 'red'}} href='about'>About Me</a></li>
+          style={{ color: 'red'}} href='about'>About Me</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem', color: 'red' }} href='#services'>Services</a></li>
+          style={{ color: 'red' }} href='#services'>Services</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem', color: 'red' }} href='work'>My Work</a></li>
+          style={{ color: 'red' }} href='work'>My Work</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
-          style={{ padding: '0.5rem', color: 'red' }} href='contact'>Contact</a></li>
+          style={{ color: 'red' }} href='contact'>Contact</a></li>
         </ul>
         
       </nav>}
