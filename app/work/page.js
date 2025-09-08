@@ -11,28 +11,14 @@ const Work = () => {
   const { smallscreen, loading } = hooks();
 
   return (
-    <div style={{ position: 'relative' }}>
-      <div
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100vw',
-          height: '100vh',
-          zIndex: -1,
-          filter: 'brightness(0.5)',
-        }}
-      >
-        <Beams
-          beamWidth={4}
-          beamHeight={22}
-          beamNumber={12}
-          lightColor="#ffffff"
-          speed={5}
-          noiseIntensity={0.5}
-          scale={0.15}
-          rotation={40}
-        />
+    <div style={{ position: 'relative', color: "white" }}>
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100vw',
+          height: '100vh', zIndex: -1, filter: 'brightness(0.5)',
+         }}>
+        <Beams beamWidth={4} beamHeight={22} beamNumber={12}
+          lightColor="#ffffff" speed={5} noiseIntensity={0.5}
+          scale={0.15} rotation={40}
+       />
       </div>
 
       <div style={{ position: 'relative', zIndex: 1}} className="min-h-screen flex flex-col">
@@ -95,7 +81,7 @@ const Work = () => {
             <a target='_blank' href="https://github.com/MusaBanda?tab=repositories"> Click here</a> to see more.
           </h1>
           <div>
-            <video style={{ height: '50vh', width: '100%', marginBottom: '3vh' }} autoPlay muted loop playsInline>
+            <video className='mb-[3rem] mt-[3rem]' style={{width: '90vw', height: '50vh', objectFit: 'cover'}} autoPlay muted loop playsInline>
               <source src='/work.mp4' type='video/mp4' />
             </video>
           </div>

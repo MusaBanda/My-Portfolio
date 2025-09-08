@@ -89,14 +89,14 @@ const descriptions = [
 
 
   return (
-<div>
+<div  style={{ color: "white" }} >
     <div>
     <video autoPlay muted loop playsInline
        style={{position: 'fixed',  top: 0,  left: 0, width: '100vw',  height: '100vh',
        objectFit: 'cover', zIndex: -1,filter: 'brightness(0.5)', }}>
         <source src="/my_vid.mp4" type="video/mp4" />
     </video>
-      <div className="min-h-screen flex justify-center items-center">
+      <div className="min-h-screen flex justify-center items-center ">
         <a href="/" style={{ position: 'absolute', top: '1rem', left: '1rem' }}><Img src={assets.back} alt="Back button" width={50} height={50} /></a>
         <div className="absolute top-0 w-screen h-screen flex justify-center items-center "
             style={smallscreen ? { marginTop: "-90%" } : {marginTop: "-30%"}} >  
@@ -105,7 +105,7 @@ const descriptions = [
         </div>
         <h2 className={`text-center font-bold leading-none ${ovo.className}`}
           style={{marginTop: "80rem",fontSize: "clamp(2rem, 8vw, 6rem)"}}>
-          <span className='target'>Introduction</span>
+          <span className='target' >Introduction</span>
           <span className='target'>About Me</span>
         </h2>
       </div>
