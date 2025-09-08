@@ -74,7 +74,7 @@ const Navbar = () => {
       </div>
 
       <ul className='list-none items-center text-center justify-center'    
-       style={{padding: '1rem', display: 'flex',gap:'1rem'}} >
+       style={{padding: '1rem', display: 'flex',gap:'2rem', marginBottom: '9rem'}} >
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 
           style={{ color: 'red' }} href='#top'>Home</a></li>
           <li><a className={`text-[13px] no-underline ${ovo.className}`} 

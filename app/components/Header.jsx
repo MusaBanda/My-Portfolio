@@ -21,7 +21,7 @@ const Header = () => {
       <div>
         <Image
           src={assets.mypic} width={160} height={160} alt='my_picture' className='rounded-full'
-          style={{ marginBottom: '-2rem', marginTop: '9rem',}}
+          style={{ marginBottom: '-2rem',}}
         />
       </div>
 
