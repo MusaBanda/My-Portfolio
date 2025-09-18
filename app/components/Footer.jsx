@@ -32,7 +32,7 @@ const { showForLargeScreen, showForSmallScreen } = hooks();
             style={{ display: 'flex', gap: '2rem', marginLeft:'-5rem',  marginRight: '0.5rem', marginBottom:'0rem'}}>
                 <li ><a target='_blank' href="https://github.com/MusaBanda">
                 <Image src={assets.github} alt='github_icon' style={{width: 'auto', height:'3rem'}} /></a></li>
-                <li ><a target='_blank' href="https://www.instagram.com/musa_banda_kamthimkhulu/">
+                <li ><a target='_blank' href="https://www.instagram.com/musabanda_/">
                 <Image src={assets.instagram} alt='instagram_icon' style={{width: 'auto', height:'3rem'}} /></a></li>
                 <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">
                 <Image src={assets.facebook} alt='facebook_icon' style={{width: 'auto', height:'3rem'}} /></a></li>
@@ -43,7 +43,7 @@ const { showForLargeScreen, showForSmallScreen } = hooks();
             style={{ display: 'flex', marginLeft:'1rem',  marginRight: '4rem', marginBottom:'0rem'}}>
                 <li ><a target='_blank' href="https://github.com/MusaBanda">
                 <Image src={assets.github} alt='github_icon' style={{width: 'auto', height:'2rem', marginBottom:'2rem'}} /></a></li>
-                <li ><a target='_blank' href="https://www.instagram.com/musa_banda_kamthimkhulu/">
+                <li ><a target='_blank' href="https://www.instagram.com/musabanda_/">
                 <Image src={assets.instagram} alt='instagram_icon' style={{width: 'auto', height:'2rem', marginBottom:'2rem'}} /></a></li>
                 <li ><a target='_blank' href="https://facebook.com/@mosa.banda.9/">
                 <Image src={assets.facebook} alt='facebook_icon' style={{width: 'auto', height:'2rem', marginBottom:'2rem'}} /></a></li>
