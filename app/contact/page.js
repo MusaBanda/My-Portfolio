@@ -7,6 +7,9 @@ const Contact = () => {
   const [selected, setSelected] = useState("option1");
   const { smallscreen , onSubmit, result } = hooks();
 
+
+
+
   return (
     <div className='flex flex-col items-center '>
       
@@ -14,10 +17,10 @@ const Contact = () => {
         <h1 className='text-[3vh] font-bold mb-[30] text-center'>CONTACT ME</h1>
         <div className={`mt-[60] flex flex-col ${smallscreen ? '' : 'ml-[50]'}`}>
           <label className='text-[2vh]  mb-[30]'><b>Full Name</b></label>
-          <input
-            type="text" name='fullName'
+          <input  id="fullName" 
+            type="text" name='fullName'  required onSubmit={onSubmit}
             placeholder="Write your full name"
-            className="ml-[25] bg-transparent border-none placeholder:text-[2.5vh] active:outline-none focus:outline-none"
+            className="ml-[25] w-[40vw] bg-transparent border-0 border-b placeholder:text-[2.5vh] active:outline-none focus:outline-none"
           />
           <p className='text-gray-800'>Must contain only letters and spaces</p>
         </div>
@@ -29,7 +32,7 @@ const Contact = () => {
           <div className={` gap-[4] ${smallscreen ? 'flex flex-col-2' : 'flex flex-row'}`}>
             <button
               onClick={() => setSelected("option1")}
-              className={`w-[30%] h-[15vh] bg-transparent rounded-[10%] 
+              className={`w-[30%] h-[15vh] bg-transparent rounded-[10%] cursor-pointer
                 ${selected === "option1"}`}
             >
               Email Message
@@ -37,7 +40,7 @@ const Contact = () => {
 
             <button
               onClick={() => setSelected("option2")}
-              className={`w-[30%] h-[15vh] bg-transparent rounded-[10%] 
+              className={`w-[30%] h-[15vh] bg-transparent rounded-[10%] cursor-pointer
                 ${selected === "option2"}`}
             >
               Phone Call
@@ -45,7 +48,7 @@ const Contact = () => {
 
             <button
               onClick={() => setSelected("option3")}
-              className={`w-[30%] h-[15vh] bg-transparent rounded-[10%] 
+              className={`w-[30%] h-[15vh] bg-transparent rounded-[10%] cursor-pointer
                 ${selected === "option3"}`}
             >
               Whatsapp Message
@@ -59,12 +62,13 @@ const Contact = () => {
                 <label className='text-[2vh] mb-[30] bold-xl'><b>Email Address</b></label>
                 <input
                   type="text" name='email'
-                  placeholder="Example@email.com"
-                  className='ml-[30] bg-transparent border-none placeholder:text-[2.4vh] active:outline-none focus:outline-none'
+                  placeholder="Example@email.com" required
+                  className='ml-[30] bg-transparent  placeholder:text-[2.4vh] active:outline-none focus:outline-none
+                  border-0 border-b-[1px]'
                 />
 
-                <label className='mt-[30] text-[2vh] mb-[30] bold-xl'><b>Reason for Contact</b></label>
-                <select name='reason' className='ml-[30] bg-transparent border-none active:outline-none focus:outline-none'>
+                <label  className='mt-[30] text-[2vh] mb-[30] bold-xl'><b>Reason for Contact</b></label>
+                <select required  name='reason' className='ml-[30] bg-transparent border-none active:outline-none focus:outline-none'>
                   <option value="" disabled selected>Select a reason</option>
                   <option value="inquiry">General Inquiry</option>
                   <option value="support">Support</option>
@@ -74,13 +78,13 @@ const Contact = () => {
 
                 <label className='mt-[30] text-[2vh] mb-[30] bold-xl'><b>Your Message</b></label>
                 <textarea
-                  placeholder="Your message" name='message'
-                  className='ml-[30] bg-transparent border-none placeholder:text-[3vh] active:outline-none focus:outline-none'
+                  placeholder="Your message" name='message'  required
+                  className='ml-[30] bg-transparent border-0 border-b-[1px]  placeholder:text-[3vh] active:outline-none focus:outline-none'
                 />
 
                 <button
                   type="submit"
-                  className='mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] '
+                  className='mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] cursor-pointer'
                   
                 >
                   Submit
@@ -94,12 +98,12 @@ const Contact = () => {
                 <label className='text-[2vh] mb-[30] bold-xl'><b>Phone Number</b></label>
                 <input
                   type="text" name='phone'
-                  placeholder="+27-456-7890"
-                  className='ml-[30] bg-transparent border-none placeholder:text-[2.4vh] active:outline-none focus:outline-none'
+                  placeholder="+27-456-7890"  required
+                  className='ml-[30] bg-transparent border-0 border-b  placeholder:text-[2.4vh] active:outline-none focus:outline-none '
                 />
 
                 <label className='mt-[30] text-[2vh] mb-[30] bold-xl'><b>Reason for Contact</b></label>
-                <select name='reason' className='ml-[30] bg-transparent border-none active:outline-none focus:outline-none'>
+                <select name='reason'  required className='ml-[30] bg-transparent border-none active:outline-none focus:outline-none'>
                   <option value="" disabled selected>Select a reason</option>
                   <option value="inquiry">General Inquiry</option>
                   <option value="support">Support</option>
@@ -109,23 +113,24 @@ const Contact = () => {
 
                 <label className='mt-[30] text-[2vh] mb-[30] bold-xl'><b>Your Message</b></label>
                 <textarea
-                  placeholder="Your message" name='message'
-                  className='ml-[30] bg-transparent border-none placeholder:text-[3vh] active:outline-none focus:outline-none'
+                  placeholder="Your message" name='message'  required
+                  className='ml-[30] bg-transparent border-0 border-b  placeholder:text-[3vh] active:outline-none focus:outline-none '
                 />
 
                 <button
                   type="submit"
-                  className='mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] '
+                  className='mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] cursor-pointer'
                   
                 >
                   Submit
                 </button>
+                <p className='text-[20px] mt-[-10] '>{result}</p>
               </form>  }
             {selected === "option3" && 
             <div className="flex justify-center mt-[30] mb-[30]">
               <a target="_blank" rel="noopener noreferrer"
                 href="https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!"
-                className="bg-[green] text-[black] p-[10px] rounded-[5px] h-[40px] flex items-center justify-center underline-none">
+                className="bg-[green] text-[black] p-[10px] rounded-[5px] h-[40px] flex items-center justify-center underline-none cursor-pointer">
                   Click here to go to WhatsApp</a>
             </div>}
           </div>

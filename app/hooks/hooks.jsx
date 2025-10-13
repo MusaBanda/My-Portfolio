@@ -69,6 +69,8 @@ export const hooks = () => {
           event.preventDefault();
           setResult("Sending....");
           const formData = new FormData(event.target);
+          const fullName = document.getElementById('fullName')?.value;
+          if (fullName) formData.append('fullName', fullName);
       
           formData.append("access_key", "0fea1281-eb8f-410b-bab2-6572702adba7");
       

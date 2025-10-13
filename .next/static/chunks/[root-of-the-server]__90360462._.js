@@ -1665,7 +1665,7 @@ const Contact = ()=>{
                         children: "CONTACT ME"
                     }, void 0, false, {
                         fileName: "[project]/app/contact/page.js",
-                        lineNumber: 14,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1677,22 +1677,25 @@ const Contact = ()=>{
                                     children: "Full Name"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/page.js",
-                                    lineNumber: 16,
+                                    lineNumber: 19,
                                     columnNumber: 50
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/contact/page.js",
-                                lineNumber: 16,
+                                lineNumber: 19,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                id: "fullName",
                                 type: "text",
                                 name: "fullName",
+                                required: true,
+                                onSubmit: onSubmit,
                                 placeholder: "Write your full name",
-                                className: "ml-[25] bg-transparent border-none placeholder:text-[2.5vh] active:outline-none focus:outline-none"
+                                className: "ml-[25] w-[40vw] bg-transparent border-0 border-b placeholder:text-[2.5vh] active:outline-none focus:outline-none"
                             }, void 0, false, {
                                 fileName: "[project]/app/contact/page.js",
-                                lineNumber: 17,
+                                lineNumber: 20,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1700,13 +1703,13 @@ const Contact = ()=>{
                                 children: "Must contain only letters and spaces"
                             }, void 0, false, {
                                 fileName: "[project]/app/contact/page.js",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/contact/page.js",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1715,12 +1718,12 @@ const Contact = ()=>{
                             children: "Pick your favorite way to hear from us:"
                         }, void 0, false, {
                             fileName: "[project]/app/contact/page.js",
-                            lineNumber: 25,
+                            lineNumber: 28,
                             columnNumber: 59
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/app/contact/page.js",
-                        lineNumber: 25,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1731,35 +1734,35 @@ const Contact = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>setSelected("option1"),
-                                        className: "w-[30%] h-[15vh] bg-transparent rounded-[10%] \n                ".concat(selected === "option1"),
+                                        className: "w-[30%] h-[15vh] bg-transparent rounded-[10%] cursor-pointer\n                ".concat(selected === "option1"),
                                         children: "Email Message"
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact/page.js",
-                                        lineNumber: 30,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>setSelected("option2"),
-                                        className: "w-[30%] h-[15vh] bg-transparent rounded-[10%] \n                ".concat(selected === "option2"),
+                                        className: "w-[30%] h-[15vh] bg-transparent rounded-[10%] cursor-pointer\n                ".concat(selected === "option2"),
                                         children: "Phone Call"
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact/page.js",
-                                        lineNumber: 38,
+                                        lineNumber: 41,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>setSelected("option3"),
-                                        className: "w-[30%] h-[15vh] bg-transparent rounded-[10%] \n                ".concat(selected === "option3"),
+                                        className: "w-[30%] h-[15vh] bg-transparent rounded-[10%] cursor-pointer\n                ".concat(selected === "option3"),
                                         children: "Whatsapp Message"
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact/page.js",
-                                        lineNumber: 46,
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/contact/page.js",
-                                lineNumber: 29,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1775,22 +1778,23 @@ const Contact = ()=>{
                                                     children: "Email Address"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/page.js",
-                                                    lineNumber: 59,
+                                                    lineNumber: 62,
                                                     columnNumber: 63
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 59,
+                                                lineNumber: 62,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "text",
                                                 name: "email",
                                                 placeholder: "Example@email.com",
-                                                className: "ml-[30] bg-transparent border-none placeholder:text-[2.4vh] active:outline-none focus:outline-none"
+                                                required: true,
+                                                className: "ml-[30] bg-transparent  placeholder:text-[2.4vh] active:outline-none focus:outline-none   border-0 border-b-[1px]"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 60,
+                                                lineNumber: 63,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1799,15 +1803,16 @@ const Contact = ()=>{
                                                     children: "Reason for Contact"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/page.js",
-                                                    lineNumber: 66,
-                                                    columnNumber: 71
+                                                    lineNumber: 70,
+                                                    columnNumber: 72
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 66,
+                                                lineNumber: 70,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                required: true,
                                                 name: "reason",
                                                 className: "ml-[30] bg-transparent border-none active:outline-none focus:outline-none",
                                                 children: [
@@ -1818,7 +1823,7 @@ const Contact = ()=>{
                                                         children: "Select a reason"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 68,
+                                                        lineNumber: 72,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1826,7 +1831,7 @@ const Contact = ()=>{
                                                         children: "General Inquiry"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 69,
+                                                        lineNumber: 73,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1834,7 +1839,7 @@ const Contact = ()=>{
                                                         children: "Support"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 70,
+                                                        lineNumber: 74,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1842,7 +1847,7 @@ const Contact = ()=>{
                                                         children: "Feedback"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 71,
+                                                        lineNumber: 75,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1850,13 +1855,13 @@ const Contact = ()=>{
                                                         children: "Other"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 72,
+                                                        lineNumber: 76,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 67,
+                                                lineNumber: 71,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1865,30 +1870,31 @@ const Contact = ()=>{
                                                     children: "Your Message"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/page.js",
-                                                    lineNumber: 75,
+                                                    lineNumber: 79,
                                                     columnNumber: 71
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 75,
+                                                lineNumber: 79,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                 placeholder: "Your message",
                                                 name: "message",
-                                                className: "ml-[30] bg-transparent border-none placeholder:text-[3vh] active:outline-none focus:outline-none"
+                                                required: true,
+                                                className: "ml-[30] bg-transparent border-0 border-b-[1px]  placeholder:text-[3vh] active:outline-none focus:outline-none"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 76,
+                                                lineNumber: 80,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
-                                                className: "mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] ",
+                                                className: "mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] cursor-pointer",
                                                 children: "Submit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 81,
+                                                lineNumber: 85,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1896,13 +1902,13 @@ const Contact = ()=>{
                                                 children: result
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 88,
+                                                lineNumber: 92,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/contact/page.js",
-                                        lineNumber: 58,
+                                        lineNumber: 61,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     selected === "option2" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1915,22 +1921,23 @@ const Contact = ()=>{
                                                     children: "Phone Number"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/page.js",
-                                                    lineNumber: 94,
+                                                    lineNumber: 98,
                                                     columnNumber: 63
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 94,
+                                                lineNumber: 98,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "text",
                                                 name: "phone",
                                                 placeholder: "+27-456-7890",
-                                                className: "ml-[30] bg-transparent border-none placeholder:text-[2.4vh] active:outline-none focus:outline-none"
+                                                required: true,
+                                                className: "ml-[30] bg-transparent border-0 border-b  placeholder:text-[2.4vh] active:outline-none focus:outline-none "
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 95,
+                                                lineNumber: 99,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1939,16 +1946,17 @@ const Contact = ()=>{
                                                     children: "Reason for Contact"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/page.js",
-                                                    lineNumber: 101,
+                                                    lineNumber: 105,
                                                     columnNumber: 71
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 101,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                                 name: "reason",
+                                                required: true,
                                                 className: "ml-[30] bg-transparent border-none active:outline-none focus:outline-none",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1958,7 +1966,7 @@ const Contact = ()=>{
                                                         children: "Select a reason"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 103,
+                                                        lineNumber: 107,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1966,7 +1974,7 @@ const Contact = ()=>{
                                                         children: "General Inquiry"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 104,
+                                                        lineNumber: 108,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1974,7 +1982,7 @@ const Contact = ()=>{
                                                         children: "Support"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 105,
+                                                        lineNumber: 109,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1982,7 +1990,7 @@ const Contact = ()=>{
                                                         children: "Feedback"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 106,
+                                                        lineNumber: 110,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1990,13 +1998,13 @@ const Contact = ()=>{
                                                         children: "Other"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contact/page.js",
-                                                        lineNumber: 107,
+                                                        lineNumber: 111,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 102,
+                                                lineNumber: 106,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -2005,36 +2013,45 @@ const Contact = ()=>{
                                                     children: "Your Message"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contact/page.js",
-                                                    lineNumber: 110,
+                                                    lineNumber: 114,
                                                     columnNumber: 71
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 110,
+                                                lineNumber: 114,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                 placeholder: "Your message",
                                                 name: "message",
-                                                className: "ml-[30] bg-transparent border-none placeholder:text-[3vh] active:outline-none focus:outline-none"
+                                                required: true,
+                                                className: "ml-[30] bg-transparent border-0 border-b  placeholder:text-[3vh] active:outline-none focus:outline-none "
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 111,
+                                                lineNumber: 115,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
-                                                className: "mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] ",
+                                                className: "mt-[30] mb-[30] h-[40px] bg-[blue] text-[white] cursor-pointer",
                                                 children: "Submit"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/contact/page.js",
-                                                lineNumber: 116,
+                                                lineNumber: 120,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-[20px] mt-[-10] ",
+                                                children: result
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/contact/page.js",
+                                                lineNumber: 127,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/contact/page.js",
-                                        lineNumber: 93,
+                                        lineNumber: 97,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     selected === "option3" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2043,45 +2060,45 @@ const Contact = ()=>{
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             href: "https://wa.me/27694163922?text=Hi%20Musa%2C%20I%20just%20came%20across%20your%20portfolio%20and%20I'm%20really%20impressed!%20I'd%20love%20to%20learn%20more%20about%20your%20work.%20Let's%20connect!",
-                                            className: "bg-[green] text-[black] p-[10px] rounded-[5px] h-[40px] flex items-center justify-center underline-none",
+                                            className: "bg-[green] text-[black] p-[10px] rounded-[5px] h-[40px] flex items-center justify-center underline-none cursor-pointer",
                                             children: "Click here to go to WhatsApp"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.js",
-                                            lineNumber: 126,
+                                            lineNumber: 131,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/app/contact/page.js",
-                                        lineNumber: 125,
+                                        lineNumber: 130,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/contact/page.js",
-                                lineNumber: 56,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/contact/page.js",
-                        lineNumber: 27,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/contact/page.js",
-                lineNumber: 13,
+                lineNumber: 16,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/contact/page.js",
-                lineNumber: 135,
+                lineNumber: 140,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/contact/page.js",
-        lineNumber: 11,
+        lineNumber: 14,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
