@@ -9,16 +9,15 @@ import TextType from '../hooks/TypeText';
 const Header = () => {
 
   const { showForLargeScreen, showForSmallScreen, isContactClicked, isResumeClicked,
-    handleContactClick, handleResumeClick } = hooks();
+    handleContactClick, handleResumeClick, smallscreen } = hooks();
 
   const { theme } = useTheme();
   const isLight = theme === 'light';
   const textColor = isLight ? '#1a1a1a' : '#ffffff';
   
   return (
-    <div className='flex flex-col items-center justify-center h-screen max-w-md mx-auto'
-      style={{marginBottom: '10rem' }} >
-      <div>
+    <div className={`flex flex-col items-center justify-center h-screen max-w-md mx-auto mb-[10rem] `}>
+      <div className={`${smallscreen ? 'mt-[-8rem]' : 'mt-[5rem]'} `}>
         <Image
           src={assets.mypic} width={160} height={160} alt='my_picture' className='rounded-full'
           style={{ marginBottom: '-2rem',}}
@@ -27,7 +26,7 @@ const Header = () => {
 
       <h3 className={`sm:text-[18px] md:text-[20px] lg:text-[30px] ${ovo.className}`}
         style={{ marginBottom: '-1rem' }}>
-        <TextType text={["Hi I am Musa Dick Banda"]} typingSpeed={85} pauseDuration={2} textColors={[textColor]}
+        <TextType text={["Hi I am Musa Dick Band "]}  typingSpeed={85} pauseDuration={2} textColors={[textColor]}
         showCursor={true} cursorCharacter="|"/> <Image src={assets.hand_icon} alt='hand_icon' width={50} height={50} />
       </h3>
 

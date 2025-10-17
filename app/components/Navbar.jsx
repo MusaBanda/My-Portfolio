@@ -18,7 +18,7 @@ const Navbar = () => {
      
 
       {showForLargeScreen &&<nav className={`w-full h-[15vh] fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  
-        ${isScroll ? "bg-[#f5f5f5] dark-theme h-[15vh]" : ""}`}>
+         ${isScroll ? "bg-[#f5f5f5] dark-theme h-[15vh]" : ""}`}>
         
         <h1 
           className={`sm:text-[30px] md:text-[60px] lg:text-[120px] font-bold ${roboto.className} ${isScroll ? "text-[black]" : ""}`}
@@ -75,15 +75,15 @@ const Navbar = () => {
 
       <ul className='list-none items-center text-center justify-center'    
        style={{padding: '1rem', display: 'flex',gap:'1.5rem', marginBottom: '9rem'}} >
-          <li><a className={`text-[13px] no-underline ${ovo.className}`} 
+          <li><a className={`text-[13px] no-underline  ${ovo.className}`} 
           style={{ color: 'red' }} href='#top'>Home</a></li>
-          <li><a className={`text-[13px] no-underline ${ovo.className}`} 
+          <li><a className={`text-[13px] no-underline  ${ovo.className}`} 
           style={{ color: 'red'}} href='about'>About_Me</a></li>
-          <li><a className={`text-[13px] no-underline ${ovo.className}`} 
+          <li><a className={`text-[13px] no-underline  ${ovo.className}`} 
           style={{ color: 'red' }} href='#services'>Services</a></li>
-          <li><a className={`text-[13px] no-underline ${ovo.className}`} 
+          <li><a className={`text-[13px] no-underline  ${ovo.className}`} 
           style={{ color: 'red' }} href='work'>My_Work</a></li>
-          <li><a className={`text-[13px] no-underline ${ovo.className}`} 
+          <li><a className={`text-[13px] no-underline  ${ovo.className}`} 
           style={{ color: 'red' }} href='contact'>Contact</a></li>
         </ul>
         
